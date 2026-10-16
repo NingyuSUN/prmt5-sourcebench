@@ -1,9 +1,9 @@
 # PRMT5 SourceBench — evidence index
 
-Updated: 2026-10-16, Asia/Tokyo. This is the canonical entry for the public benchmark.
+Updated: 2026-10-16T17:01:08+09:00, Asia/Tokyo. This is the canonical entry for the public benchmark.
 
 - **Objective:** Document a completed, source-audited comparison of fingerprint models and pretrained molecular adaptation for PRMT5 biochemical activity classification.
-- **Status:** Fixed experiment complete. Public data, code and saved-prediction replay passed 90 contract tests; the original metrics and all 2,000 bootstrap draws reproduced byte-for-byte.
+- **Status:** Fixed experiment complete. Public data, code and saved-prediction replay passed 90 contract tests; the original metrics and all 2,000 bootstrap draws reproduced byte-for-byte from a fresh GitHub clone. GitHub Actions passed.
 - **Measured result:** 246 held-out compounds / 69 positives / 89 scaffolds / one family. Adapted AP 0.255312, frozen AP 0.255069, forest AP 0.243269, prevalence reference 0.280488. Adapted top-25 hits: 2. No useful screening enrichment or reliable improvement established.
 - **Limits:** Source, chemistry, time and assay conditions are confounded; only one held-out family; exact first-disclosure and pretraining-corpus membership are incomplete. No prospective, cellular or clinical validation.
 - **Further research:** Requires a new protocol and an untouched evaluation source; this final test is not a tuning set.
@@ -29,6 +29,6 @@ Updated: 2026-10-16, Asia/Tokyo. This is the canonical entry for the public benc
 | Inputs / code | Frozen 920-parent cohort, 1,722 prediction rows, original model/selection records, 2,000 bootstrap draws. Exact original code and artifact hashes: manifests/public_scoring_replay.json. Run scripts/reproduce_metrics.py from the release root. |
 | Results / limitations | Same seven-model negative-transfer result and single-family uncertainty as the original experiment. Public replay verifies predictions/metrics, not model generation or biological efficacy. Source snapshots and weights are not distributed. |
 | Outputs | Relative links above. Public protocol is an editorial copy; original and published hashes are recorded in manifests/protocol_publication.json. |
-| Git / GitHub | Public release target: https://github.com/NingyuSUN/prmt5-sourcebench, branch main. Pre-publication state: locally prepared; remote synchronization must be verified after push. This row does not assert that ignored weights, raw snapshots or environment files are uploaded. |
+| Git / GitHub | Public repository: https://github.com/NingyuSUN/prmt5-sourcebench, branch main. Code release `5440dcf` matched the live remote at 2026-10-16T17:01:08+09:00; [CI passed](https://github.com/NingyuSUN/prmt5-sourcebench/actions/runs/38870652443). This covers tracked code, data tables and reports; weights, raw snapshots and environment files are excluded. |
 
-The initial public release contains completed-study evidence. Earlier feasibility drafts and execution records are not part of this repository. The index's own version is available with `git log -1 -- PROJECT_INDEX.md`.
+The index's own version is available with `git log -1 -- PROJECT_INDEX.md`.

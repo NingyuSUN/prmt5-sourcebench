@@ -1,6 +1,6 @@
 {
   "verified_at": "2026-10-16T16:57:53+09:00",
-  "status": "PUBLIC_RELEASE_LOCAL_VALIDATION_PASSED",
+  "status": "PUBLIC_RELEASE_VALIDATION_PASSED",
   "tests_passed": 90,
   "suites": [
     {
@@ -39,5 +39,15 @@
   "source_results_preserved": true,
   "original_hash_bound_python_files_unchanged": true,
   "editorial_protocol_binding": "manifests/protocol_publication.json",
-  "scientific_scope": "Saved-prediction replay, not retraining, new source reconstruction or experimental validation."
+  "scientific_scope": "Saved-prediction replay, not retraining, new source reconstruction or experimental validation.",
+  "github_verification": {
+    "verified_at": "2026-10-16T17:01:08+09:00",
+    "repository": "https://github.com/NingyuSUN/prmt5-sourcebench",
+    "visibility": "public",
+    "branch": "main",
+    "verified_code_commit": "5440dcf6165148bc3abd6cbc486185bc5807d419",
+    "actions_run": "https://github.com/NingyuSUN/prmt5-sourcebench/actions/runs/38870652443",
+    "actions_conclusion": "success",
+    "fresh_remote_clone_metrics_and_draws_exact": true
+  }
 }
