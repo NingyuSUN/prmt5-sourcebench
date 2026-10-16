@@ -1,0 +1,46 @@
+{
+  "verified_at": "2026-10-16T16:22:57+09:00",
+  "status": "PASS_WITH_STATED_SCIENTIFIC_LIMITATIONS",
+  "unit_suites": [
+    {
+      "suite": "scripts",
+      "passed": 61,
+      "log_sha256": "279be8eecec56e7216dc7874ff370de572aff9b668391d1a7d26171c56b36207"
+    },
+    {
+      "suite": "tests",
+      "passed": 23,
+      "log_sha256": "dafd5c142851d59e99685df311fe569f92168965969c576bac52dffa181e6d79"
+    }
+  ],
+  "independent_source_checks": {
+    "retained_sk_example_links": 248,
+    "sk_test_parents": 246,
+    "retained_early_example_links": 611,
+    "orientation": "SK +++ and early biochemical A are positive; aliases are not independent compounds"
+  },
+  "independent_result_checks": {
+    "prediction_rows": 1722,
+    "models": 7,
+    "test_parents": 246,
+    "all_model_ap_auc_top25_confusion_match": true,
+    "independent_tie_grouped_ap_implementation": true,
+    "paired_scaffold_draws": 2000,
+    "valid_draws": 2000,
+    "bootstrap_difference_max_abs_below": 1e-12,
+    "three_seed_ensemble_max_abs_difference_below": 1e-15
+  },
+  "source_replay": "reports/curation/source_snapshot_replay.json",
+  "scoring_replay": "reports/results/scoring_replay.json",
+  "local_markdown_links_checked": 21,
+  "broken_local_markdown_links": 0,
+  "figure_visually_inspected": true,
+  "scientific_conclusion": "No useful screening enrichment or reliable improvement established on this held-out family; not proof of universal failure, equivalence or an assay mechanism.",
+  "unverified": [
+    "Complete new-environment installation and live download-to-result run",
+    "Every original chemical figure independently reconstructed",
+    "Exhaustive earliest worldwide structure-label disclosure",
+    "Exact pretraining structure membership",
+    "Future-family, prospective, cellular, selectivity, ADMET or clinical validity"
+  ]
+}

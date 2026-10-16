@@ -1,0 +1,1150 @@
+{
+  "archive_bytes": 38080957,
+  "archive_path": "data/releases/prmt5-sourcebench-source-snapshot.tar.gz",
+  "archive_sha256": "31919dea615e57762bbb1c19f410ed6e207b7942a55b0635362c1949ba36acbe",
+  "chemistry_commit": "cfa256c201ef45ad54efdc78eb2cef529f211d51",
+  "chemistry_sha256": "0a059a1ec5528ff140ad5634a277f6fb96022acbfec4ab9aa8f3bb450698627b",
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "excluded": "Model artifacts, private receipts, optional OCR, auxiliary data-directory scripts, BindingDB and Mirati auxiliary sources not admitted to this cohort, mutable project status/operational notes",
+  "format": "Sorted regular files, uid/gid 0, mode 0644, tar mtime 0, gzip mtime 0",
+  "fresh_environment_install_verified": false,
+  "member_count": 226,
+  "members": [
+    {
+      "bytes": 1046294,
+      "path": "data/curation/epizyme/raw/US10150758B2.html",
+      "sha256": "407ac963fdc063c6d9ffdb2cc95478c32b78a2b3d87aa6239a5dc249599c3286"
+    },
+    {
+      "bytes": 3916181,
+      "path": "data/curation/epizyme/raw/US10307413B2.html",
+      "sha256": "56a4a7833496e55e1082e69acbf9b9775353851856f04b6dbc5492c081175cb8"
+    },
+    {
+      "bytes": 2633899,
+      "path": "data/curation/epizyme/raw/US10391089B2.html",
+      "sha256": "a682931d413e79377f97f1e56e40802786a38992b09ee4b5b0a6d7135c9b89e4"
+    },
+    {
+      "bytes": 2535987,
+      "path": "data/curation/epizyme/raw/US10980794B2.html",
+      "sha256": "3d58caa33a15d9f325bc3a42af2e432da52feb2d89d947b1bbf243242199fa74"
+    },
+    {
+      "bytes": 915704,
+      "path": "data/curation/epizyme/raw/US20140213582A1.html",
+      "sha256": "261d9f1fe8ab526efe35f6f0c3f9c55259a2cd915a43914c0a7521c40948138b"
+    },
+    {
+      "bytes": 1518505,
+      "path": "data/curation/epizyme/raw/US20140221345A1.html",
+      "sha256": "de4c4e88a822d66a57b6d310b77d84e1cf249ba7a84c895e9af0b06cb3269368"
+    },
+    {
+      "bytes": 2096143,
+      "path": "data/curation/epizyme/raw/US20140228343A1.html",
+      "sha256": "8a8b553ddc82f92ee2cbd49ca6212c2bc403c82d253eac6da79d95753ee32ac3"
+    },
+    {
+      "bytes": 2433212,
+      "path": "data/curation/epizyme/raw/US20140329794A1.html",
+      "sha256": "2dbeadaaf99bb48d020fbba73ee14d32be4f1110cde5907b70d6d98166a49a62"
+    },
+    {
+      "bytes": 2102557,
+      "path": "data/curation/epizyme/raw/US8906900B2.html",
+      "sha256": "793b616d0f109042cc4ae5dd22a57751370526c2169f3212cad21db96d99d440"
+    },
+    {
+      "bytes": 1774187,
+      "path": "data/curation/epizyme/raw/US8940726B2.html",
+      "sha256": "98fc3d6df38e9ce0d3c13d850d0f32de840f6840c943196ea9c60866cb139699"
+    },
+    {
+      "bytes": 2295724,
+      "path": "data/curation/epizyme/raw/US8993555B2.html",
+      "sha256": "ed48c29fa4f65a0154b7bfbdb11f91c3fc62d20e5dd4740e79ef81cf4cd7cdf5"
+    },
+    {
+      "bytes": 2215291,
+      "path": "data/curation/epizyme/raw/US9365555B2.html",
+      "sha256": "fc5a7131c47bee1390bafbef760a234e937d0d4d21d6220484fba7043173f4d3"
+    },
+    {
+      "bytes": 2392547,
+      "path": "data/curation/epizyme/raw/US9745291B2.html",
+      "sha256": "cc6fdfe2f402a384d7db672f7fe2bc1224f5b88e67dc8c8c943a78bafe424d4f"
+    },
+    {
+      "bytes": 3210313,
+      "path": "data/curation/epizyme/raw/US9777008B2.html",
+      "sha256": "2a5ff56564ad70ee28fcfa421085bca861924c0ada22aeeb82e6e234c5c494b8"
+    },
+    {
+      "bytes": 1456192,
+      "path": "data/curation/epizyme/raw/WO2014100695A1.html",
+      "sha256": "bae0642fe4539ea12323fab2fdbbdb5a143c4e465b5cf3ec38de43203d14e72a"
+    },
+    {
+      "bytes": 12361755,
+      "path": "data/curation/epizyme/raw/WO2014100695A1.pdf",
+      "sha256": "c6e77e6ffe8e80b1fcd649cc1b8ebd9eaaa8886bd89b7168c5f24862a12f99b8"
+    },
+    {
+      "bytes": 13119,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000234_0001.png",
+      "sha256": "52f9305813c9f0ec2fd3bae504a3a8326e02208614c413d5a41a0271c3127dbc"
+    },
+    {
+      "bytes": 18311,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000235_0001.png",
+      "sha256": "f7cac6f196c43ad584caa5c40f9e12cc6bfce4ad05a6fd6042455c34b8f1ebd3"
+    },
+    {
+      "bytes": 18046,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000236_0001.png",
+      "sha256": "e1a1e9c36de6694c30bc2d8ce5fbc5a2fc054a8ddfa7f53258cebebb126f89fe"
+    },
+    {
+      "bytes": 18100,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000237_0001.png",
+      "sha256": "661c73a8ce0cabd9a82e9b666edb62e9e7241faf02299c802b0329f4ff9111a1"
+    },
+    {
+      "bytes": 18921,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000238_0001.png",
+      "sha256": "0afa396008b63d3f329a01ef781f884ebc5a7c46d49e33441759ac3da8e74d7e"
+    },
+    {
+      "bytes": 17777,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000239_0001.png",
+      "sha256": "eb15ef4984d54bd5585702b4d18ef6f764b5e2f298cfa01d8386fded7252efeb"
+    },
+    {
+      "bytes": 18809,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000240_0001.png",
+      "sha256": "c015443bd8cf9619b3fc98fdbb4b8efd5d6819579a87a0f91f14c8890cf972db"
+    },
+    {
+      "bytes": 18669,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000241_0001.png",
+      "sha256": "02ae7dedda2c339240ae71c7d1ac0c852ead2dde1b139c41032512a85a16ecfd"
+    },
+    {
+      "bytes": 20077,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000242_0001.png",
+      "sha256": "018f353d9f0cfc9034952ff19fc41e22a53c871420b1c6ed7742e6eec042abf9"
+    },
+    {
+      "bytes": 19283,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000243_0001.png",
+      "sha256": "3679496644be05b9dd239b3dfd144d187aea78134f6dd2aa8a424f94b3c77132"
+    },
+    {
+      "bytes": 14462,
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000244_0001.png",
+      "sha256": "c6e7780f290d92f016f58cbdc066768eb1220407fe07c12ce368145eebbcb5aa"
+    },
+    {
+      "bytes": 943048,
+      "path": "data/curation/epizyme/raw/WO2014100716A1.html",
+      "sha256": "d1d87568e9cfc7a5513383c1deb682e4072ea88ba07ace5053e7de3ee3f66f9d"
+    },
+    {
+      "bytes": 5875503,
+      "path": "data/curation/epizyme/raw/WO2014100716A1.pdf",
+      "sha256": "533cc5546192438d6484e77e6669bd94992d8630e0a2038bf86468a68653aa3c"
+    },
+    {
+      "bytes": 15417,
+      "path": "data/curation/epizyme/raw/WO2014100716A1/imgf000101_0001.png",
+      "sha256": "f6497c27a2879343186150cf289df1cde4339dbd43d9923b9b4f00becb53d0c3"
+    },
+    {
+      "bytes": 920,
+      "path": "data/curation/epizyme/raw/WO2014100716A1/imgf000102_0001.png",
+      "sha256": "20e374c0d4ab5ce7d3736a28d9eb9c77d6985267e7616d09cc57e3329e1dd712"
+    },
+    {
+      "bytes": 1722352,
+      "path": "data/curation/epizyme/raw/WO2014100719A2.html",
+      "sha256": "98216c86c00875c98a1aed3222d1c80e49d5e4eb27d8d64d047b5af3d8426cbc"
+    },
+    {
+      "bytes": 14958481,
+      "path": "data/curation/epizyme/raw/WO2014100719A2.pdf",
+      "sha256": "55a6dc94f259b6cc608f74482722268878cae3491f7d9a6f92c9c38dc31dd822"
+    },
+    {
+      "bytes": 17139,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000310_0001.png",
+      "sha256": "1d01a38c0fd3e6a8324ba6385b9606d8c85dc912cebcaf4b0b2fdaad38db7a0a"
+    },
+    {
+      "bytes": 18061,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000311_0001.png",
+      "sha256": "28a281da76b44461648281e6d7a130a2d567cc9d7e936cd67765c4047408b194"
+    },
+    {
+      "bytes": 20088,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000312_0001.png",
+      "sha256": "61d3852e81bec648a0475f12b65cc7c4825df143e6c584170766eea7df9958dd"
+    },
+    {
+      "bytes": 18832,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000313_0001.png",
+      "sha256": "8b7fcc85899f2d965bb1645a5b433ba8e72173ca8dc845c67e25921a22a7520a"
+    },
+    {
+      "bytes": 18901,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000314_0001.png",
+      "sha256": "507c6057a97e84e062c223816996f5079ead05b07c984f8ebae1da8e212e9c2c"
+    },
+    {
+      "bytes": 19442,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000315_0001.png",
+      "sha256": "2dc64ef54a3fd2525b0daeea37080a0aed3cb3af7d0780bf53ce9db09fe075be"
+    },
+    {
+      "bytes": 19388,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000316_0001.png",
+      "sha256": "712903f3feb98868633caac8a72403434c2af60c27162c0b628a59e6a89f4292"
+    },
+    {
+      "bytes": 20062,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000317_0001.png",
+      "sha256": "f765d8af8cafde1cc39e1eccbf7d0f6231264d6fcd72b6c3a26a8a210c69f321"
+    },
+    {
+      "bytes": 19336,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000318_0001.png",
+      "sha256": "b8d18438431b15b5cfa0669959897ce60324bf73ec073df9cece041e4ea2840c"
+    },
+    {
+      "bytes": 20796,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000319_0001.png",
+      "sha256": "7d6085f5fb67b568d325032bdbfc518670f38abfc5e11196aa0797b73c208ed0"
+    },
+    {
+      "bytes": 20473,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000320_0001.png",
+      "sha256": "7f53debbfff007705df6c3dd1d99c77c3466b0bdb81e1badd0ea9a60f727ed86"
+    },
+    {
+      "bytes": 20534,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000321_0001.png",
+      "sha256": "5817267e9f0b39fe4ffea2254753c7da2ad1b4847d921c41c103b84d6f9cd933"
+    },
+    {
+      "bytes": 19824,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000322_0001.png",
+      "sha256": "726802e900c6c3d25356744693a53dad778574ce5df11ad23cb1324b9d7712a4"
+    },
+    {
+      "bytes": 18334,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000323_0001.png",
+      "sha256": "9fc0dd64b5fab0d293ff25877caece2a41aec34d502f256ca731508e8fb0c199"
+    },
+    {
+      "bytes": 19244,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000324_0001.png",
+      "sha256": "41e4b6cd9cef59c8b8aeeb150451df87ecd812aabc04c109e9a7f23d61b1d236"
+    },
+    {
+      "bytes": 18521,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000325_0001.png",
+      "sha256": "c779cc2fc67e5482aa0e165dcbad9098ba4a117da7fbf19e89f20c38b64b45cb"
+    },
+    {
+      "bytes": 18694,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000326_0001.png",
+      "sha256": "aa4c78a963b808ec137a7e3f7d4204824cb52b9716ebf8afb118d9440290fec7"
+    },
+    {
+      "bytes": 20307,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000327_0001.png",
+      "sha256": "b0c70fe2edb6feb5d28b587fc2aa4741687e8f23a409f2f3946480fe630df1f5"
+    },
+    {
+      "bytes": 19490,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000328_0001.png",
+      "sha256": "aabc280212be09ab982457ab87f041ae65faa0a2f5a71c4e4dee7f80ccf54388"
+    },
+    {
+      "bytes": 19540,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000329_0001.png",
+      "sha256": "d6f50223c346896f16fabc3699d72ae0c5599edd1eb09c3d6f60c4038ee2dc82"
+    },
+    {
+      "bytes": 20635,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000330_0001.png",
+      "sha256": "fff073d44fc98c1ca84b781432e4f1550ef736052bd37379b27590cfe783a515"
+    },
+    {
+      "bytes": 19210,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000331_0001.png",
+      "sha256": "f359db30de49492a7871ba42cf6622c28186e036c2d4adefa53953039c206c3d"
+    },
+    {
+      "bytes": 17638,
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000332_0001.png",
+      "sha256": "39cd6cd1d1e506daf4e7efdd07d976a50893d55f09ef9986c14041ba1622fa8e"
+    },
+    {
+      "bytes": 1303694,
+      "path": "data/curation/epizyme/raw/WO2014100730A1.html",
+      "sha256": "1bf9bec2bfd0ee038887f7e1d97cf3d83facb8e2f18e191879002d903041bb4f"
+    },
+    {
+      "bytes": 10899625,
+      "path": "data/curation/epizyme/raw/WO2014100730A1.pdf",
+      "sha256": "5a55f1a5e5c71529add620c4d7040451a9288afe097a2ddd05aa4710719435a2"
+    },
+    {
+      "bytes": 15157,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000218_0001.png",
+      "sha256": "4873d21cde7ab64bf5ab8ca3977d1eafe3c48fa40417c37eb07b5967a1489a24"
+    },
+    {
+      "bytes": 19438,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000219_0001.png",
+      "sha256": "8a09682c222ee9df6b5bbf1f77192333eb406738319a9f5146ebcb8ca114cd3a"
+    },
+    {
+      "bytes": 19079,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000220_0001.png",
+      "sha256": "33b05a34c564e33b770b913d825d6361a71f43494da36db512119ab13f1ddf43"
+    },
+    {
+      "bytes": 19985,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000221_0001.png",
+      "sha256": "bca3b5b0e0adf3c4220d1227b5225bce59077dc203e85df076a5ac1b72a4c5f8"
+    },
+    {
+      "bytes": 19542,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000222_0001.png",
+      "sha256": "55812bc3494eaac9c57122dd331aa9caed885ae1f43e99563a8401d30d87d84c"
+    },
+    {
+      "bytes": 19350,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000223_0001.png",
+      "sha256": "8ed67155375a88cce04d2b8151ad88bc2fd9deffafc13a560f1ce9617c5839d0"
+    },
+    {
+      "bytes": 19274,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000224_0001.png",
+      "sha256": "00866f16e89da4352a7311bd4bb36c95f132bab5bb785b24c32426cbe801f3ef"
+    },
+    {
+      "bytes": 20444,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000225_0001.png",
+      "sha256": "8b8520815783d90abb9a1d940c8615bcab90e77c9047f9a0e8786143f009db75"
+    },
+    {
+      "bytes": 21213,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000226_0001.png",
+      "sha256": "9b4a62ddc3fd90574f8645c46481170a2d94c597e7747cb593e20f6a706a87e6"
+    },
+    {
+      "bytes": 12311,
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000227_0001.png",
+      "sha256": "773247463f36b268ce0f75e49c3b57c6609be667b5caabc85cbd0f94f849e336"
+    },
+    {
+      "bytes": 64415,
+      "path": "data/curation/epizyme/results/US10150758B2.json",
+      "sha256": "e6a84f80d35b3a17f65a04b41952d2c987c75288c351da0973e12e59ad87604c"
+    },
+    {
+      "bytes": 384323,
+      "path": "data/curation/epizyme/results/US10150758B2.txt",
+      "sha256": "5182f21fa5fb0ba3fcb0b391cba0cea022c1b6ee94e315c3a8142b634b46cfa1"
+    },
+    {
+      "bytes": 6775,
+      "path": "data/curation/epizyme/results/US10150758B2_biochemical_protocol.txt",
+      "sha256": "02833299e926d1237df4f7de934d7311b14e43df0f552d134b09c9c697697aca"
+    },
+    {
+      "bytes": 1739,
+      "path": "data/curation/epizyme/results/US10150758B2_table2.json",
+      "sha256": "8871d2b43a83f3c1c6c9abaf6dc6012d2e555944914842db620d42a367c7604b"
+    },
+    {
+      "bytes": 665549,
+      "path": "data/curation/epizyme/results/US10307413B2.json",
+      "sha256": "06f8169c32cf395782de7cc0acbeb03d771472901c412e0f199d2394dcdb2e65"
+    },
+    {
+      "bytes": 1052375,
+      "path": "data/curation/epizyme/results/US10307413B2.txt",
+      "sha256": "8dac56417aa8542436de3b97e1ceba70bbafd850b0b6b75cfba03dec316af5cb"
+    },
+    {
+      "bytes": 6879,
+      "path": "data/curation/epizyme/results/US10307413B2_biochemical_protocol.txt",
+      "sha256": "45f80b181dc1733401e601f5845710027a38f9990bcfa94f48d487b6b5f54c38"
+    },
+    {
+      "bytes": 31602,
+      "path": "data/curation/epizyme/results/US10307413B2_table2.json",
+      "sha256": "73a98d5fadce5430c1c129a1a1df12ad793769ad8646a34f2eb39fb999fc54c6"
+    },
+    {
+      "bytes": 338283,
+      "path": "data/curation/epizyme/results/US10391089B2.json",
+      "sha256": "07e53f6a231c497d7df31ff87cd37a5eee0e183633327ef6da73b0384750bfaa"
+    },
+    {
+      "bytes": 778173,
+      "path": "data/curation/epizyme/results/US10391089B2.txt",
+      "sha256": "f8594608ee1b90ad4192a904d804e475c4222a9c037a9c9f8aec93a7d7b9a0dc"
+    },
+    {
+      "bytes": 6736,
+      "path": "data/curation/epizyme/results/US10391089B2_biochemical_protocol.txt",
+      "sha256": "43d32492e257d6b17c42b21a6ba687f3519f03580fc4b22ae62010dad5e5ba25"
+    },
+    {
+      "bytes": 16028,
+      "path": "data/curation/epizyme/results/US10391089B2_table2.json",
+      "sha256": "be30aefc8a24255ead89880c6b43010f86e955444c5470553eaeb01d8077139b"
+    },
+    {
+      "bytes": 363381,
+      "path": "data/curation/epizyme/results/US10980794B2.json",
+      "sha256": "2c81d988ab863b21014a0f9660672f9fff91ffb48d8b2b9a5c6ae09afaf96c2e"
+    },
+    {
+      "bytes": 695984,
+      "path": "data/curation/epizyme/results/US10980794B2.txt",
+      "sha256": "3a39dc90d8d8a031b791a39d6904ceb9b96bbc7bf35d53583466e6031564f931"
+    },
+    {
+      "bytes": 6747,
+      "path": "data/curation/epizyme/results/US10980794B2_biochemical_protocol.txt",
+      "sha256": "f1a63a491fe196c1d8e349482bcb852f38b1a2a1a1d44486e4058fbb7b968257"
+    },
+    {
+      "bytes": 16028,
+      "path": "data/curation/epizyme/results/US10980794B2_table2.json",
+      "sha256": "be30aefc8a24255ead89880c6b43010f86e955444c5470553eaeb01d8077139b"
+    },
+    {
+      "bytes": 65909,
+      "path": "data/curation/epizyme/results/US20140213582A1.json",
+      "sha256": "5e74f27e5e7c4e0c392e0dc0b81ea138c27773d46419ffb363ff3cee7191c24b"
+    },
+    {
+      "bytes": 359683,
+      "path": "data/curation/epizyme/results/US20140213582A1.txt",
+      "sha256": "dd8cfab8b6c1b585780a2eb9e2edd24489c1cf55ac943833ec71ae7c0c713941"
+    },
+    {
+      "bytes": 1739,
+      "path": "data/curation/epizyme/results/US20140213582A1_table2.json",
+      "sha256": "8871d2b43a83f3c1c6c9abaf6dc6012d2e555944914842db620d42a367c7604b"
+    },
+    {
+      "bytes": 221460,
+      "path": "data/curation/epizyme/results/US20140221345A1.json",
+      "sha256": "4ff517042a618ca53d73338f9a6bf67b26f9e1d48a37d4a7f192b695af4e5260"
+    },
+    {
+      "bytes": 465974,
+      "path": "data/curation/epizyme/results/US20140221345A1.txt",
+      "sha256": "554bfecf69fc52cfb7ceea4123b9ca3d9e6085130b82c2fc8771b4349586bfce"
+    },
+    {
+      "bytes": 9495,
+      "path": "data/curation/epizyme/results/US20140221345A1_table2.json",
+      "sha256": "9be47b38f8aea83d2518b17f1b101a863669add802d987b00b84a04ba6ce4d71"
+    },
+    {
+      "bytes": 307537,
+      "path": "data/curation/epizyme/results/US20140228343A1.json",
+      "sha256": "0e8dd699bfc186497f4d021d6ce309d668d21a28c55e8da7ea7ce9c418fbdfca"
+    },
+    {
+      "bytes": 618453,
+      "path": "data/curation/epizyme/results/US20140228343A1.txt",
+      "sha256": "8dfe6e33d79f1dadb6fc87c29f7d0d38ae84c700c4da370e482842dc339e85fe"
+    },
+    {
+      "bytes": 15561,
+      "path": "data/curation/epizyme/results/US20140228343A1_table2.json",
+      "sha256": "38ab0b237fba4dca089bfb9571ae614f0d294d5ac87d57ff52695e46b320466e"
+    },
+    {
+      "bytes": 363740,
+      "path": "data/curation/epizyme/results/US20140329794A1.json",
+      "sha256": "db75d476937d3fca8c37c380d79deb623292b5477d45ed8495c7ad2e3a76bd48"
+    },
+    {
+      "bytes": 677102,
+      "path": "data/curation/epizyme/results/US20140329794A1.txt",
+      "sha256": "1988d4f9430c015ffd2d80cf54e466b1ccf3aea14a630bc623e25719eb04403a"
+    },
+    {
+      "bytes": 16028,
+      "path": "data/curation/epizyme/results/US20140329794A1_table2.json",
+      "sha256": "be30aefc8a24255ead89880c6b43010f86e955444c5470553eaeb01d8077139b"
+    },
+    {
+      "bytes": 308708,
+      "path": "data/curation/epizyme/results/US8906900B2.json",
+      "sha256": "0ecfe0921b27cf89dd8c990d56d8e7d102c9b697c5f8d45034634ae6d4e6d766"
+    },
+    {
+      "bytes": 620144,
+      "path": "data/curation/epizyme/results/US8906900B2.txt",
+      "sha256": "aa2a7f7b8865384ed88ad6d772d65b6fd8c640a0280082d9d07ba4704fb9b35d"
+    },
+    {
+      "bytes": 223313,
+      "path": "data/curation/epizyme/results/US8940726B2.json",
+      "sha256": "4f9ca410a923751e6acd83d7052f142d00053a2b4612ce11e74d6cfa022872e9"
+    },
+    {
+      "bytes": 578515,
+      "path": "data/curation/epizyme/results/US8940726B2.txt",
+      "sha256": "a0dc692d621257e957d3369619a7ce1a4d0c160d068ba6bb08511cd110397a53"
+    },
+    {
+      "bytes": 364919,
+      "path": "data/curation/epizyme/results/US8993555B2.json",
+      "sha256": "0bb7769b4861b17fad0784c02e4b0dd2ffe18f7eebdd2221c0a23865c2d41781"
+    },
+    {
+      "bytes": 631801,
+      "path": "data/curation/epizyme/results/US8993555B2.txt",
+      "sha256": "f03e7e5b0eeefc356ce60491b5c2f267360005785eb21e58153f3ba6cb88c88a"
+    },
+    {
+      "bytes": 68472,
+      "path": "data/curation/epizyme/results/US9365555B2.json",
+      "sha256": "c98e7b7b4a0e51661ff8a60f55c79ae3bdb1302c75961748f68f2c4e233a3344"
+    },
+    {
+      "bytes": 572647,
+      "path": "data/curation/epizyme/results/US9365555B2.txt",
+      "sha256": "5798046bf1eae92e8f9186834072cda1f5fd720eb70d64a68476c99fb0b391de"
+    },
+    {
+      "bytes": 303322,
+      "path": "data/curation/epizyme/results/US9745291B2.json",
+      "sha256": "68d63ec21b9c62d53019af3d470ec746836937e585f77f9ad24b2b104c5d4658"
+    },
+    {
+      "bytes": 756034,
+      "path": "data/curation/epizyme/results/US9745291B2.txt",
+      "sha256": "90dbb960cdee0ba1c1aca268aaefead59d19ce2b2b84bb430e4d9277343911aa"
+    },
+    {
+      "bytes": 6817,
+      "path": "data/curation/epizyme/results/US9745291B2_biochemical_protocol.txt",
+      "sha256": "32ef9e118ca676546dd078d010671ac5b54f86f1e09b68c87773c198f3797651"
+    },
+    {
+      "bytes": 13527,
+      "path": "data/curation/epizyme/results/US9745291B2_table2.json",
+      "sha256": "09ed010eef2cc5fee5f580e36efb3bc1cdb5129c31e66a4ca9fe6fd946d0d43a"
+    },
+    {
+      "bytes": 310293,
+      "path": "data/curation/epizyme/results/US9777008B2.json",
+      "sha256": "a49cf9d63f73191c62d086f4e0ced97a934141cf5d480fdd7efb5d7f3a2a196e"
+    },
+    {
+      "bytes": 760607,
+      "path": "data/curation/epizyme/results/US9777008B2.txt",
+      "sha256": "231516f04f97fefe4434c36d8b49594a522cae4857e1fea71aef5320237687a1"
+    },
+    {
+      "bytes": 6862,
+      "path": "data/curation/epizyme/results/US9777008B2_biochemical_protocol.txt",
+      "sha256": "63221301e2b94622be670940d7d88b25ce4980a73d2ceed5adb29a55eefc92eb"
+    },
+    {
+      "bytes": 15561,
+      "path": "data/curation/epizyme/results/US9777008B2_table2.json",
+      "sha256": "38ab0b237fba4dca089bfb9571ae614f0d294d5ac87d57ff52695e46b320466e"
+    },
+    {
+      "bytes": 3885,
+      "path": "data/curation/epizyme/results/WO2014100695A1.json",
+      "sha256": "472c5dce4f65e0964fee3c9bbb5304b7ed5ad811b080b515fa5a3d8b2a195006"
+    },
+    {
+      "bytes": 600697,
+      "path": "data/curation/epizyme/results/WO2014100695A1.txt",
+      "sha256": "eb723890ab85952f88afb6e80812dc2f3b2f778a94a75b8271ca5f491ff1576d"
+    },
+    {
+      "bytes": 3886,
+      "path": "data/curation/epizyme/results/WO2014100716A1.json",
+      "sha256": "cf02f47c994a718d5879d3876e95fb4a22f002fe9c92a32e4f54279e088b5b87"
+    },
+    {
+      "bytes": 416411,
+      "path": "data/curation/epizyme/results/WO2014100716A1.txt",
+      "sha256": "f4ff3c05d87d0994f58513a2ec5ad06815639155eaa04cfe953d9d22751513f7"
+    },
+    {
+      "bytes": 5007,
+      "path": "data/curation/epizyme/results/WO2014100719A2.json",
+      "sha256": "dfcf66af507f9426a905f8db6580fa31dc29171a60526217e0028075de54dbb0"
+    },
+    {
+      "bytes": 674460,
+      "path": "data/curation/epizyme/results/WO2014100719A2.txt",
+      "sha256": "016e25452cdbe6b00cfae6272cf758d3ad5a11586caeb8b2fa53986ea5933e23"
+    },
+    {
+      "bytes": 3954,
+      "path": "data/curation/epizyme/results/WO2014100730A1.json",
+      "sha256": "3ca2c9a12c04485219b29d02a2fd5a7da00dadce6b3ff910409044870825f2c9"
+    },
+    {
+      "bytes": 554710,
+      "path": "data/curation/epizyme/results/WO2014100730A1.txt",
+      "sha256": "6203f10bbf8db372c4a9ca9fb6a3460ade07febe4456d782398a96d86c8bba4b"
+    },
+    {
+      "bytes": 942173,
+      "path": "data/curation/epizyme/results/epizyme_activity_curation.csv",
+      "sha256": "f22c79b567a1167642144a308be75c1cde8386d655f98da55308cc658c530711"
+    },
+    {
+      "bytes": 277660,
+      "path": "data/curation/epizyme/results/epizyme_conservative_parents.csv",
+      "sha256": "42b0d947de46892d3d1cf58c5d3e75f2ec2f61a9d850e94a1e142e0a7fcd6cf9"
+    },
+    {
+      "bytes": 279247,
+      "path": "data/curation/epizyme/results/epizyme_conservative_rows.csv",
+      "sha256": "a02c298ae8177a2e41df6e6486a4049607a65b7024578b24c0bac1e83723091d"
+    },
+    {
+      "bytes": 16399,
+      "path": "data/curation/epizyme/results/epizyme_curation_summary.json",
+      "sha256": "4bc9416609c3b12021a8a75a21f7109b733283a9bb640562ee8609d1915f45b9"
+    },
+    {
+      "bytes": 10269,
+      "path": "data/curation/epizyme/results/epizyme_protocols.json",
+      "sha256": "86b0ce2bbc12fa42cb90dce4b586a76823f9c2452517f0cd9b18206a96cfd59d"
+    },
+    {
+      "bytes": 1100,
+      "path": "data/curation/epizyme/results/reproduction_receipt.json",
+      "sha256": "eaf8bc410d305d42d525b962a5e648c8d5a6e26b97f298d4a2550fa4bf23a01c"
+    },
+    {
+      "bytes": 1400003,
+      "path": "data/curation/later/US11111237B2.html",
+      "sha256": "66477c5ec9b834f3a7a444d1a3e3b198ee729f5edf405d6608f393d87513e23c"
+    },
+    {
+      "bytes": 11486,
+      "path": "data/curation/later/US11111237B2_table2.json",
+      "sha256": "ee99ce1311bdc07719eea9dcd440d564d69a53e30fca08f897e274eff6cca91d"
+    },
+    {
+      "bytes": 846873,
+      "path": "data/curation/later/US11591326B2.html",
+      "sha256": "f0f646d86841c298aac6347c2434c3b3a6a939e0e5a182155d3b97158466fdf6"
+    },
+    {
+      "bytes": 2792,
+      "path": "data/curation/later/US11591326B2_table2.json",
+      "sha256": "0fa34083d73282b0d3bb23f2bd1c55057a403e6e5adbd2e2d00d5ca13304237f"
+    },
+    {
+      "bytes": 1441479,
+      "path": "data/curation/later/US20210101892A1.html",
+      "sha256": "ea0bf3b72481c6df5e48d28f6d8cab03ff64a38c5e899edadd496d7f85531f4b"
+    },
+    {
+      "bytes": 11486,
+      "path": "data/curation/later/US20210101892A1_table2.json",
+      "sha256": "ee99ce1311bdc07719eea9dcd440d564d69a53e30fca08f897e274eff6cca91d"
+    },
+    {
+      "bytes": 613760,
+      "path": "data/curation/later/WO2019173804A1.html",
+      "sha256": "e3f4022bfdf90bfb357a58abb36e4dd3669463f452e0f0a77988ab6a75d64037"
+    },
+    {
+      "bytes": 1719585,
+      "path": "data/curation/later/WO2021066578A1.html",
+      "sha256": "fd98738bba100a9fc4e7daa4ccc281e283353988183958f8384259c4c0c442de"
+    },
+    {
+      "bytes": 638,
+      "path": "data/curation/later/binary_candidate_summary.json",
+      "sha256": "f1f48c2e6be4261d052b9bfc4e5d5f3f1676dac07741b7751c18459bc7dccd91"
+    },
+    {
+      "bytes": 114275,
+      "path": "data/curation/later/binary_parent_candidates.csv",
+      "sha256": "1079c642e8af718416ca7b9fff9d70a0fcafdd841eb28a2f0892b51c28378aec"
+    },
+    {
+      "bytes": 327,
+      "path": "data/curation/later/compound_record_4529667.json",
+      "sha256": "5d86a8fc32d7fba100ce14f1e735d88ee5ed76ddcb1beed5c16ae75400894077"
+    },
+    {
+      "bytes": 295,
+      "path": "data/curation/later/compound_record_4626750.json",
+      "sha256": "7eb59e9df179926058f28f495217d949ec7c8764d23eab4fbf3ca175c35324cc"
+    },
+    {
+      "bytes": 17982,
+      "path": "data/curation/later/imgf000087_0001.png",
+      "sha256": "0baeff3df6fb6d0382b5cfeb5c1c17314eb36c8b8c2c6684e16e7f83071e62ed"
+    },
+    {
+      "bytes": 9539,
+      "path": "data/curation/later/imgf000087_0002.png",
+      "sha256": "695909aee25e2088eee14f0a9b8841b0260f642ec157034a3bbc36621f3a74c6"
+    },
+    {
+      "bytes": 30277,
+      "path": "data/curation/later/imgf000088_0001.png",
+      "sha256": "2be5caaeaa4969b75ac196785652b2f28762681fa1811d1fb9ec7f3fe654da53"
+    },
+    {
+      "bytes": 14917,
+      "path": "data/curation/later/later_capacity.json",
+      "sha256": "a7872b323244c58a938a54e704f9c6470b9e4782f3ce651accbb3bd0f4cdf620"
+    },
+    {
+      "bytes": 155783,
+      "path": "data/curation/later/patent_crosswalk.csv",
+      "sha256": "6c5b31a86817036d82202b56db753a0ed18af232d3925dce734ce025f4a0e0e4"
+    },
+    {
+      "bytes": 5185,
+      "path": "data/curation/later/reproduction_inputs.json",
+      "sha256": "1ff70b671521dd55c340ce284ad12f75af36ab6758f5047a4ca9d2de4b559338"
+    },
+    {
+      "bytes": 11776,
+      "path": "data/curation/later/sk_bin_conflicts.json",
+      "sha256": "3068dba8e42fe17466b5695012c0737770044ab3898ab31d9771865dc7b50559"
+    },
+    {
+      "bytes": 2261,
+      "path": "data/curation/later/source_manifest.json",
+      "sha256": "ef5e84df9cee928b9917cb200a0e4bcd27574e74c311a40ccc709c8be263481f"
+    },
+    {
+      "bytes": 1625,
+      "path": "data/curation/later/wo2019_table2_manual.json",
+      "sha256": "8b9c9ccbfc3c6f015e6a18c1bf68b313314005c62e5bf2ff0f84082ef821998c"
+    },
+    {
+      "bytes": 547992,
+      "path": "data/processed/cohort.csv",
+      "sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96"
+    },
+    {
+      "bytes": 61314,
+      "path": "data/processed/exclusions.csv",
+      "sha256": "30638fa16f690fe846d04fda6401cbca68eaa8bc23a3e547e6842f4770011bdd"
+    },
+    {
+      "bytes": 37388,
+      "path": "data/processed/nearest_neighbors.csv",
+      "sha256": "ea707e270ebccef451d0228c9cbbadf39c02d1304b9f0cab176b370394bef4c6"
+    },
+    {
+      "bytes": 2145896,
+      "path": "data/raw/CHEMBL1795116_activity_000000.json",
+      "sha256": "08fbbd535d28443c16439f33af3e5bfe8889b69cbeeb3e121a1f4fed2c1d9c02"
+    },
+    {
+      "bytes": 2617607,
+      "path": "data/raw/CHEMBL1795116_activity_001000.json",
+      "sha256": "2544b47f2f3551369dcd10716b1aba70c53dd7bddd78d5b5c5871832d93ede53"
+    },
+    {
+      "bytes": 3041410,
+      "path": "data/raw/CHEMBL1795116_activity_002000.json",
+      "sha256": "c03dbfe4b262eb23f5416c7e2bb3f28eb0cfc3369940c015974a9efae27bc4d0"
+    },
+    {
+      "bytes": 2069458,
+      "path": "data/raw/CHEMBL1795116_activity_003000.json",
+      "sha256": "62316de1257a89d41fe9bd9b43b8410ec02cc5c75239d541793dcfe41fc7a7d7"
+    },
+    {
+      "bytes": 722061,
+      "path": "data/raw/CHEMBL1795116_assay_000000.json",
+      "sha256": "408abe9627f7c8af59029baa77bdbaed001a47911b5fdd933226f649c3fc8062"
+    },
+    {
+      "bytes": 2056793,
+      "path": "data/raw/CHEMBL3137261_activity_000000.json",
+      "sha256": "49e8f77d6ca1821c433dbdd75073388c64c0dadbd966b45422a7c30bd8537e92"
+    },
+    {
+      "bytes": 3058429,
+      "path": "data/raw/CHEMBL3137261_activity_001000.json",
+      "sha256": "3eee4b85a92e723d8a5408eca87608d9a2b0f38a83891808e42d8f677b648d84"
+    },
+    {
+      "bytes": 3215028,
+      "path": "data/raw/CHEMBL3137261_activity_002000.json",
+      "sha256": "48a6977a7f1eb55f77e12f0f2bb7da60698943db2b6e9524c5ec3d57c391368b"
+    },
+    {
+      "bytes": 3428207,
+      "path": "data/raw/CHEMBL3137261_activity_003000.json",
+      "sha256": "dfef185be71b9e4208b1d8b45db8e4285fe1a463fdb4d3bf4c0e1c7d52f2962f"
+    },
+    {
+      "bytes": 3460785,
+      "path": "data/raw/CHEMBL3137261_activity_004000.json",
+      "sha256": "84e267971be8e894a1d246d8c20a331f2694d353ab522157a04b5f8f0cc32ca6"
+    },
+    {
+      "bytes": 3235688,
+      "path": "data/raw/CHEMBL3137261_activity_005000.json",
+      "sha256": "aa85bd3daf3f8bfadef4f77a183fe679b1c5e722cf82c45bf766c618d59503de"
+    },
+    {
+      "bytes": 3348566,
+      "path": "data/raw/CHEMBL3137261_activity_006000.json",
+      "sha256": "a8c5b4d3c0be86d4e20f9132c5dca1858711dc632dbd96dfdb32bebe9e6b6d34"
+    },
+    {
+      "bytes": 3107977,
+      "path": "data/raw/CHEMBL3137261_activity_007000.json",
+      "sha256": "e009f5f929e6eaa5fb9ad18054bebf15dc47c0aa8d75786351752025bcae4ae6"
+    },
+    {
+      "bytes": 2873764,
+      "path": "data/raw/CHEMBL3137261_activity_008000.json",
+      "sha256": "2ee892438cb26052ac20a816f55e2c08e499eb77df6f8397fa69b51527b09b7e"
+    },
+    {
+      "bytes": 3231496,
+      "path": "data/raw/CHEMBL3137261_activity_009000.json",
+      "sha256": "df389168bdf898229d24647170419598667407da163aa65ada84b15b2926d93b"
+    },
+    {
+      "bytes": 3745747,
+      "path": "data/raw/CHEMBL3137261_activity_010000.json",
+      "sha256": "a00f4edcc15944c9d544b76284f170c885254b58aaf1c0a7f7a4a1f5bd4c0d87"
+    },
+    {
+      "bytes": 3348462,
+      "path": "data/raw/CHEMBL3137261_activity_011000.json",
+      "sha256": "1c0a63022c93cb9927292696e3a5f449bb378d39f1498d74435b32fb4f96605a"
+    },
+    {
+      "bytes": 3699906,
+      "path": "data/raw/CHEMBL3137261_activity_012000.json",
+      "sha256": "af1270ff20578856395406918cc429e5bcc1aefe9bc064aa9ebd25f6303d3a1b"
+    },
+    {
+      "bytes": 3260055,
+      "path": "data/raw/CHEMBL3137261_activity_013000.json",
+      "sha256": "61fdee701239053d889197227bf9e872c1e314563942bb6722fdda339cd59830"
+    },
+    {
+      "bytes": 58344,
+      "path": "data/raw/CHEMBL3137261_activity_014000.json",
+      "sha256": "6cfb27a0faeb8513f60bafe416b99993fe99a50a0f80c5d11bc8ba0ad174eb02"
+    },
+    {
+      "bytes": 265021,
+      "path": "data/raw/CHEMBL3137261_assay_000000.json",
+      "sha256": "3237fe43cc26672192057b08cb6e5f8050e13019ea59d8b8ad9acbbe1cb5e95f"
+    },
+    {
+      "bytes": 12227,
+      "path": "data/raw/compound_records_CHEMBL5543090_000000.json",
+      "sha256": "3f525166707f1ea966db8260a51928f85cb878e2910301952fdcbfa345baca17"
+    },
+    {
+      "bytes": 7793,
+      "path": "data/raw/compound_records_CHEMBL5725999_000000.json",
+      "sha256": "3bc19b8a8e42c1d7c3bfbd25928c92593ee042e976c75ebc7f647cd5e1bc552c"
+    },
+    {
+      "bytes": 69500,
+      "path": "data/raw/compound_records_CHEMBL5726368_000000.json",
+      "sha256": "74d1cd9789ed807cd9f4f8b2ef99151f189597b987ccbbc8941fd50d5020ce45"
+    },
+    {
+      "bytes": 78338,
+      "path": "data/raw/compound_records_CHEMBL5726447_000000.json",
+      "sha256": "5e9d535bf60368518943319930c991e03855c70a48fba92cc23f9b02055e54f0"
+    },
+    {
+      "bytes": 181544,
+      "path": "data/raw/compound_records_CHEMBL5727045_000000.json",
+      "sha256": "e67c56a7c9a5937774fbfe2418be835dd7d9636f15c0fd258fe0321bafad337a"
+    },
+    {
+      "bytes": 100176,
+      "path": "data/raw/compound_records_CHEMBL5727264_000000.json",
+      "sha256": "3980f9df77faf563dce5de08f4b164c2e95ab79cb3535c94fd0618692ff13956"
+    },
+    {
+      "bytes": 99897,
+      "path": "data/raw/compound_records_CHEMBL5728403_000000.json",
+      "sha256": "d513f7ca18265f85ef053f5cdf0db6f0b3ae7c11be3018584e2893a074f93425"
+    },
+    {
+      "bytes": 93371,
+      "path": "data/raw/compound_records_CHEMBL5728719_000000.json",
+      "sha256": "9732b7f510ad6c24098f96315ab7261a536eac056197340a9931ea8bbe4f0304"
+    },
+    {
+      "bytes": 110739,
+      "path": "data/raw/compound_records_CHEMBL5729406_000000.json",
+      "sha256": "0d0aea2820040992e557dc66f3c5163c9461f74b774dcb707931ab17fb7714c7"
+    },
+    {
+      "bytes": 111281,
+      "path": "data/raw/compound_records_CHEMBL5729433_000000.json",
+      "sha256": "d34f6525765bc0822612439d2f349e09a0da4d29edfa9a969111e7a261b5e016"
+    },
+    {
+      "bytes": 17624,
+      "path": "data/raw/compound_records_CHEMBL5729615_000000.json",
+      "sha256": "54083d1216efbe9f1bd27b32317712053418840a3465842b58c12cd11b0b7084"
+    },
+    {
+      "bytes": 11098,
+      "path": "data/raw/compound_records_CHEMBL6087401_000000.json",
+      "sha256": "c4bd3f5ee58a3eba7bdade2399cc01276182dccf10a9914dcaa73d9b48130e60"
+    },
+    {
+      "bytes": 72448,
+      "path": "data/raw/documents_000.json",
+      "sha256": "842d82a54605cf73f2405a235df4b161014b8020ee6bc06b88e8019476ecb727"
+    },
+    {
+      "bytes": 72160,
+      "path": "data/raw/documents_001.json",
+      "sha256": "25e21f66b88071eded906baba67552dd86d132381afd44d750aa5b731b4fa6cc"
+    },
+    {
+      "bytes": 81473,
+      "path": "data/raw/documents_002.json",
+      "sha256": "ee82fd159b67127b44e58eaa66c2b4cfe4ef362030e2df6d632755af0255e2aa"
+    },
+    {
+      "bytes": 33705,
+      "path": "data/raw/documents_003.json",
+      "sha256": "2c8e4ed4a31894b9f2363942630dabc70d22c5e710a7b960a738aa796a950400"
+    },
+    {
+      "bytes": 21044,
+      "path": "data/raw/documents_004.json",
+      "sha256": "9e7948c2c71adef5ca6ffe52e341f33d057504104c96d58c64dc1f2a4633bb23"
+    },
+    {
+      "bytes": 1067,
+      "path": "data/upstream/LICENSE.drugperturb",
+      "sha256": "522f52ca66991e1411a22d3baf46df8f34743428e0933337e91c8d275b9e1af8"
+    },
+    {
+      "bytes": 12412,
+      "path": "data/upstream/drugperturb/chemistry.py",
+      "sha256": "0a059a1ec5528ff140ad5634a277f6fb96022acbfec4ab9aa8f3bb450698627b"
+    },
+    {
+      "bytes": 11619,
+      "path": "docs/PROTOCOL.md",
+      "sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f"
+    },
+    {
+      "bytes": 10517,
+      "path": "manifests/chembl_downloads.json",
+      "sha256": "76bc565e4459fdb4ebfb34c7009821bbd6f31ac75680795d4db199a69af9ed67"
+    },
+    {
+      "bytes": 5458,
+      "path": "manifests/compound_record_downloads.json",
+      "sha256": "12a14d7e5ea2bfa8f5c7d0248771c663bbb6374a758c285a6ca73bd5af3955f9"
+    },
+    {
+      "bytes": 4137,
+      "path": "manifests/document_downloads.json",
+      "sha256": "970e3ad32d71c3a6d1b9ba34a70e8325817bf861285dd5d316941432c0604fa0"
+    },
+    {
+      "bytes": 25055,
+      "path": "manifests/epizyme_patent_sources.json",
+      "sha256": "62d382928ff8d08f46ac0309b843c8e391cc31309787b1da05200bccc24e96c7"
+    },
+    {
+      "bytes": 2746,
+      "path": "manifests/later_patent_sources.json",
+      "sha256": "ddae36edab13691c24a4a00f25ee3a56a3a22bb17b753b577c1d431c0d6f20da"
+    },
+    {
+      "bytes": 639,
+      "path": "manifests/source_metadata.json",
+      "sha256": "25b46d0e2746fcc06d219613d9593e8afa10b85ffe3cb5b04de35ab4b581ef71"
+    },
+    {
+      "bytes": 29799011,
+      "path": "reports/activity_ledger.csv",
+      "sha256": "0356b16977a228012ecb620562b777c2680f774f4f4ce8e1106e6c4282194721"
+    },
+    {
+      "bytes": 11718,
+      "path": "reports/assay_inventory.csv",
+      "sha256": "b1b9d66b81c05900795fd15fb4179c894bd8a2c1dc02687d77886a31340c3a81"
+    },
+    {
+      "bytes": 10256,
+      "path": "reports/curation/EPIZYME_SOURCE_REVIEW.md",
+      "sha256": "ad8ba87540a27047da3b68c7fd0b8d72fc4e822eab7cabd425883a6abccd194c"
+    },
+    {
+      "bytes": 4857,
+      "path": "reports/curation/FEASIBILITY_UPDATE_ZH.md",
+      "sha256": "fbb1f75df5a06cc7f51fbcc43bcfe2b0f5131583212475d6c86f84cca8b07e67"
+    },
+    {
+      "bytes": 5271,
+      "path": "reports/curation/LATER_SOURCE_REVIEW.md",
+      "sha256": "36387dc05af980a66c7331c418b0e09e1c744ed7d24bc7b645521c0fb0282776"
+    },
+    {
+      "bytes": 4707,
+      "path": "reports/curation/cohort_gate.json",
+      "sha256": "08fa20806f03f63b5292c03c0e44b274b4dd709ed214b888916b9b16c266b764"
+    },
+    {
+      "bytes": 16399,
+      "path": "reports/curation/epizyme_summary.json",
+      "sha256": "4bc9416609c3b12021a8a75a21f7109b733283a9bb640562ee8609d1915f45b9"
+    },
+    {
+      "bytes": 3017,
+      "path": "reports/curation/later_summary.json",
+      "sha256": "1afb7661b656db2746f8d1fae681150bdd6086cb326aca53f8766403b62cd674"
+    },
+    {
+      "bytes": 34126,
+      "path": "reports/inventory.json",
+      "sha256": "85e86384196d14ed1c5749e256021e1f9e70fe9312eedd03d99ba3ab61233426"
+    },
+    {
+      "bytes": 47076,
+      "path": "reports/review_candidates.json",
+      "sha256": "8db26e2826ade7c39ae874d40bf00364df86dad3ee0e14d5ed1ed4df5d1898fd"
+    },
+    {
+      "bytes": 325,
+      "path": "requirements/baseline.txt",
+      "sha256": "44ca6d6702d2f9002259d3bb14467b61ac259636c5473a916d390cd106e8fe79"
+    },
+    {
+      "bytes": 7639,
+      "path": "scripts/audit_inventory.py",
+      "sha256": "e046514e4258f7e73315e5738afe4a675e9e43e5af7906bf4d31344de46f238b"
+    },
+    {
+      "bytes": 16032,
+      "path": "scripts/build_cohort.py",
+      "sha256": "f46746a6573ee0bdf52a9e5b98f30f08b9a06cfd8cc0f30e4440601dfbf93fbf"
+    },
+    {
+      "bytes": 16087,
+      "path": "scripts/build_source_bundle.py",
+      "sha256": "48afd8466156960ba27013be41337347ca45434f1224aa11059b1ff4dc4dde97"
+    },
+    {
+      "bytes": 11231,
+      "path": "scripts/cohort_audit.py",
+      "sha256": "bfa9b2a1f1d4633b282e561a70a18833c6a9b86d853322b1b8138afe90538220"
+    },
+    {
+      "bytes": 9138,
+      "path": "scripts/curation_epizyme/curate.py",
+      "sha256": "f8fc169ef946e564ad374514a5eb83ca513fdc227a573dccae0a6e3e9b8772af"
+    },
+    {
+      "bytes": 3020,
+      "path": "scripts/curation_epizyme/extract_patents.py",
+      "sha256": "e20dbffdd3e6b64825771c7fa6e4af8075d5d077819f4ac10e539aec0e9d391e"
+    },
+    {
+      "bytes": 4379,
+      "path": "scripts/curation_epizyme/reproduce.py",
+      "sha256": "50d8b804f15a7e380f3434aff463ae48234a02e6f302171118c3d6317e9e8f02"
+    },
+    {
+      "bytes": 4938,
+      "path": "scripts/curation_later/crosswalk_patents.py",
+      "sha256": "2f33f58191b7d7527402726d4549ee7e7f93ee62244d60ee72e50822bafff231"
+    },
+    {
+      "bytes": 4268,
+      "path": "scripts/curation_later/curate_later.py",
+      "sha256": "ca698b8ffa9c81797b486eceb0a1f615a3f55664f5e7ed3fa40f675f35022873"
+    },
+    {
+      "bytes": 3467,
+      "path": "scripts/curation_later/make_binary_candidates.py",
+      "sha256": "48b1222d2f1f51c7e7d282c1350afa45bfb28c6c528f9890954bd3330e2329ef"
+    },
+    {
+      "bytes": 2547,
+      "path": "scripts/fetch_chembl.py",
+      "sha256": "05cc0f0621466f4cb9e4a72350fdbe0c0bc2329145ccde4c0cdaf62146322ce6"
+    },
+    {
+      "bytes": 3221,
+      "path": "scripts/fetch_compound_records.py",
+      "sha256": "8032089a67824a7e8adc3fb97b3690fcd7e4086269fdbfbcad2bc768a585648e"
+    },
+    {
+      "bytes": 1734,
+      "path": "scripts/fetch_documents.py",
+      "sha256": "ddd99c9998f88199b017b3a40f395fede603c2f64f716a71ddca27c07297b7d3"
+    },
+    {
+      "bytes": 2259,
+      "path": "scripts/review_candidates.py",
+      "sha256": "28b4ced1629293563e3bc0cc1a76bba9365d7f7fbeb83befaccfb9fd23e464eb"
+    },
+    {
+      "bytes": 2784,
+      "path": "scripts/test_audit.py",
+      "sha256": "9f3778a6b64c3d5fcc1fcc95a5f310578b640ceaa22b07852127ca7e4c0332f3"
+    },
+    {
+      "bytes": 5774,
+      "path": "scripts/test_cohort.py",
+      "sha256": "8bf40db492a07db2aae445ebf5c9844bea078a8da7dcec8bed2b68a324505c67"
+    },
+    {
+      "bytes": 10839,
+      "path": "scripts/validate_sources.py",
+      "sha256": "396a6797a7d9627666a0c0f7e01f3c0df98669c8deb203e4e5529b72de8fe3af"
+    },
+    {
+      "bytes": 41964,
+      "path": "SOURCE_BUNDLE_CONTENTS.json",
+      "sha256": "71e20eb63cb8f710cb850f9cc2e9c3af0fd6757eca1991ce4d16366d1fdb1873"
+    }
+  ],
+  "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "publication": "Local artifact only; not uploaded",
+  "schema_version": 1,
+  "scope": "Offline source/data reconstruction; no model weights or private runtime receipts",
+  "status": "SOURCE_ARCHIVE_BUILT_HASH_VERIFIED",
+  "uncompressed_member_bytes": 192724375
+}

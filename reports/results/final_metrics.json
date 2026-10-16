@@ -1,0 +1,585 @@
+{
+  "status": "SCORED_LOCKED_PREDICTIONS",
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "selection_lock_sha256": "721965b09f0a736e674be70be7338b131668f62a732905f8e6c7f02b5cf6f4ab",
+  "predictions_sha256": "c1c5dd8045dc25dda805e31c2547bab1f3e2535f9d83de7d81ce8a47c02eec9d",
+  "n": 246,
+  "positive": 69,
+  "negative": 177,
+  "source_families": 1,
+  "scaffolds": 89,
+  "metrics": {
+    "adapted_encoder": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.25531193981602485,
+        "roc_auc": 0.45181364120199785,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.2649389714160881,
+          "strictly_above_count": 24,
+          "strictly_above_hits": 2,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 0,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 2.0,
+          "minimum_hits": 2,
+          "maximum_hits": 2,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "04aebbfa4cb779d7",
+            "26a64efd03c9efa4",
+            "f1c4f57026b66bda",
+            "ddc4f246dcd97c4e",
+            "29c09fe082da93b5",
+            "0eaefbf8043a63ad",
+            "ffbbfa94b82bf0a9",
+            "3c02accb0312a5ba",
+            "af9307951388bcb9",
+            "4f2dca922ac4a859",
+            "de6871a2cc8e8b6c",
+            "7564fc13f16fbb92",
+            "92a8feb7485677e3",
+            "5062975a0ab49d1e",
+            "253e78a062a1998e",
+            "cc4d58dc86d6a757",
+            "5663fa2be25c8506",
+            "2859d0fb3a6b7243",
+            "7ce4f9aa314d4a4c",
+            "484304edb2c79b4e",
+            "94d550656a79329a",
+            "a9e39a7a09cc5e8a",
+            "5af357df9a91db7a",
+            "174631cc770faaf7",
+            "eec3e264d9cd38ac"
+          ],
+          "deterministic_hits": 2,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.3405372992086493,
+      "classification": {
+        "threshold": 0.3405372992086493,
+        "n": 246,
+        "tp": 2,
+        "fn": 67,
+        "fp": 18,
+        "tn": 159,
+        "sensitivity": 0.028985507246376812,
+        "specificity": 0.8983050847457628,
+        "balanced_accuracy": 0.4636452959960698
+      }
+    },
+    "constant_prevalence": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.2804878048780488,
+        "roc_auc": 0.5,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.271523178807947,
+          "strictly_above_count": 0,
+          "strictly_above_hits": 0,
+          "boundary_tie_count": 246,
+          "boundary_tie_hits": 69,
+          "slots_in_boundary_tie": 25,
+          "expected_hits": 7.012195121951219,
+          "minimum_hits": 0,
+          "maximum_hits": 25,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "031be3bdd4b5fa7b",
+            "039fa3e1fd6ae7b5",
+            "03fc0aa0d34328d5",
+            "040e39631b80cd94",
+            "042a194ae3e0a46b",
+            "04521a35fcab785f",
+            "04aebbfa4cb779d7",
+            "06407f44db465a00",
+            "085201c270283250",
+            "08612a30397a225f",
+            "08b4999d0e4015ec",
+            "0963faf07d62d473",
+            "0aa7024b3309548d",
+            "0bf51becb73c2215",
+            "0d6b8b7a4aa7c75f",
+            "0eaefbf8043a63ad",
+            "107de31351eb567f",
+            "1238a1138024def5",
+            "126f3b0929717dcd",
+            "13f66c2cc38b99f3",
+            "1529d44c6514e898",
+            "157c8e84bfe07962",
+            "169c03a20c6066cb",
+            "174631cc770faaf7",
+            "177901c91148982d"
+          ],
+          "deterministic_hits": 5,
+          "arbitrary_order_within_boundary_tie": true,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.2715231788079471,
+      "classification": {
+        "threshold": 0.2715231788079471,
+        "n": 246,
+        "tp": 0,
+        "fn": 69,
+        "fp": 0,
+        "tn": 177,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "balanced_accuracy": 0.5
+      }
+    },
+    "fingerprint_logistic": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.2703843435642561,
+        "roc_auc": 0.4666339146810775,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.2995204295482295,
+          "strictly_above_count": 23,
+          "strictly_above_hits": 5,
+          "boundary_tie_count": 3,
+          "boundary_tie_hits": 0,
+          "slots_in_boundary_tie": 2,
+          "expected_hits": 5.0,
+          "minimum_hits": 5,
+          "maximum_hits": 5,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "24f28a1a6b13a754",
+            "a9553b2140e319d9",
+            "98b34478fb1f50c6",
+            "fa482df53145faa3",
+            "9015fc4bbcb5257b",
+            "4a27b7a8c050da26",
+            "04521a35fcab785f",
+            "253e78a062a1998e",
+            "5429f70a89d8e1af",
+            "1238a1138024def5",
+            "29c09fe082da93b5",
+            "e1d54d7a5b6ffa81",
+            "177901c91148982d",
+            "d00bb00d07a7baf1",
+            "a4430c3c713b4432",
+            "b91d81201ecd9435",
+            "2f4de72dde4d09d5",
+            "c640776aa7e0c78d",
+            "b9b309a106b11f61",
+            "b2f92ef22dfe768c",
+            "3601f769938c2fa4",
+            "45a1474095e4feef",
+            "64cbafb797895e6a",
+            "247e38e7021cecde",
+            "858ebbf0cf0f6c51"
+          ],
+          "deterministic_hits": 5,
+          "arbitrary_order_within_boundary_tie": true,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.21897391340860575,
+      "classification": {
+        "threshold": 0.21897391340860575,
+        "n": 246,
+        "tp": 18,
+        "fn": 51,
+        "fp": 63,
+        "tn": 114,
+        "sensitivity": 0.2608695652173913,
+        "specificity": 0.6440677966101694,
+        "balanced_accuracy": 0.45246868091378034
+      }
+    },
+    "fingerprint_logistic_chiral": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.27491062805276156,
+        "roc_auc": 0.4809219683943339,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.2903411088863089,
+          "strictly_above_count": 24,
+          "strictly_above_hits": 4,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 5.0,
+          "minimum_hits": 5,
+          "maximum_hits": 5,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "98b34478fb1f50c6",
+            "9015fc4bbcb5257b",
+            "fa482df53145faa3",
+            "24f28a1a6b13a754",
+            "5429f70a89d8e1af",
+            "04521a35fcab785f",
+            "4a27b7a8c050da26",
+            "a9553b2140e319d9",
+            "253e78a062a1998e",
+            "612d0dfb9332a118",
+            "1238a1138024def5",
+            "b9b309a106b11f61",
+            "539eb78e337bdfd0",
+            "f15ded968562ec03",
+            "29c09fe082da93b5",
+            "e1d54d7a5b6ffa81",
+            "c640776aa7e0c78d",
+            "64cbafb797895e6a",
+            "b91d81201ecd9435",
+            "6143214b9a960657",
+            "3601f769938c2fa4",
+            "a4430c3c713b4432",
+            "45a1474095e4feef",
+            "d00bb00d07a7baf1",
+            "b2f92ef22dfe768c"
+          ],
+          "deterministic_hits": 5,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.2067380674800397,
+      "classification": {
+        "threshold": 0.2067380674800397,
+        "n": 246,
+        "tp": 23,
+        "fn": 46,
+        "fp": 66,
+        "tn": 111,
+        "sensitivity": 0.3333333333333333,
+        "specificity": 0.6271186440677966,
+        "balanced_accuracy": 0.480225988700565
+      }
+    },
+    "five_neighbor": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.28117468427648706,
+        "roc_auc": 0.4955375419634815,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.2,
+          "strictly_above_count": 9,
+          "strictly_above_hits": 1,
+          "boundary_tie_count": 24,
+          "boundary_tie_hits": 9,
+          "slots_in_boundary_tie": 16,
+          "expected_hits": 7.0,
+          "minimum_hits": 2,
+          "maximum_hits": 10,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "040e39631b80cd94",
+            "177901c91148982d",
+            "23a38f34ef8ec0dd",
+            "4a27b7a8c050da26",
+            "64cbafb797895e6a",
+            "672dac3f2c87977c",
+            "989c45a773691a26",
+            "d00bb00d07a7baf1",
+            "4baf598c78b0aa70",
+            "226d3506727c7d16",
+            "253e78a062a1998e",
+            "2593749685c5b53c",
+            "285304d5041e886e",
+            "2f4de72dde4d09d5",
+            "321b218ee1ef4fb6",
+            "49f87fae5055660e",
+            "4a52accbd983750a",
+            "52aaa99e80cd9926",
+            "5326fc136f8a04d9",
+            "539eb78e337bdfd0",
+            "54734495fa26f581",
+            "5663fa2be25c8506",
+            "5bfef1de2f4d3b3d",
+            "6d3330e90135488e",
+            "a324e4436d94bff6"
+          ],
+          "deterministic_hits": 7,
+          "arbitrary_order_within_boundary_tie": true,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.2,
+      "classification": {
+        "threshold": 0.2,
+        "n": 246,
+        "tp": 10,
+        "fn": 59,
+        "fp": 23,
+        "tn": 154,
+        "sensitivity": 0.14492753623188406,
+        "specificity": 0.8700564971751412,
+        "balanced_accuracy": 0.5074920167035126
+      }
+    },
+    "frozen_encoder": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.2550690024984793,
+        "roc_auc": 0.45074920167035126,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.21421610741269567,
+          "strictly_above_count": 24,
+          "strictly_above_hits": 2,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 0,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 2.0,
+          "minimum_hits": 2,
+          "maximum_hits": 2,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "04aebbfa4cb779d7",
+            "26a64efd03c9efa4",
+            "f1c4f57026b66bda",
+            "ddc4f246dcd97c4e",
+            "29c09fe082da93b5",
+            "ffbbfa94b82bf0a9",
+            "3c02accb0312a5ba",
+            "0eaefbf8043a63ad",
+            "4f2dca922ac4a859",
+            "af9307951388bcb9",
+            "7564fc13f16fbb92",
+            "92a8feb7485677e3",
+            "de6871a2cc8e8b6c",
+            "253e78a062a1998e",
+            "5062975a0ab49d1e",
+            "cc4d58dc86d6a757",
+            "5663fa2be25c8506",
+            "7ce4f9aa314d4a4c",
+            "2859d0fb3a6b7243",
+            "484304edb2c79b4e",
+            "94d550656a79329a",
+            "a9e39a7a09cc5e8a",
+            "174631cc770faaf7",
+            "5af357df9a91db7a",
+            "107de31351eb567f"
+          ],
+          "deterministic_hits": 2,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.7511197415572706,
+      "classification": {
+        "threshold": 0.7511197415572706,
+        "n": 246,
+        "tp": 2,
+        "fn": 67,
+        "fp": 6,
+        "tn": 171,
+        "sensitivity": 0.028985507246376812,
+        "specificity": 0.9661016949152542,
+        "balanced_accuracy": 0.4975436010808155
+      }
+    },
+    "random_forest": {
+      "ranking": {
+        "n": 246,
+        "positive": 69,
+        "negative": 177,
+        "prevalence": 0.2804878048780488,
+        "average_precision": 0.24326883062239185,
+        "roc_auc": 0.43367722918201906,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 25,
+          "boundary_score": 0.3702279978919174,
+          "strictly_above_count": 24,
+          "strictly_above_hits": 3,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 0,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 3.0,
+          "minimum_hits": 3,
+          "maximum_hits": 3,
+          "random_selection_expected_hits": 7.012195121951219,
+          "deterministic_ids": [
+            "98b34478fb1f50c6",
+            "ff42ca7be96d8fdc",
+            "29c09fe082da93b5",
+            "04aebbfa4cb779d7",
+            "1238a1138024def5",
+            "26a64efd03c9efa4",
+            "d512f4cc9400b368",
+            "539eb78e337bdfd0",
+            "bae80fc6ab597f97",
+            "ed372003461bb738",
+            "042a194ae3e0a46b",
+            "c3584faaad36bead",
+            "db1e1d11f9b77d00",
+            "253e78a062a1998e",
+            "06407f44db465a00",
+            "612d0dfb9332a118",
+            "4a52accbd983750a",
+            "d573ac1c7190b672",
+            "fa482df53145faa3",
+            "5429f70a89d8e1af",
+            "e1d54d7a5b6ffa81",
+            "23a38f34ef8ec0dd",
+            "a9553b2140e319d9",
+            "177901c91148982d",
+            "04521a35fcab785f"
+          ],
+          "deterministic_hits": 3,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "validation_selected_threshold": 0.34489538529441066,
+      "classification": {
+        "threshold": 0.34489538529441066,
+        "n": 246,
+        "tp": 10,
+        "fn": 59,
+        "fp": 39,
+        "tn": 138,
+        "sensitivity": 0.14492753623188406,
+        "specificity": 0.7796610169491526,
+        "balanced_accuracy": 0.4622942765905183
+      }
+    }
+  },
+  "uncertainty": {
+    "resampling_unit": "Observed final-test Murcko scaffold, all members retained with multiplicity",
+    "scope": "Conditional uncertainty within one patent family; not uncertainty across future sources",
+    "seed": 20261016,
+    "requested_draws": 2000,
+    "valid_draws": 2000,
+    "invalid_single_class_draws": 0,
+    "scaffold_count": 89,
+    "comparator": "random_forest",
+    "models": {
+      "adapted_encoder": {
+        "average_precision_percentile_95": [
+          0.20318244659430268,
+          0.34070413083217427
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.0336715767524518,
+          0.08238019391462922
+        ],
+        "point_ap_difference_vs_comparator": 0.012043109193632995
+      },
+      "constant_prevalence": {
+        "average_precision_percentile_95": [
+          0.22438885282388946,
+          0.3379027590198726
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.013749893792191036,
+          0.06444531248418754
+        ],
+        "point_ap_difference_vs_comparator": 0.037218974255656956
+      },
+      "fingerprint_logistic": {
+        "average_precision_percentile_95": [
+          0.20498276434240734,
+          0.3555267391972575
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.01722976054159435,
+          0.08183492610190286
+        ],
+        "point_ap_difference_vs_comparator": 0.02711551294186426
+      },
+      "fingerprint_logistic_chiral": {
+        "average_precision_percentile_95": [
+          0.2114247495321587,
+          0.36765337268976256
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.008060355414824265,
+          0.0920441929907649
+        ],
+        "point_ap_difference_vs_comparator": 0.03164179743036971
+      },
+      "five_neighbor": {
+        "average_precision_percentile_95": [
+          0.22854491813256336,
+          0.3452543872613731
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.008055261826089097,
+          0.0753909965413738
+        ],
+        "point_ap_difference_vs_comparator": 0.03790585365409521
+      },
+      "frozen_encoder": {
+        "average_precision_percentile_95": [
+          0.2026582873227499,
+          0.34131215713245666
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          -0.0349596494792386,
+          0.08306156845093447
+        ],
+        "point_ap_difference_vs_comparator": 0.01180017187608745
+      },
+      "random_forest": {
+        "average_precision_percentile_95": [
+          0.19436675127541833,
+          0.31074019899727373
+        ],
+        "paired_ap_difference_vs_comparator_percentile_95": [
+          0.0,
+          0.0
+        ],
+        "point_ap_difference_vs_comparator": 0.0
+      }
+    }
+  },
+  "limitations": [
+    "One observed patent family, protocol/time/chemistry/source confounded.",
+    "Source-defined biochemical label, not cellular efficacy or clinical outcome.",
+    "Scores are not calibrated prospective hit probabilities.",
+    "Modern structure-pretrained model; historical model availability is not claimed."
+  ]
+}

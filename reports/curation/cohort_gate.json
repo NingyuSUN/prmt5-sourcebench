@@ -1,0 +1,141 @@
+{
+  "status": "PASS_FOR_NARROW_SOURCE_SHIFT_BINARY_BENCHMARK",
+  "continuous_potency_regression": "NO_GO_original_intervals_and_protocol_incompatibility",
+  "threshold_nM": 100,
+  "train_source_publication_cutoff": "2019-09-01",
+  "counts": {
+    "train": {
+      "parents": 604,
+      "positive": 164,
+      "negative": 440,
+      "scaffolds": 285,
+      "families": [
+        "50001259",
+        "50001260",
+        "50029211"
+      ],
+      "source_date_bounds": [
+        "2017-08-29",
+        "2017-10-03",
+        "2018-12-11"
+      ]
+    },
+    "validation": {
+      "parents": 70,
+      "positive": 39,
+      "negative": 31,
+      "scaffolds": 44,
+      "families": [
+        "67846363"
+      ],
+      "source_date_bounds": [
+        "2019-09-12"
+      ]
+    },
+    "test": {
+      "parents": 246,
+      "positive": 69,
+      "negative": 177,
+      "scaffolds": 89,
+      "families": [
+        "75338422"
+      ],
+      "source_date_bounds": [
+        "2021-04-08"
+      ]
+    }
+  },
+  "overlap_and_similarity": {
+    "train_vs_validation": {
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 70,
+      "maximum_similarity_quantiles": {
+        "min": 0.4520547945205479,
+        "p25": 0.4794520547945205,
+        "median": 0.5072463768115942,
+        "p75": 0.5352112676056338,
+        "max": 0.6
+      },
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    },
+    "train_vs_test": {
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 246,
+      "maximum_similarity_quantiles": {
+        "min": 0.4024390243902439,
+        "p25": 0.4657534246575342,
+        "median": 0.48701079622132254,
+        "p75": 0.5194432169686257,
+        "max": 0.6296296296296297
+      },
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    },
+    "validation_vs_test": {
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 246,
+      "maximum_similarity_quantiles": {
+        "min": 0.43157894736842106,
+        "p25": 0.5280172413793104,
+        "median": 0.560064935064935,
+        "p75": 0.5872916666666667,
+        "max": 0.7575757575757576
+      },
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    }
+  },
+  "excluded_records_by_reason": {
+    "ambiguous_original_bin": 10,
+    "unresolved_family_identity_mapping": 1347,
+    "quarantine_threshold_conflict": 4,
+    "reference_control_exclude_temporal_novel": 3
+  },
+  "training_source_rows": 607,
+  "final_parents": 920,
+  "source_record_dedup_policy": {
+    "unit": "One standardized parent per split, never activity-row counts as sample counts.",
+    "same_parent_same_label": "Collapse while preserving all activity IDs, source evidence and quality flags.",
+    "same_parent_conflicting_labels": "Quarantine, never average or select a favorable label.",
+    "potential_duplicate": "Retain only with reviewed original-table label; preserve flag; parent collapse prevents row inflation.",
+    "validity_warning": "Reject until explicitly reviewed; no included warnings in this frozen cohort."
+  },
+  "training_potential_duplicate_source_rows": 145,
+  "fingerprint": {
+    "radius": 2,
+    "bits": 2048,
+    "include_chirality": true
+  },
+  "limitations": [
+    "Not exact first-ever molecule-label disclosure dates; documented public-date bounds.",
+    "Source, protocol, time and chemical series are confounded; one final test family.",
+    "Shared catalytic target does not establish equal assay scale.",
+    "Original chemical figures not all independently decoded; structures rely on curated database crosswalk.",
+    "No prospective, experimental, cellular or clinical validation.",
+    "No performance result or model fitting is part of this data gate."
+  ],
+  "inputs": {
+    "data/curation/epizyme/results/epizyme_activity_curation.csv": "f22c79b567a1167642144a308be75c1cde8386d655f98da55308cc658c530711",
+    "data/curation/later/binary_parent_candidates.csv": "1079c642e8af718416ca7b9fff9d70a0fcafdd841eb28a2f0892b51c28378aec",
+    "reports/activity_ledger.csv": "0356b16977a228012ecb620562b777c2680f774f4f4ce8e1106e6c4282194721"
+  },
+  "reused_chemistry_sha256": "0a059a1ec5528ff140ad5634a277f6fb96022acbfec4ab9aa8f3bb450698627b",
+  "outputs": {
+    "data/processed/cohort.csv": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+    "data/processed/nearest_neighbors.csv": "ea707e270ebccef451d0228c9cbbadf39c02d1304b9f0cab176b370394bef4c6",
+    "data/processed/exclusions.csv": "30638fa16f690fe846d04fda6401cbca68eaa8bc23a3e547e6842f4770011bdd"
+  }
+}

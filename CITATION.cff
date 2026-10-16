@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and original data/model sources when using the benchmark."
+title: "PRMT5 SourceBench: Source-audited molecular model transfer across patent series"
+type: software
+authors:
+  - family-names: Sun
+    given-names: Ningyu
+version: 1.0.0
+date-released: 2026-10-16
+repository-code: "https://github.com/NingyuSUN/prmt5-sourcebench"
+url: "https://github.com/NingyuSUN/prmt5-sourcebench"
+license: MIT
+abstract: "Retrospective source-defined PRMT5 activity classification with patent-family and scaffold separation, fingerprint baselines, frozen and partially adapted molecular representations, and reproducible negative transfer results. Dataset licensing is described separately in data/LICENSE.md."
+keywords:
+  - PRMT5
+  - molecular-machine-learning
+  - drug-discovery
+  - source-shift
+  - reproducibility

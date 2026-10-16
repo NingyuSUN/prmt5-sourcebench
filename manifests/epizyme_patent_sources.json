@@ -1,0 +1,562 @@
+{
+  "verified_utc": "2026-10-16T06:13:38.735263+00:00",
+  "scope": "six Epizyme assays;four source families;source labels and conservative public-by date bounds",
+  "raw_chembl_manifests": [
+    "manifests/chembl_downloads.json",
+    "manifests/compound_record_downloads.json"
+  ],
+  "activity_ledger": "reports/activity_ledger.csv",
+  "source_original_files": 68,
+  "offline_reproduction": "python3 scripts/curation_epizyme/reproduce.py --project-root .",
+  "optional_OCR": "data/curation/epizyme/optional_ocr; not required or accepted as verified labels/dates",
+  "files": [
+    {
+      "path": "data/curation/epizyme/raw/US10150758B2.html",
+      "bytes": 1046294,
+      "sha256": "407ac963fdc063c6d9ffdb2cc95478c32b78a2b3d87aa6239a5dc249599c3286",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US10150758B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US10307413B2.html",
+      "bytes": 3916181,
+      "sha256": "56a4a7833496e55e1082e69acbf9b9775353851856f04b6dbc5492c081175cb8",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US10307413B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US10391089B2.html",
+      "bytes": 2633899,
+      "sha256": "a682931d413e79377f97f1e56e40802786a38992b09ee4b5b0a6d7135c9b89e4",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US10391089B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US10980794B2.html",
+      "bytes": 2535987,
+      "sha256": "3d58caa33a15d9f325bc3a42af2e432da52feb2d89d947b1bbf243242199fa74",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US10980794B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US20140213582A1.html",
+      "bytes": 915704,
+      "sha256": "261d9f1fe8ab526efe35f6f0c3f9c55259a2cd915a43914c0a7521c40948138b",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US20140213582A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US20140221345A1.html",
+      "bytes": 1518505,
+      "sha256": "de4c4e88a822d66a57b6d310b77d84e1cf249ba7a84c895e9af0b06cb3269368",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US20140221345A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US20140228343A1.html",
+      "bytes": 2096143,
+      "sha256": "8a8b553ddc82f92ee2cbd49ca6212c2bc403c82d253eac6da79d95753ee32ac3",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US20140228343A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US20140329794A1.html",
+      "bytes": 2433212,
+      "sha256": "2dbeadaaf99bb48d020fbba73ee14d32be4f1110cde5907b70d6d98166a49a62",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US20140329794A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US8906900B2.html",
+      "bytes": 2102557,
+      "sha256": "793b616d0f109042cc4ae5dd22a57751370526c2169f3212cad21db96d99d440",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US8906900B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US8940726B2.html",
+      "bytes": 1774187,
+      "sha256": "98fc3d6df38e9ce0d3c13d850d0f32de840f6840c943196ea9c60866cb139699",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US8940726B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US8993555B2.html",
+      "bytes": 2295724,
+      "sha256": "ed48c29fa4f65a0154b7bfbdb11f91c3fc62d20e5dd4740e79ef81cf4cd7cdf5",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US8993555B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US9365555B2.html",
+      "bytes": 2215291,
+      "sha256": "fc5a7131c47bee1390bafbef760a234e937d0d4d21d6220484fba7043173f4d3",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US9365555B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US9745291B2.html",
+      "bytes": 2392547,
+      "sha256": "cc6fdfe2f402a384d7db672f7fe2bc1224f5b88e67dc8c8c943a78bafe424d4f",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US9745291B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/US9777008B2.html",
+      "bytes": 3210313,
+      "sha256": "2a5ff56564ad70ee28fcfa421085bca861924c0ada22aeeb82e6e234c5c494b8",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/US9777008B2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000234_0001.png",
+      "bytes": 13119,
+      "sha256": "52f9305813c9f0ec2fd3bae504a3a8326e02208614c413d5a41a0271c3127dbc",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/47/0e/f5/f0a950d290aa37/imgf000234_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000235_0001.png",
+      "bytes": 18311,
+      "sha256": "f7cac6f196c43ad584caa5c40f9e12cc6bfce4ad05a6fd6042455c34b8f1ebd3",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/fd/90/d5/592f3b133767a7/imgf000235_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000236_0001.png",
+      "bytes": 18046,
+      "sha256": "e1a1e9c36de6694c30bc2d8ce5fbc5a2fc054a8ddfa7f53258cebebb126f89fe",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/a7/d7/75/12506c99a962a6/imgf000236_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000237_0001.png",
+      "bytes": 18100,
+      "sha256": "661c73a8ce0cabd9a82e9b666edb62e9e7241faf02299c802b0329f4ff9111a1",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/76/41/0f/71e619af8efd55/imgf000237_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000238_0001.png",
+      "bytes": 18921,
+      "sha256": "0afa396008b63d3f329a01ef781f884ebc5a7c46d49e33441759ac3da8e74d7e",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/cb/f1/8c/367a62e66c92ba/imgf000238_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000239_0001.png",
+      "bytes": 17777,
+      "sha256": "eb15ef4984d54bd5585702b4d18ef6f764b5e2f298cfa01d8386fded7252efeb",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/cd/bd/99/76b70a91b55b01/imgf000239_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000240_0001.png",
+      "bytes": 18809,
+      "sha256": "c015443bd8cf9619b3fc98fdbb4b8efd5d6819579a87a0f91f14c8890cf972db",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/11/8b/34/58add987e2f673/imgf000240_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000241_0001.png",
+      "bytes": 18669,
+      "sha256": "02ae7dedda2c339240ae71c7d1ac0c852ead2dde1b139c41032512a85a16ecfd",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/e2/4f/ac/c1f31e3a1f6f92/imgf000241_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000242_0001.png",
+      "bytes": 20077,
+      "sha256": "018f353d9f0cfc9034952ff19fc41e22a53c871420b1c6ed7742e6eec042abf9",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/85/07/9c/30c1c56bce3292/imgf000242_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000243_0001.png",
+      "bytes": 19283,
+      "sha256": "3679496644be05b9dd239b3dfd144d187aea78134f6dd2aa8a424f94b3c77132",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/15/68/cc/5de73bee258502/imgf000243_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1/imgf000244_0001.png",
+      "bytes": 14462,
+      "sha256": "c6e7780f290d92f016f58cbdc066768eb1220407fe07c12ce368145eebbcb5aa",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/ca/38/62/e1b234f709d68a/imgf000244_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1.html",
+      "bytes": 1456192,
+      "sha256": "bae0642fe4539ea12323fab2fdbbdb5a143c4e465b5cf3ec38de43203d14e72a",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/WO2014100695A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100695A1.pdf",
+      "bytes": 12361755,
+      "sha256": "c6e77e6ffe8e80b1fcd649cc1b8ebd9eaaa8886bd89b7168c5f24862a12f99b8",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/0a/58/72/9284dd579c4496/WO2014100695A1.pdf"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100716A1/imgf000101_0001.png",
+      "bytes": 15417,
+      "sha256": "f6497c27a2879343186150cf289df1cde4339dbd43d9923b9b4f00becb53d0c3",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/fe/08/3a/7d67f69346acf1/imgf000101_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100716A1/imgf000102_0001.png",
+      "bytes": 920,
+      "sha256": "20e374c0d4ab5ce7d3736a28d9eb9c77d6985267e7616d09cc57e3329e1dd712",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/52/72/08/e67519a5ad0376/imgf000102_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100716A1.html",
+      "bytes": 943048,
+      "sha256": "d1d87568e9cfc7a5513383c1deb682e4072ea88ba07ace5053e7de3ee3f66f9d",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/WO2014100716A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100716A1.pdf",
+      "bytes": 5875503,
+      "sha256": "533cc5546192438d6484e77e6669bd94992d8630e0a2038bf86468a68653aa3c",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/0f/a2/18/358ec98fe0465b/WO2014100716A1.pdf"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000310_0001.png",
+      "bytes": 17139,
+      "sha256": "1d01a38c0fd3e6a8324ba6385b9606d8c85dc912cebcaf4b0b2fdaad38db7a0a",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/02/94/68/5548712c200ed4/imgf000310_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000311_0001.png",
+      "bytes": 18061,
+      "sha256": "28a281da76b44461648281e6d7a130a2d567cc9d7e936cd67765c4047408b194",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/5a/8c/e2/88a387b027d9d8/imgf000311_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000312_0001.png",
+      "bytes": 20088,
+      "sha256": "61d3852e81bec648a0475f12b65cc7c4825df143e6c584170766eea7df9958dd",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/8e/0c/df/9465e5b81874bb/imgf000312_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000313_0001.png",
+      "bytes": 18832,
+      "sha256": "8b7fcc85899f2d965bb1645a5b433ba8e72173ca8dc845c67e25921a22a7520a",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/e5/0e/98/dbdf4dd2138a37/imgf000313_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000314_0001.png",
+      "bytes": 18901,
+      "sha256": "507c6057a97e84e062c223816996f5079ead05b07c984f8ebae1da8e212e9c2c",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/08/6f/d5/41e2d35077e541/imgf000314_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000315_0001.png",
+      "bytes": 19442,
+      "sha256": "2dc64ef54a3fd2525b0daeea37080a0aed3cb3af7d0780bf53ce9db09fe075be",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/b1/ca/21/07dcbc2a14b25e/imgf000315_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000316_0001.png",
+      "bytes": 19388,
+      "sha256": "712903f3feb98868633caac8a72403434c2af60c27162c0b628a59e6a89f4292",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/4c/ea/2e/21eb8c0e846601/imgf000316_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000317_0001.png",
+      "bytes": 20062,
+      "sha256": "f765d8af8cafde1cc39e1eccbf7d0f6231264d6fcd72b6c3a26a8a210c69f321",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/0e/b4/a3/9586792eda2468/imgf000317_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000318_0001.png",
+      "bytes": 19336,
+      "sha256": "b8d18438431b15b5cfa0669959897ce60324bf73ec073df9cece041e4ea2840c",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/87/b7/c2/4f4ed9c2d0e583/imgf000318_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000319_0001.png",
+      "bytes": 20796,
+      "sha256": "7d6085f5fb67b568d325032bdbfc518670f38abfc5e11196aa0797b73c208ed0",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/49/4c/a8/fc1f97d0d90a9a/imgf000319_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000320_0001.png",
+      "bytes": 20473,
+      "sha256": "7f53debbfff007705df6c3dd1d99c77c3466b0bdb81e1badd0ea9a60f727ed86",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/bd/0f/12/f476419aba5557/imgf000320_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000321_0001.png",
+      "bytes": 20534,
+      "sha256": "5817267e9f0b39fe4ffea2254753c7da2ad1b4847d921c41c103b84d6f9cd933",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/ed/d3/c2/e2d5ce98802573/imgf000321_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000322_0001.png",
+      "bytes": 19824,
+      "sha256": "726802e900c6c3d25356744693a53dad778574ce5df11ad23cb1324b9d7712a4",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/04/78/db/ce12fac3608f48/imgf000322_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000323_0001.png",
+      "bytes": 18334,
+      "sha256": "9fc0dd64b5fab0d293ff25877caece2a41aec34d502f256ca731508e8fb0c199",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/95/bc/b2/6508891ed446af/imgf000323_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000324_0001.png",
+      "bytes": 19244,
+      "sha256": "41e4b6cd9cef59c8b8aeeb150451df87ecd812aabc04c109e9a7f23d61b1d236",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/64/6d/f3/3c083d6ec2f256/imgf000324_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000325_0001.png",
+      "bytes": 18521,
+      "sha256": "c779cc2fc67e5482aa0e165dcbad9098ba4a117da7fbf19e89f20c38b64b45cb",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/6d/ff/09/dcc621bed06200/imgf000325_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000326_0001.png",
+      "bytes": 18694,
+      "sha256": "aa4c78a963b808ec137a7e3f7d4204824cb52b9716ebf8afb118d9440290fec7",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/14/50/0f/c59fc3c05cbd6c/imgf000326_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000327_0001.png",
+      "bytes": 20307,
+      "sha256": "b0c70fe2edb6feb5d28b587fc2aa4741687e8f23a409f2f3946480fe630df1f5",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/34/27/86/f6becc69cc2858/imgf000327_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000328_0001.png",
+      "bytes": 19490,
+      "sha256": "aabc280212be09ab982457ab87f041ae65faa0a2f5a71c4e4dee7f80ccf54388",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/a9/ad/b9/43230406a5f0fc/imgf000328_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000329_0001.png",
+      "bytes": 19540,
+      "sha256": "d6f50223c346896f16fabc3699d72ae0c5599edd1eb09c3d6f60c4038ee2dc82",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/f2/45/61/c8717bfcbd1a49/imgf000329_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000330_0001.png",
+      "bytes": 20635,
+      "sha256": "fff073d44fc98c1ca84b781432e4f1550ef736052bd37379b27590cfe783a515",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/df/58/fb/55b883f2588c25/imgf000330_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000331_0001.png",
+      "bytes": 19210,
+      "sha256": "f359db30de49492a7871ba42cf6622c28186e036c2d4adefa53953039c206c3d",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/01/0d/b0/b5f788c477614e/imgf000331_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2/imgf000332_0001.png",
+      "bytes": 17638,
+      "sha256": "39cd6cd1d1e506daf4e7efdd07d976a50893d55f09ef9986c14041ba1622fa8e",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/67/72/b3/92bfdd356c2849/imgf000332_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2.html",
+      "bytes": 1722352,
+      "sha256": "98216c86c00875c98a1aed3222d1c80e49d5e4eb27d8d64d047b5af3d8426cbc",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/WO2014100719A2/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100719A2.pdf",
+      "bytes": 14958481,
+      "sha256": "55a6dc94f259b6cc608f74482722268878cae3491f7d9a6f92c9c38dc31dd822",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/4d/76/a4/ebb8fcd93d744d/WO2014100719A2.pdf"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000218_0001.png",
+      "bytes": 15157,
+      "sha256": "4873d21cde7ab64bf5ab8ca3977d1eafe3c48fa40417c37eb07b5967a1489a24",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/7d/ad/fa/d469897ad681b0/imgf000218_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000219_0001.png",
+      "bytes": 19438,
+      "sha256": "8a09682c222ee9df6b5bbf1f77192333eb406738319a9f5146ebcb8ca114cd3a",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/18/2f/d5/d05d4a94c7ab64/imgf000219_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000220_0001.png",
+      "bytes": 19079,
+      "sha256": "33b05a34c564e33b770b913d825d6361a71f43494da36db512119ab13f1ddf43",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/4c/fc/8d/c80cad36c6e2f6/imgf000220_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000221_0001.png",
+      "bytes": 19985,
+      "sha256": "bca3b5b0e0adf3c4220d1227b5225bce59077dc203e85df076a5ac1b72a4c5f8",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/e4/e5/6f/9bd798adb3eb07/imgf000221_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000222_0001.png",
+      "bytes": 19542,
+      "sha256": "55812bc3494eaac9c57122dd331aa9caed885ae1f43e99563a8401d30d87d84c",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/3c/00/25/8c705b9c1674a8/imgf000222_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000223_0001.png",
+      "bytes": 19350,
+      "sha256": "8ed67155375a88cce04d2b8151ad88bc2fd9deffafc13a560f1ce9617c5839d0",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/22/9e/b1/3daca80d87a362/imgf000223_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000224_0001.png",
+      "bytes": 19274,
+      "sha256": "00866f16e89da4352a7311bd4bb36c95f132bab5bb785b24c32426cbe801f3ef",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/78/42/91/22e018f069c0e0/imgf000224_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000225_0001.png",
+      "bytes": 20444,
+      "sha256": "8b8520815783d90abb9a1d940c8615bcab90e77c9047f9a0e8786143f009db75",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/1d/bd/66/76ac12b4f1f9d2/imgf000225_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000226_0001.png",
+      "bytes": 21213,
+      "sha256": "9b4a62ddc3fd90574f8645c46481170a2d94c597e7747cb593e20f6a706a87e6",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/bd/a2/49/b006239078a487/imgf000226_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1/imgf000227_0001.png",
+      "bytes": 12311,
+      "sha256": "773247463f36b268ce0f75e49c3b57c6609be667b5caabc85cbd0f94f849e336",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/b5/4f/34/8bed12a029c168/imgf000227_0001.png"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1.html",
+      "bytes": 1303694,
+      "sha256": "1bf9bec2bfd0ee038887f7e1d97cf3d83facb8e2f18e191879002d903041bb4f",
+      "role": "source_original",
+      "url": "https://patents.google.com/patent/WO2014100730A1/en"
+    },
+    {
+      "path": "data/curation/epizyme/raw/WO2014100730A1.pdf",
+      "bytes": 10899625,
+      "sha256": "5a55f1a5e5c71529add620c4d7040451a9288afe097a2ddd05aa4710719435a2",
+      "role": "source_original",
+      "url": "https://patentimages.storage.googleapis.com/ff/8d/f6/291fdcffe99fe3/WO2014100730A1.pdf"
+    },
+    {
+      "path": "data/curation/epizyme/results/epizyme_activity_curation.csv",
+      "bytes": 942173,
+      "sha256": "f22c79b567a1167642144a308be75c1cde8386d655f98da55308cc658c530711",
+      "role": "curated_output"
+    },
+    {
+      "path": "data/curation/epizyme/results/epizyme_conservative_rows.csv",
+      "bytes": 279247,
+      "sha256": "a02c298ae8177a2e41df6e6486a4049607a65b7024578b24c0bac1e83723091d",
+      "role": "curated_output"
+    },
+    {
+      "path": "data/curation/epizyme/results/epizyme_conservative_parents.csv",
+      "bytes": 277660,
+      "sha256": "42b0d947de46892d3d1cf58c5d3e75f2ec2f61a9d850e94a1e142e0a7fcd6cf9",
+      "role": "curated_output"
+    },
+    {
+      "path": "data/curation/epizyme/results/epizyme_protocols.json",
+      "bytes": 10269,
+      "sha256": "86b0ce2bbc12fa42cb90dce4b586a76823f9c2452517f0cd9b18206a96cfd59d",
+      "role": "curated_output"
+    },
+    {
+      "path": "data/curation/epizyme/results/epizyme_curation_summary.json",
+      "bytes": 16399,
+      "sha256": "4bc9416609c3b12021a8a75a21f7109b733283a9bb640562ee8609d1915f45b9",
+      "role": "curated_output"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5726447_000000.json",
+      "bytes": 78338,
+      "sha256": "5e9d535bf60368518943319930c991e03855c70a48fba92cc23f9b02055e54f0",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5726368_000000.json",
+      "bytes": 69500,
+      "sha256": "74d1cd9789ed807cd9f4f8b2ef99151f189597b987ccbbc8941fd50d5020ce45",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5725999_000000.json",
+      "bytes": 7793,
+      "sha256": "3bc19b8a8e42c1d7c3bfbd25928c92593ee042e976c75ebc7f647cd5e1bc552c",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5727045_000000.json",
+      "bytes": 181544,
+      "sha256": "e67c56a7c9a5937774fbfe2418be835dd7d9636f15c0fd258fe0321bafad337a",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5727264_000000.json",
+      "bytes": 100176,
+      "sha256": "3980f9df77faf563dce5de08f4b164c2e95ab79cb3535c94fd0618692ff13956",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/raw/compound_records_CHEMBL5728403_000000.json",
+      "bytes": 99897,
+      "sha256": "d513f7ca18265f85ef053f5cdf0db6f0b3ae7c11be3018584e2893a074f93425",
+      "role": "chembl_source_identifier_crosswalk"
+    },
+    {
+      "path": "data/curation/epizyme/results/reproduction_receipt.json",
+      "bytes": 1100,
+      "sha256": "eaf8bc410d305d42d525b962a5e648c8d5a6e26b97f298d4a2550fa4bf23a01c",
+      "role": "two_run_offline_engineering_verification"
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "status": "VALIDATION_MODELS_READY",
+  "candidate_count": 10,
+  "candidate_fit_repetitions": 2,
+  "train_n": 604,
+  "validation_n": 70,
+  "training_label_counts": {
+    "1": 164,
+    "0": 440
+  },
+  "training_class_weights": {
+    "0": 0.6863636363636364,
+    "1": 1.8414634146341464
+  },
+  "fingerprint_policy": {
+    "radius": 2,
+    "bits": 2048,
+    "primary_chirality": false,
+    "sensitivity_chirality": true
+  },
+  "logistic_penalty": "L2 (sklearn1.9 l1_ratio=0)",
+  "scaler_policy": "fingerprint baselines unscaled; encoder-head scaler is train-only in benchmark_common",
+  "scored_splits": [
+    "validation"
+  ],
+  "test_scored": false,
+  "candidates": [
+    {
+      "candidate_id": "constant_prevalence",
+      "family": "constant_prevalence",
+      "chirality": false,
+      "params": {},
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.5571428571428572,
+        "roc_auc": 0.5,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.271523178807947,
+          "strictly_above_count": 0,
+          "strictly_above_hits": 0,
+          "boundary_tie_count": 70,
+          "boundary_tie_hits": 39,
+          "slots_in_boundary_tie": 7,
+          "expected_hits": 3.9,
+          "minimum_hits": 0,
+          "maximum_hits": 7,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "0708b84ee98fb177",
+            "0ce507b60b1829b2",
+            "0eb25d88f4889b10",
+            "100bceaa9b96cede",
+            "178020c1ceab4bda",
+            "1b688f4ed135ae71",
+            "1e66313e780eebc2"
+          ],
+          "deterministic_hits": 1,
+          "arbitrary_order_within_boundary_tie": true,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 1.2797465869953157,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "constant_prevalence.joblib",
+      "validation_prediction_file": "constant_prevalence_validation.csv",
+      "model_parameters": {}
+    },
+    {
+      "candidate_id": "five_neighbor",
+      "family": "five_neighbor",
+      "chirality": false,
+      "params": {
+        "k": 5
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.563899063899064,
+        "roc_auc": 0.5086848635235732,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.4,
+          "strictly_above_count": 0,
+          "strictly_above_hits": 0,
+          "boundary_tie_count": 9,
+          "boundary_tie_hits": 5,
+          "slots_in_boundary_tie": 7,
+          "expected_hits": 3.888888888888889,
+          "minimum_hits": 3,
+          "maximum_hits": 5,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "6c175d1a904285df",
+            "938903831db1ea17",
+            "a19c5f35fcd0f20e",
+            "b40d4cb1d72a6f53",
+            "c0aee6766ff102b7",
+            "cfbd55c8d64dda17",
+            "d4829a9220173633"
+          ],
+          "deterministic_hits": 4,
+          "arbitrary_order_within_boundary_tie": true,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 0.7034386569866911,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "five_neighbor.joblib",
+      "validation_prediction_file": "five_neighbor_validation.csv",
+      "model_parameters": {
+        "k": 5
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_C0p1",
+      "family": "fingerprint_logistic",
+      "chirality": false,
+      "params": {
+        "C": 0.1
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.6313343575971815,
+        "roc_auc": 0.5405293631100083,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.28963276673973976,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 4,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 5.0,
+          "minimum_hits": 5,
+          "maximum_hits": 5,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "0eb25d88f4889b10",
+            "2c64c9517b9395f6",
+            "d83c613142c2e04c",
+            "2fcbac51773bc029",
+            "d9938df54258b2b5",
+            "790321887f7225a7"
+          ],
+          "deterministic_hits": 5,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 0.7396814439998707,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_C0p1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_C0p1_validation.csv",
+      "model_parameters": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_C1",
+      "family": "fingerprint_logistic",
+      "chirality": false,
+      "params": {
+        "C": 1
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.5672057613536001,
+        "roc_auc": 0.45698924731182794,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.14853583842779472,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 3,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 4.0,
+          "minimum_hits": 4,
+          "maximum_hits": 4,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "f632caf8d191a3c6",
+            "6c175d1a904285df",
+            "0eb25d88f4889b10",
+            "2c64c9517b9395f6",
+            "d83c613142c2e04c",
+            "790321887f7225a7"
+          ],
+          "deterministic_hits": 4,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 1.13872298100614,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_C1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_C1_validation.csv",
+      "model_parameters": {
+        "C": 1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_C10",
+      "family": "fingerprint_logistic",
+      "chirality": false,
+      "params": {
+        "C": 10
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.5562073321546709,
+        "roc_auc": 0.4545078577336642,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.05346197515185964,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 3,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 4.0,
+          "minimum_hits": 4,
+          "maximum_hits": 4,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "6c175d1a904285df",
+            "f632caf8d191a3c6",
+            "790321887f7225a7",
+            "8e2b635bdefb5faf",
+            "5e4782a25dc2ea5c",
+            "ff585857cfcfc42d"
+          ],
+          "deterministic_hits": 4,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 1.1194975230027921,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_C10.joblib",
+      "validation_prediction_file": "fingerprint_logistic_C10_validation.csv",
+      "model_parameters": {
+        "C": 10,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_chiral_C0p1",
+      "family": "fingerprint_logistic_chiral",
+      "chirality": true,
+      "params": {
+        "C": 0.1
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.6271699461264469,
+        "roc_auc": 0.5355665839536807,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.2768003351896282,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 3,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 4.0,
+          "minimum_hits": 4,
+          "maximum_hits": 4,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "0eb25d88f4889b10",
+            "2c64c9517b9395f6",
+            "d83c613142c2e04c",
+            "2fcbac51773bc029",
+            "5d7392cd81172fe4",
+            "790321887f7225a7"
+          ],
+          "deterministic_hits": 4,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 0.7175298289948842,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_chiral_C0p1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_chiral_C0p1_validation.csv",
+      "model_parameters": {
+        "C": 0.1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_chiral_C1",
+      "family": "fingerprint_logistic_chiral",
+      "chirality": true,
+      "params": {
+        "C": 1
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.586671171386,
+        "roc_auc": 0.46443341604631927,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.10299244982504052,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 4,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 5.0,
+          "minimum_hits": 5,
+          "maximum_hits": 5,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "f632caf8d191a3c6",
+            "cfbd55c8d64dda17",
+            "0eb25d88f4889b10",
+            "2c64c9517b9395f6",
+            "d83c613142c2e04c",
+            "790321887f7225a7"
+          ],
+          "deterministic_hits": 5,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 1.1274354289926123,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_chiral_C1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_chiral_C1_validation.csv",
+      "model_parameters": {
+        "C": 1,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "fingerprint_logistic_chiral_C10",
+      "family": "fingerprint_logistic_chiral",
+      "chirality": true,
+      "params": {
+        "C": 10
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.5772654668029036,
+        "roc_auc": 0.4561621174524401,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.008287801570294222,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 3,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 4.0,
+          "minimum_hits": 4,
+          "maximum_hits": 4,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "c5a81366bc5c0cae",
+            "5e4782a25dc2ea5c",
+            "ff585857cfcfc42d",
+            "f632caf8d191a3c6",
+            "6c175d1a904285df",
+            "8e2b635bdefb5faf",
+            "790321887f7225a7"
+          ],
+          "deterministic_hits": 4,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 1.0279388950002613,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "fingerprint_logistic_chiral_C10.joblib",
+      "validation_prediction_file": "fingerprint_logistic_chiral_C10_validation.csv",
+      "model_parameters": {
+        "C": 10,
+        "class_weight": "balanced",
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 5000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 17,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "random_forest_leaf2",
+      "family": "random_forest",
+      "chirality": false,
+      "params": {
+        "min_samples_leaf": 2
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.6809419112027291,
+        "roc_auc": 0.6033912324234906,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.3161341829246324,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 5,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 6.0,
+          "minimum_hits": 6,
+          "maximum_hits": 6,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "d9938df54258b2b5",
+            "9718241ea98ad1de",
+            "790321887f7225a7",
+            "451da5ae341c8e57",
+            "d1827c548e86d676",
+            "edcbcf25559fbe4d",
+            "91252365f0644a57"
+          ],
+          "deterministic_hits": 6,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 6.749781406004331,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "random_forest_leaf2.joblib",
+      "validation_prediction_file": "random_forest_leaf2_validation.csv",
+      "model_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 500,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 17,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "candidate_id": "random_forest_leaf5",
+      "family": "random_forest",
+      "chirality": false,
+      "params": {
+        "min_samples_leaf": 5
+      },
+      "fitted_split": "train",
+      "fitted_n": 604,
+      "selected_on_split": "validation",
+      "scored_splits": [
+        "validation"
+      ],
+      "validation": {
+        "n": 70,
+        "positive": 39,
+        "negative": 31,
+        "prevalence": 0.5571428571428572,
+        "average_precision": 0.6837720894996161,
+        "roc_auc": 0.5934656741108354,
+        "single_class": false,
+        "screening": {
+          "fraction": 0.1,
+          "k": 7,
+          "boundary_score": 0.3718539797269615,
+          "strictly_above_count": 6,
+          "strictly_above_hits": 5,
+          "boundary_tie_count": 1,
+          "boundary_tie_hits": 1,
+          "slots_in_boundary_tie": 1,
+          "expected_hits": 6.0,
+          "minimum_hits": 6,
+          "maximum_hits": 6,
+          "random_selection_expected_hits": 3.9,
+          "deterministic_ids": [
+            "d1827c548e86d676",
+            "790321887f7225a7",
+            "d9938df54258b2b5",
+            "9718241ea98ad1de",
+            "8e2b635bdefb5faf",
+            "451da5ae341c8e57",
+            "91252365f0644a57"
+          ],
+          "deterministic_hits": 6,
+          "arbitrary_order_within_boundary_tie": false,
+          "ordering_rule": "descending score, then lexicographic compound_id; ID order is arbitrary within ties",
+          "expected_hits_interpretation": "fractional expectation over boundary-tie order, not an observed integer count"
+        }
+      },
+      "runtime_seconds": 5.260545871991781,
+      "cpu_repeated_fit_max_abs_difference": 0.0,
+      "cpu_repeated_fit_atol": 1e-12,
+      "cpu_repeated_fit_rtol": 0,
+      "model_file": "random_forest_leaf5.joblib",
+      "validation_prediction_file": "random_forest_leaf5_validation.csv",
+      "model_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 500,
+        "n_jobs": 1,
+        "oob_score": false,
+        "random_state": 17,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  ],
+  "selected": {
+    "constant_prevalence": {
+      "candidate_id": "constant_prevalence",
+      "params": {},
+      "chirality": false,
+      "model_file": "constant_prevalence.joblib",
+      "validation_prediction_file": "constant_prevalence_validation.csv",
+      "validation_average_precision": 0.5571428571428572,
+      "threshold": 0.2715231788079471,
+      "validation_threshold_metrics": {
+        "threshold": 0.2715231788079471,
+        "n": 70,
+        "tp": 0,
+        "fn": 39,
+        "fp": 0,
+        "tn": 31,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "balanced_accuracy": 0.5
+      }
+    },
+    "five_neighbor": {
+      "candidate_id": "five_neighbor",
+      "params": {
+        "k": 5
+      },
+      "chirality": false,
+      "model_file": "five_neighbor.joblib",
+      "validation_prediction_file": "five_neighbor_validation.csv",
+      "validation_average_precision": 0.563899063899064,
+      "threshold": 0.2,
+      "validation_threshold_metrics": {
+        "threshold": 0.2,
+        "n": 70,
+        "tp": 24,
+        "fn": 15,
+        "fp": 18,
+        "tn": 13,
+        "sensitivity": 0.6153846153846154,
+        "specificity": 0.41935483870967744,
+        "balanced_accuracy": 0.5173697270471465
+      }
+    },
+    "fingerprint_logistic": {
+      "candidate_id": "fingerprint_logistic_C0p1",
+      "params": {
+        "C": 0.1
+      },
+      "chirality": false,
+      "model_file": "fingerprint_logistic_C0p1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_C0p1_validation.csv",
+      "validation_average_precision": 0.6313343575971815,
+      "threshold": 0.21897391340860575,
+      "validation_threshold_metrics": {
+        "threshold": 0.21897391340860575,
+        "n": 70,
+        "tp": 16,
+        "fn": 23,
+        "fp": 7,
+        "tn": 24,
+        "sensitivity": 0.41025641025641024,
+        "specificity": 0.7741935483870968,
+        "balanced_accuracy": 0.5922249793217536
+      }
+    },
+    "fingerprint_logistic_chiral": {
+      "candidate_id": "fingerprint_logistic_chiral_C0p1",
+      "params": {
+        "C": 0.1
+      },
+      "chirality": true,
+      "model_file": "fingerprint_logistic_chiral_C0p1.joblib",
+      "validation_prediction_file": "fingerprint_logistic_chiral_C0p1_validation.csv",
+      "validation_average_precision": 0.6271699461264469,
+      "threshold": 0.2067380674800397,
+      "validation_threshold_metrics": {
+        "threshold": 0.2067380674800397,
+        "n": 70,
+        "tp": 17,
+        "fn": 22,
+        "fp": 7,
+        "tn": 24,
+        "sensitivity": 0.4358974358974359,
+        "specificity": 0.7741935483870968,
+        "balanced_accuracy": 0.6050454921422663
+      }
+    },
+    "random_forest": {
+      "candidate_id": "random_forest_leaf5",
+      "params": {
+        "min_samples_leaf": 5
+      },
+      "chirality": false,
+      "model_file": "random_forest_leaf5.joblib",
+      "validation_prediction_file": "random_forest_leaf5_validation.csv",
+      "validation_average_precision": 0.6837720894996161,
+      "threshold": 0.34489538529441066,
+      "validation_threshold_metrics": {
+        "threshold": 0.34489538529441066,
+        "n": 70,
+        "tp": 16,
+        "fn": 23,
+        "fp": 6,
+        "tn": 25,
+        "sensitivity": 0.41025641025641024,
+        "specificity": 0.8064516129032258,
+        "balanced_accuracy": 0.608354011579818
+      }
+    }
+  },
+  "strongest_primary_classical_baseline": "random_forest",
+  "strongest_classical_tie_rule": "highest validation AP; exact ties use lexicographic family name; chiral sensitivity excluded",
+  "selection_rules": {
+    "logistic": "highest validation AP; smaller C on exact ties",
+    "forest": "highest validation AP; larger leaf on exact ties",
+    "threshold": "maximum validation balanced accuracy; higher threshold on exact ties"
+  },
+  "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "bindings": {
+    "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+    "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+    "cohort_gate_sha256": "08fa20806f03f63b5292c03c0e44b274b4dd709ed214b888916b9b16c266b764",
+    "encoder_preflight_sha256": "28265a62504ce1c121210599c458a59a8d870e55cfaf8343372a95e200a40341",
+    "encoder_input_gate_sha256": "5a17f76e2037e0fb0c384866fd6728dc2c2514a60e94de79a46e33be3539e94a"
+  },
+  "completion_input_bindings": {
+    "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+    "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+    "cohort_gate_sha256": "08fa20806f03f63b5292c03c0e44b274b4dd709ed214b888916b9b16c266b764",
+    "encoder_preflight_sha256": "28265a62504ce1c121210599c458a59a8d870e55cfaf8343372a95e200a40341",
+    "encoder_input_gate_sha256": "5a17f76e2037e0fb0c384866fd6728dc2c2514a60e94de79a46e33be3539e94a"
+  },
+  "input_preflight_scope": "input gate PASS; encoder runtime status does not gate CPU models",
+  "input_preflight_overall_status_at_start": "INPUT_PASS_RUNTIME_PENDING",
+  "started_utc": "2026-10-16T06:31:22.225660+00:00",
+  "completed_utc": "2026-10-16T06:31:43.067379+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "rdkit": "2026.09.1",
+    "joblib": "1.6.0",
+    "threadpool_limit": 1,
+    "random_forest_n_jobs": 1
+  },
+  "code_sha256": {
+    "benchmark_common.py": "092266544dd05abb8d72ef4a3dfc06de03ba1246ddb6d9f980efb3f78396a1bd",
+    "train_baselines.py": "df357665aa52c45725f3ddd93d2d860805e079dbcdd8184a80311956411fa5d1",
+    "test_benchmark.py": "c37269c38fe214e0a54847464a9e029f7c42d27b6993326a5376087fc97c03e6"
+  },
+  "sealed_artifacts": "data/models/baselines/SEALED.json",
+  "sealed_artifacts_sha256": "a838600a7d70fa7594b4d398f3090d027fc43ca54bcd1f86b59e115468fa9d15"
+}

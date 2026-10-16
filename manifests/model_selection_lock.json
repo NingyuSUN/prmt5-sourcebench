@@ -1,0 +1,139 @@
+{
+  "classical_comparator": "random_forest",
+  "code_sha256": {
+    "scripts/benchmark_common.py": "092266544dd05abb8d72ef4a3dfc06de03ba1246ddb6d9f980efb3f78396a1bd",
+    "scripts/evaluate_locked.py": "800599954fa7443267d39580b754f406d1e41a1b5a578cc86fef46eccfb685ff",
+    "scripts/predict_locked.py": "bcdc211d7366aaee5977ff5d56a6fc0e6d68aef5a6e113790f4fb545e5ddd75f",
+    "scripts/prepare_encoder.py": "00791403337d086ec3e4d404f9f7f6c729d65fab3e353af4d06f3272e74447bf",
+    "scripts/selection_lock.py": "f9d3aff69e053b4b6f5db3032b7abcffb113ea8572c88492f0faeb7cff5711e4",
+    "scripts/train_encoder.py": "6b493a02a0d89554f7b17151fab776f9d7df9081152463177cdf041e8e8f6920"
+  },
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "development_artifacts": {
+    "data/models/baselines/RUNNING.json": "17e5d1ef22436467e9f12a15ef12354ea68c792337a73a7fa6dbad221aa49151",
+    "data/models/baselines/SEALED.json": "a838600a7d70fa7594b4d398f3090d027fc43ca54bcd1f86b59e115468fa9d15",
+    "data/models/baselines/constant_prevalence.joblib": "a095d797c69b2c19dc0a229c2a3f47e1c399a9b77c203f98c6dd14de98e64a3d",
+    "data/models/baselines/constant_prevalence_validation.csv": "bf60954a6bd04470f5129ee177a0d1ac80ffb6d06fe24326f26f49776bf0cdfa",
+    "data/models/baselines/fingerprint_logistic_C0p1.joblib": "3dab97f80bd1131ec00ea3d3eae1dccdb175cdcf2a8ad8e04163ebe662c9ec46",
+    "data/models/baselines/fingerprint_logistic_C0p1_validation.csv": "10559e25814160faabfbf631d76c3342c2617296827a4e93aaf6f7796c34fc77",
+    "data/models/baselines/fingerprint_logistic_C1.joblib": "7fcf367d2ffe72dccb9a494b8b7feb5769af9b964d023285730d67380f1a6e33",
+    "data/models/baselines/fingerprint_logistic_C10.joblib": "9cafa435d51f89c5de1be0b5afefd11355ece4297d56f0da33962459406e6f21",
+    "data/models/baselines/fingerprint_logistic_C10_validation.csv": "224b472c87695b628c1bb91cd8a20d3be18a77195aa3c24a3407fb7f7303337c",
+    "data/models/baselines/fingerprint_logistic_C1_validation.csv": "ebbccb22fa64f45e13bfb4ff8846e5504f26bdc65e17e890aa248c1d4dcfacb5",
+    "data/models/baselines/fingerprint_logistic_chiral_C0p1.joblib": "0bd8c09173e7f09f471e427d9941bc960e9aad85c0f717bc24d5cb8340ba28c0",
+    "data/models/baselines/fingerprint_logistic_chiral_C0p1_validation.csv": "7f373a4dfce30d732539c17e72993483d10df1785e9153882d593dbfd00750b1",
+    "data/models/baselines/fingerprint_logistic_chiral_C1.joblib": "962a81bf51ce5fd2c4df933b0ef3295913691ce76b3cbab77bcd55b0bd88fa16",
+    "data/models/baselines/fingerprint_logistic_chiral_C10.joblib": "6a6ed694143271c06c462845caced86f540915ba7a496f692a20bf357276b3c6",
+    "data/models/baselines/fingerprint_logistic_chiral_C10_validation.csv": "94a5cac18ddd3fdcea8f219198ac1e6cf3ae5d9b0ca8f26d04e9b08e7e521af2",
+    "data/models/baselines/fingerprint_logistic_chiral_C1_validation.csv": "bde7c0cfbbe4459341168bee86266ac9bbf373d19b0bf55ed78f6197a3652cb1",
+    "data/models/baselines/five_neighbor.joblib": "ecb309eda622892be241e0a3295af98cf3718039a649d5152b9729b4c5df9af2",
+    "data/models/baselines/five_neighbor_validation.csv": "555f50d496fed85d6031fdab0105b7ba25dd68e385b69c2617d4fb4dbd37376d",
+    "data/models/baselines/input_preflight_at_start.json": "28265a62504ce1c121210599c458a59a8d870e55cfaf8343372a95e200a40341",
+    "data/models/baselines/random_forest_leaf2.joblib": "3831ffb5f907cbeb3265c3ef50bd7d871f17405fcd24147e721aa2b5d7f8cefc",
+    "data/models/baselines/random_forest_leaf2_validation.csv": "e2b2a561d4b0ca87e62da087b6e7980c9ac0c726f3090f15de878f09cef13637",
+    "data/models/baselines/random_forest_leaf5.joblib": "3c1d674205a14d57064465f5327b193037f5be651714d4baa96f1693115e8cc4",
+    "data/models/baselines/random_forest_leaf5_validation.csv": "989fa3252e78bb8a0a9168faf803197444a6ad62fe1085cbc1a5d6f4e2a3fc27",
+    "data/models/baselines/validation_baselines.json": "5242023c68bb39cd953230b4dda60308baf6c436485416f19666cfef6f19b651",
+    "data/models/encoder/adapted_validation_predictions.csv": "7a4a7775b8b5ba90497dd1e0da5c6317af2ccb6a4b69ec0a818bdce2cf33151f",
+    "data/models/encoder/encoder_development.json": "b2dbc685c70877c10343e9309e8100c3874ca3e10ec68689d5249c2444dee3db",
+    "data/models/encoder/frozen_head.json": "a08a665ed862d63adaef07d97d9734df0e0d25f5e846c92500b5d0da602c92eb",
+    "data/models/encoder/frozen_head.npz": "de14773f17b266bbd21321324024aa6056cb7db0a42d895f2b4d1fe1f219c48b",
+    "data/models/encoder/frozen_validation_predictions.csv": "4c2df37e43674d5b65cacf76726685ecf85f595b55c0cdc23713aa52f5070e61",
+    "data/models/encoder/lr_1e-05/seed_17/best.pt": "54dcdfde1701f46ccb2fb2c80a4a3426b1c5e71ed364a347a56e404beb4a1d08",
+    "data/models/encoder/lr_1e-05/seed_17/last.pt": "d7e17c63d8d70cd39ac61d204f9d9be6dadd6d3ff8b2a0e3a76dfdaaf68fb63e",
+    "data/models/encoder/lr_1e-05/seed_17/trajectory.json": "1c47fb68ab5045ed64819ee79f8df18521f74a0bd5928ae2d618cf6a5a06ef35",
+    "data/models/encoder/lr_1e-05/seed_17/trial.json": "e0c22b94196d340797d0d02f380de9e67a2b065c5679c92cb707339f0e1be2ca",
+    "data/models/encoder/lr_1e-05/seed_17/validation_predictions.csv": "8f8965937a6bfe6d866588ae4e4ff1dac99185e7e1f28aeced585b676d1c44b4",
+    "data/models/encoder/lr_1e-05/seed_29/best.pt": "8de98dcbfede9e829bc262c96d4204452d5810b8a7562429a3d4f1ca9ba3311d",
+    "data/models/encoder/lr_1e-05/seed_29/last.pt": "dbe5d75a88007eb0d257feba6eb98d445346ec3e444aacbcd0d13ce851a32d02",
+    "data/models/encoder/lr_1e-05/seed_29/trajectory.json": "06cab44adb0c1b49bff8244dc1a711d3cb6c96091c1f949101bc6fd2ae6848d8",
+    "data/models/encoder/lr_1e-05/seed_29/trial.json": "b0bf7500e9065cc95ed293c14ff2c5e5a44f1f56e9f204424f361c6a80343ecb",
+    "data/models/encoder/lr_1e-05/seed_29/validation_predictions.csv": "59818a474a8cf2d1bcc36b6ab3cf8c0f1d0df9ccc3c729826b1cc16d5f513553",
+    "data/models/encoder/lr_1e-05/seed_43/best.pt": "310bc9a9f52fb0fbe62eee9c9f521d6e545dfcb0aec8ca3e1562af83dad38785",
+    "data/models/encoder/lr_1e-05/seed_43/last.pt": "4f82f612196dd9feaa5c98da4f453cd8406cc92b69489f3653eafb912fc1ad57",
+    "data/models/encoder/lr_1e-05/seed_43/trajectory.json": "2f1ceb0bec003c7afc67adf7825184cb80c4ae01449c4b38b066d41c01eaac25",
+    "data/models/encoder/lr_1e-05/seed_43/trial.json": "2e1eec40321695cbb6e5b4ca1bb30e32d4a9308383250c6f034fa48676c92f1f",
+    "data/models/encoder/lr_1e-05/seed_43/validation_predictions.csv": "eb012f316c91516117f5e18eb007b7c13829d54cd7632b6b73c5e7ad87dca12f",
+    "data/models/encoder/lr_3e-05/seed_17/best.pt": "4a81b68b8c43ea86dd171236b626d6ea1474cfa1f4d959c42c9cd38184671137",
+    "data/models/encoder/lr_3e-05/seed_17/last.pt": "877d2003220074d8af717ea6a1994b889a3e48bff041bc74843609266ed12116",
+    "data/models/encoder/lr_3e-05/seed_17/trajectory.json": "61b7d134684774c18696465c9ff1000c85e5977fd6ce0fc6699b6b9e1c906b98",
+    "data/models/encoder/lr_3e-05/seed_17/trial.json": "6df9a8a6d61ef1d735d6d54bf35898a07d2b31a9c6384b78c9138baba9c39680",
+    "data/models/encoder/lr_3e-05/seed_17/validation_predictions.csv": "6719b6fa4d43d7e4a5e81c7d433ef9e8694991b225ceabd916b4009808695734",
+    "data/models/encoder/lr_3e-05/seed_29/best.pt": "1699263cceb68994458d5cd77581d0eb2d0e270b3ec5781fc88fe026fe00ee08",
+    "data/models/encoder/lr_3e-05/seed_29/last.pt": "4685dbb01f956d3a7d7c4a287bdababeebfdb479e75deab7dce7ad25a90225eb",
+    "data/models/encoder/lr_3e-05/seed_29/trajectory.json": "f3a915defc6716175212b46723e6738c4d956c7b8bd9a65db5e32257c16b8435",
+    "data/models/encoder/lr_3e-05/seed_29/trial.json": "aed65de0468c0adcc846e2248f2bab68dae18e31042b16cbbe4d500e3eb7fd59",
+    "data/models/encoder/lr_3e-05/seed_29/validation_predictions.csv": "2d9c1616c2c125403e2da5ecb89f241d4160259ae213f81ccc59c6cfdbee163e",
+    "data/models/encoder/lr_3e-05/seed_43/best.pt": "28dd31350cfb7cfeaa3fafa6b552647f9e50a20c4cafa0adfb693afcbd27daf0",
+    "data/models/encoder/lr_3e-05/seed_43/last.pt": "1c01878577ca9f751351f8b5ae28263305f407ac309e866d5c0f3f7c5ee7e0f8",
+    "data/models/encoder/lr_3e-05/seed_43/trajectory.json": "dda05dc4c7054273be63578c32f45db8b551e82964bd9ea88147014f93d76137",
+    "data/models/encoder/lr_3e-05/seed_43/trial.json": "91dcc4d616ebc33560864a4d15795f8a216d061d71809dc63e2288c43fba34b5",
+    "data/models/encoder/lr_3e-05/seed_43/validation_predictions.csv": "24c6a1b6086817ae3bce98fbda9d056f7719b6452f655a351101ecf2635d6cea",
+    "reports/models/encoder_preflight.json": "fdca809c1cfccb43e6166c67402caf1b5116a8e46c0d35cb8cd40b27905beca0"
+  },
+  "locked_at_utc": "2026-10-16T07:04:57.274345+00:00",
+  "models": {
+    "adapted_encoder": {
+      "checkpoint_paths": [
+        "data/models/encoder/lr_1e-05/seed_17/best.pt",
+        "data/models/encoder/lr_1e-05/seed_29/best.pt",
+        "data/models/encoder/lr_1e-05/seed_43/best.pt"
+      ],
+      "head_path": "data/models/encoder/frozen_head.npz",
+      "kind": "adapted_encoder",
+      "learning_rate": 1e-05,
+      "model_asset_sha": "33a5d6b04f24d22e58317df92c59aca82a2fb67b45b95f40f5780e9e5af46c7c",
+      "prediction_rule": "mean_probability_all_three_selected_seeds",
+      "seeds": [
+        17,
+        29,
+        43
+      ],
+      "validation_threshold": 0.3405372992086493
+    },
+    "constant_prevalence": {
+      "candidate_id": "constant_prevalence",
+      "chirality": false,
+      "kind": "baseline",
+      "model_relative_path": "data/models/baselines/constant_prevalence.joblib",
+      "validation_threshold": 0.2715231788079471
+    },
+    "fingerprint_logistic": {
+      "candidate_id": "fingerprint_logistic_C0p1",
+      "chirality": false,
+      "kind": "baseline",
+      "model_relative_path": "data/models/baselines/fingerprint_logistic_C0p1.joblib",
+      "validation_threshold": 0.21897391340860575
+    },
+    "fingerprint_logistic_chiral": {
+      "candidate_id": "fingerprint_logistic_chiral_C0p1",
+      "chirality": true,
+      "kind": "baseline",
+      "model_relative_path": "data/models/baselines/fingerprint_logistic_chiral_C0p1.joblib",
+      "validation_threshold": 0.2067380674800397
+    },
+    "five_neighbor": {
+      "candidate_id": "five_neighbor",
+      "chirality": false,
+      "kind": "baseline",
+      "model_relative_path": "data/models/baselines/five_neighbor.joblib",
+      "validation_threshold": 0.2
+    },
+    "frozen_encoder": {
+      "head_path": "data/models/encoder/frozen_head.npz",
+      "kind": "frozen_encoder",
+      "model_asset_sha": "33a5d6b04f24d22e58317df92c59aca82a2fb67b45b95f40f5780e9e5af46c7c",
+      "selected_C": 1.0,
+      "validation_threshold": 0.7511197415572706
+    },
+    "random_forest": {
+      "candidate_id": "random_forest_leaf5",
+      "chirality": false,
+      "kind": "baseline",
+      "model_relative_path": "data/models/baselines/random_forest_leaf5.joblib",
+      "validation_threshold": 0.34489538529441066
+    }
+  },
+  "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "status": "MODEL_SELECTION_LOCKED"
+}

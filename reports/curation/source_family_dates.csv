@@ -1,0 +1,6 @@
+split,family_id,verified_publication,public_date_bound,parents,positive,earlier_family_publication_date,date_semantics
+train,50029211,US9745291B2,2017-08-29,271,109,2014-06-26,Conservative verified public-by bound; first disclosure for every pair unverified
+train,50001259,US9777008B2,2017-10-03,304,49,2014-06-26,Conservative verified public-by bound; first disclosure for every pair unverified
+train,50001260,US10150758B2,2018-12-11,29,6,2014-06-26,Conservative verified public-by bound; first disclosure for every pair unverified
+validation,67846363,WO2019173804A1,2019-09-12,70,39,2019-09-12,Original activity table verified; exhaustive worldwide pair-first search not performed
+test,75338422,US20210101892A1,2021-04-08,246,69,2021-04-08,Original activity table verified; exhaustive worldwide pair-first search not performed

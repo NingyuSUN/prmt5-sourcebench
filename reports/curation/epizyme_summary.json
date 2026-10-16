@@ -1,0 +1,530 @@
+{
+  "CHEMBL5732693": {
+    "patent": "US9777008B2",
+    "family": "50001259",
+    "all_IC50": {
+      "rows": 310,
+      "parents": 306,
+      "scaffolds": 171,
+      "row_labels": {
+        "0": 256,
+        "1": 49,
+        "null": 5
+      }
+    },
+    "table_rows": 310,
+    "source_bin_mapped_rows": 305,
+    "categories": {
+      "B": 116,
+      "C": 103,
+      "D": 16,
+      "E": 20,
+      "A": 49,
+      "null": 5,
+      "*": 1
+    },
+    "source_label_eligible": {
+      "rows": 305,
+      "parents": 304,
+      "scaffolds": 170,
+      "row_labels": {
+        "0": 256,
+        "1": 49
+      }
+    },
+    "early_A1": "US20140228343A1",
+    "early_A1_date": "2014-08-14",
+    "same_number_all3categories_in_early_A1": 310,
+    "exceptions": [
+      {
+        "activity_id": "27317918",
+        "compound_name": "1-(3,4-dihydroisoquinolin-2(1H)-yl)-3-(3-(4-methylpyridin-3-yl)phenoxy)propan-2-ol::US9777008, Compound 113::US9777008, Compound 123::US9777008, Compound 157",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27317948",
+        "compound_name": "1-(3,4-dihydroisoquinolin-2(1H)-yl)-3-(3-(4-methylpyridin-3-yl)phenoxy)propan-2-ol::US9777008, Compound 113::US9777008, Compound 123::US9777008, Compound 157",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27318050",
+        "compound_name": "1-(3,4-dihydroisoquinolin-2(1H)-yl)-3-(3-(4-methylpyridin-3-yl)phenoxy)propan-2-ol::US9777008, Compound 113::US9777008, Compound 123::US9777008, Compound 157",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "5500.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27318467",
+        "compound_name": "US9777008, Compound 296::US9777008, Compound 300",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "40000.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27318479",
+        "compound_name": "US9777008, Compound 296::US9777008, Compound 300",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      }
+    ]
+  },
+  "CHEMBL5732555": {
+    "patent": "US9745291B2",
+    "family": "50029211",
+    "all_IC50": {
+      "rows": 277,
+      "parents": 274,
+      "scaffolds": 98,
+      "row_labels": {
+        "0": 162,
+        "1": 110,
+        "null": 5
+      }
+    },
+    "table_rows": 278,
+    "source_bin_mapped_rows": 272,
+    "categories": {
+      "B": 91,
+      "C": 58,
+      "A": 110,
+      "D": 6,
+      "null": 5,
+      "E": 2,
+      "*": 5
+    },
+    "source_label_eligible": {
+      "rows": 272,
+      "parents": 271,
+      "scaffolds": 97,
+      "row_labels": {
+        "0": 162,
+        "1": 110
+      }
+    },
+    "early_A1": "US20140221345A1",
+    "early_A1_date": "2014-08-07",
+    "same_number_all3categories_in_early_A1": 191,
+    "exceptions": [
+      {
+        "activity_id": "27276317",
+        "compound_name": "US9745291, Compound 269::US9745291, Compound 45::US9765068, Compound 45",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "100.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27276707",
+        "compound_name": "US9745291, Compound 175::US9745291, Compound 251::US9765068, Compound 175",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "100.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27276935",
+        "compound_name": "US9745291, Compound 175::US9745291, Compound 251::US9765068, Compound 175",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27276986",
+        "compound_name": "US9745291, Compound 269::US9745291, Compound 45::US9765068, Compound 45",
+        "mapping_reasons": "multiple_aliases_have_conflicting_original_bins;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      },
+      {
+        "activity_id": "27277013",
+        "compound_name": "US9745291, Compound 278A",
+        "mapping_reasons": "compound_number_not_in_B2_table;no_unique_source_label",
+        "source_bin": null,
+        "chembl_value": "100.0",
+        "parent_binary_conflict": false
+      }
+    ]
+  },
+  "CHEMBL5733925": {
+    "patent": "US10307413B2",
+    "family": "49958717",
+    "all_IC50": {
+      "rows": 679,
+      "parents": 673,
+      "scaffolds": 194,
+      "row_labels": {
+        "1": 559,
+        "0": 120
+      }
+    },
+    "table_rows": 681,
+    "source_bin_mapped_rows": 679,
+    "categories": {
+      "A": 559,
+      "C": 21,
+      "B": 97,
+      "*": 2
+    },
+    "source_label_eligible": {
+      "rows": 672,
+      "parents": 666,
+      "scaffolds": 193,
+      "row_labels": {
+        "1": 553,
+        "0": 119
+      }
+    },
+    "early_A1": "US20140329794A1",
+    "early_A1_date": "2014-11-06",
+    "same_number_all3categories_in_early_A1": 274,
+    "exceptions": [
+      {
+        "activity_id": "27637547",
+        "compound_name": "US10307413, Compound 193::US10391089, Compound 193::US10980794, Cmpd No 232::US9675614, 193",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637835",
+        "compound_name": "US10307413, Compound 289::US10391089, Compound 289::US10980794, Cmpd No 289::US9675614, 289",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637853",
+        "compound_name": "US10307413, Compound 295::US10391089, Compound 295::US10980794, Cmpd No 295::US9675614, 295",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637877",
+        "compound_name": "US10307413, Compound 303::US10391089, Compound 303::US10980794, Cmpd No 303::US9675614, 303",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637883",
+        "compound_name": "US10307413, Compound 305::US10391089, Compound 305::US10980794, Cmpd No 305::US9675614, 305",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637895",
+        "compound_name": "US10307413, Compound 309::US10391089, Compound 309::US10980794, Cmpd No 309::US9675614, 309",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27637898",
+        "compound_name": "US10307413, Compound 310::US10391089, Compound 310::US10980794, Cmpd No 310::US9675614, 310",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      }
+    ]
+  },
+  "CHEMBL5734324": {
+    "patent": "US10391089B2",
+    "family": "49958717",
+    "all_IC50": {
+      "rows": 334,
+      "parents": 330,
+      "scaffolds": 123,
+      "row_labels": {
+        "1": 264,
+        "0": 70
+      }
+    },
+    "table_rows": 335,
+    "source_bin_mapped_rows": 334,
+    "categories": {
+      "A": 264,
+      "C": 9,
+      "B": 61
+    },
+    "source_label_eligible": {
+      "rows": 327,
+      "parents": 323,
+      "scaffolds": 122,
+      "row_labels": {
+        "1": 262,
+        "0": 65
+      }
+    },
+    "early_A1": "US20140329794A1",
+    "early_A1_date": "2014-11-06",
+    "same_number_all3categories_in_early_A1": 334,
+    "exceptions": [
+      {
+        "activity_id": "27730799",
+        "compound_name": "US10307413, Compound 193::US10391089, Compound 193::US10980794, Cmpd No 232::US9675614, 193",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731087",
+        "compound_name": "US10307413, Compound 289::US10391089, Compound 289::US10980794, Cmpd No 289::US9675614, 289",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731105",
+        "compound_name": "US10307413, Compound 295::US10391089, Compound 295::US10980794, Cmpd No 295::US9675614, 295",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731129",
+        "compound_name": "US10307413, Compound 303::US10391089, Compound 303::US10980794, Cmpd No 303::US9675614, 303",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731135",
+        "compound_name": "US10307413, Compound 305::US10391089, Compound 305::US10980794, Cmpd No 305::US9675614, 305",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731147",
+        "compound_name": "US10307413, Compound 309::US10391089, Compound 309::US10980794, Cmpd No 309::US9675614, 309",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "27731150",
+        "compound_name": "US10307413, Compound 310::US10391089, Compound 310::US10980794, Cmpd No 310::US9675614, 310",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      }
+    ]
+  },
+  "CHEMBL5736675": {
+    "patent": "US10980794B2",
+    "family": "49958717",
+    "all_IC50": {
+      "rows": 334,
+      "parents": 329,
+      "scaffolds": 123,
+      "row_labels": {
+        "1": 263,
+        "0": 71
+      }
+    },
+    "table_rows": 335,
+    "source_bin_mapped_rows": 334,
+    "categories": {
+      "A": 263,
+      "C": 9,
+      "B": 62
+    },
+    "source_label_eligible": {
+      "rows": 326,
+      "parents": 322,
+      "scaffolds": 122,
+      "row_labels": {
+        "1": 262,
+        "0": 64
+      }
+    },
+    "early_A1": "US20140329794A1",
+    "early_A1_date": "2014-11-06",
+    "same_number_all3categories_in_early_A1": 334,
+    "exceptions": [
+      {
+        "activity_id": "28315127",
+        "compound_name": "US10307413, Compound 193::US10391089, Compound 193::US10980794, Cmpd No 232::US9675614, 193",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315244",
+        "compound_name": "US10307413, Compound 193::US10391089, Compound 193::US10980794, Cmpd No 232::US9675614, 193",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315415",
+        "compound_name": "US10307413, Compound 289::US10391089, Compound 289::US10980794, Cmpd No 289::US9675614, 289",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315433",
+        "compound_name": "US10307413, Compound 295::US10391089, Compound 295::US10980794, Cmpd No 295::US9675614, 295",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315457",
+        "compound_name": "US10307413, Compound 303::US10391089, Compound 303::US10980794, Cmpd No 303::US9675614, 303",
+        "mapping_reasons": "",
+        "source_bin": "A",
+        "chembl_value": "100.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315463",
+        "compound_name": "US10307413, Compound 305::US10391089, Compound 305::US10980794, Cmpd No 305::US9675614, 305",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315475",
+        "compound_name": "US10307413, Compound 309::US10391089, Compound 309::US10980794, Cmpd No 309::US9675614, 309",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      },
+      {
+        "activity_id": "28315478",
+        "compound_name": "US10307413, Compound 310::US10391089, Compound 310::US10980794, Cmpd No 310::US9675614, 310",
+        "mapping_reasons": "",
+        "source_bin": "B",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": true
+      }
+    ]
+  },
+  "CHEMBL5731839": {
+    "patent": "US10150758B2",
+    "family": "50001260",
+    "all_IC50": {
+      "rows": 30,
+      "parents": 29,
+      "scaffolds": 18,
+      "row_labels": {
+        "0": 24,
+        "1": 6
+      }
+    },
+    "table_rows": 34,
+    "source_bin_mapped_rows": 30,
+    "categories": {
+      "B": 7,
+      "D": 2,
+      "A": 6,
+      "C": 13,
+      "E": 1,
+      "*": 1
+    },
+    "source_label_eligible": {
+      "rows": 30,
+      "parents": 29,
+      "scaffolds": 18,
+      "row_labels": {
+        "0": 24,
+        "1": 6
+      }
+    },
+    "early_A1": "US20140213582A1",
+    "early_A1_date": "2014-07-31",
+    "same_number_all3categories_in_early_A1": 30,
+    "exceptions": [
+      {
+        "activity_id": "27074384",
+        "compound_name": "BDBM310203::US10150758, Compound 18",
+        "mapping_reasons": "",
+        "source_bin": "C",
+        "chembl_value": "550.0",
+        "parent_binary_conflict": false
+      }
+    ]
+  },
+  "overall": {
+    "all_IC50": {
+      "rows": 1964,
+      "parents": 1282,
+      "scaffolds": 481,
+      "row_labels": {
+        "0": 703,
+        "1": 1251,
+        "null": 10
+      }
+    },
+    "source_label_eligible": {
+      "rows": 1932,
+      "parents": 1270,
+      "scaffolds": 478,
+      "row_labels": {
+        "0": 690,
+        "1": 1242
+      }
+    },
+    "exact_continuous_values": 0,
+    "earliest_dates_verified": 0,
+    "source_family_count": 4,
+    "training_readiness": "NOT_ESTABLISHED_BY_THIS_CURATION_ALONE"
+  },
+  "conservative_candidates": {
+    "filter": "family in {50001259,50029211,50001260} AND eligible_source_label_only=true AND record_disclosed_by_date_bound<2019-01-01; deduplicate by canonical_smiles for parent counts",
+    "counts": {
+      "rows": 607,
+      "parents": 604,
+      "scaffolds": 285,
+      "row_labels": {
+        "0": 442,
+        "1": 165
+      }
+    },
+    "parent_labels": {
+      "0": 440,
+      "1": 164
+    },
+    "threshold_nM": 100,
+    "positive_rule": "source A strictly below100nM; no source reports the unobserved exact100nM boundary",
+    "quarantined_family": "49958717",
+    "quarantine_reason": "source numbering differs after276; same database aliases can connect inconsistent original categories, including seven parents with binary conflicts across22rows; original structure-figure identity not independently confirmed",
+    "candidate_status": "source-label and conservative-date capacity only; assay comparability and final split validation handled separately"
+  }
+}

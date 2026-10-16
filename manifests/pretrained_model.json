@@ -1,0 +1,24 @@
+{
+  "files": {
+    "README.md": "fff331c6a973fa6995662ac31354c702ac0f4805d494e7506b979a3a6cee6f44",
+    "config.json": "3ef9eaac8c7ca6282fd6256ed038d151bd4ff42a4ff855367e0d7197bbc1c284",
+    "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+    "model.safetensors": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6",
+    "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c",
+    "tokenizer.json": "3df1f2219653c44fac9fa03b7f788b372eb2544ecc176737bb9aca8411b471a5",
+    "tokenizer_config.json": "56f93dc43e4383fcfc6342e09d782ef38d48ef227215a4a92ff8762fd5b8ff3e"
+  },
+  "format": "safetensors",
+  "model_id": "ibm-research/MoLFormer-XL-both-10pct",
+  "pretraining": "masked SMILES modeling, 10% ZINC15 and 10% PubChem",
+  "pretraining_membership": "NOT_VERIFIED",
+  "publisher_license": "Apache-2.0 model card and code headers",
+  "review": "reports/curation/PRETRAINED_MODEL_REVIEW.md",
+  "revision": "361063d0ad524ef77cf39b08469f6be770dc550f",
+  "source_base_url": "https://huggingface.co/ibm-research/MoLFormer-XL-both-10pct/resolve/361063d0ad524ef77cf39b08469f6be770dc550f/",
+  "supervised_PRMT5_pretraining": "No use identified in inspected publisher documentation; not a complete corpus audit",
+  "weight_bytes": 187248784,
+  "weight_hash_basis": "Pinned HF tree LFS object SHA256 and downloaded bytes agree",
+  "weights_downloaded": true,
+  "weights_sha256": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+}

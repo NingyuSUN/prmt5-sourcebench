@@ -1,0 +1,334 @@
+{
+  "bindings": {
+    "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+    "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f"
+  },
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "input_gate": {
+    "by_split": {
+      "test": {
+        "collision_groups": 11,
+        "collision_members": 26,
+        "distinct_inputs": 231,
+        "empirical_minimum_error_fraction": 0.016260162601626018,
+        "empirical_minimum_errors": 4,
+        "mixed_label_groups": 4,
+        "mixed_label_members": 10,
+        "rows": 246,
+        "token_max": 71,
+        "token_min": 39
+      },
+      "train": {
+        "collision_groups": 35,
+        "collision_members": 91,
+        "distinct_inputs": 548,
+        "empirical_minimum_error_fraction": 0.033112582781456956,
+        "empirical_minimum_errors": 20,
+        "mixed_label_groups": 19,
+        "mixed_label_members": 51,
+        "rows": 604,
+        "token_max": 66,
+        "token_min": 29
+      },
+      "validation": {
+        "collision_groups": 10,
+        "collision_members": 25,
+        "distinct_inputs": 55,
+        "empirical_minimum_error_fraction": 0.08571428571428572,
+        "empirical_minimum_errors": 6,
+        "mixed_label_groups": 6,
+        "mixed_label_members": 15,
+        "rows": 70,
+        "token_max": 67,
+        "token_min": 47
+      }
+    },
+    "collision_bound_interpretation": "Empirical minimum integer mistakes for a deterministic classifier using only this shared representation on these rows; not a clinical error rate, population bound, or model performance.",
+    "cross_split_collision_groups": 0,
+    "cross_split_collision_ids": [],
+    "overlength_rows": 0,
+    "prepared_inputs_sha256": "99b50e38d39cef8476f2d100c10e67d6d7476522a7d060fc71c62994d860183b",
+    "rdkit_version": "2026.09.1",
+    "reconstruction_failures": 0,
+    "rows": 920,
+    "status": "PASS",
+    "token_max": 71,
+    "token_min": 29,
+    "tokenizers_version": "0.22.2",
+    "truncation": false,
+    "unknown_token_count": 0,
+    "unsupported_compound_ids": []
+  },
+  "model_asset_manifest_sha256": "33a5d6b04f24d22e58317df92c59aca82a2fb67b45b95f40f5780e9e5af46c7c",
+  "model_revision": "361063d0ad524ef77cf39b08469f6be770dc550f",
+  "protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "revision": "361063d0ad524ef77cf39b08469f6be770dc550f",
+  "runtime_gate": {
+    "all_features_finite": true,
+    "all_features_shape": [
+      920,
+      768
+    ],
+    "atol": 1e-05,
+    "compiled_cuda_architectures": [
+      "sm_50",
+      "sm_60",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90"
+    ],
+    "cuda_tensor_probe": {
+      "checksum": 3680.0,
+      "status": "PASS"
+    },
+    "cuda_version": "12.4",
+    "determinism_sample_count": 48,
+    "determinism_sample_ids": [
+      "02e5767d09d6f45a",
+      "971a5538bda8ccd8",
+      "fe605598841062e9",
+      "50ad163425aa2d70",
+      "6bcb0a227c3655c9",
+      "f132d6569b7bb53c",
+      "691d3cc86565cf28",
+      "d368438667185ae7",
+      "549b1fb51f8c93fa",
+      "15a6e4df2d25d5b6",
+      "f2dfbbb0fb9f0682",
+      "3098e90d23d2de52",
+      "3cb470b117c1df75",
+      "f9e30d20ed84d749",
+      "710a0b1b7254271c",
+      "4ea13fdb1856963a",
+      "f632caf8d191a3c6",
+      "c0aee6766ff102b7",
+      "a2fdd986e499a04c",
+      "47842c0a28186cc8",
+      "771829aa770e7cae",
+      "d4829a9220173633",
+      "938903831db1ea17",
+      "310abb00a02657aa",
+      "764483915a818e0b",
+      "4721f076b802be80",
+      "6c175d1a904285df",
+      "0708b84ee98fb177",
+      "622599f6662b0664",
+      "178020c1ceab4bda",
+      "8e2b635bdefb5faf",
+      "781ca9633350377f",
+      "2bdcbfd299a0cc4e",
+      "f9193e79a75a77d2",
+      "e0aa3dbc49bf7a26",
+      "dcd02cb764d0b4d3",
+      "e93c403736bdd0ac",
+      "fc806b7521089ec8",
+      "fb63286d1b69b9cc",
+      "56412fcea26d0ea4",
+      "cc977abe804d3b1a",
+      "672dac3f2c87977c",
+      "5326fc136f8a04d9",
+      "54734495fa26f581",
+      "e025e217f9a4e812",
+      "97ba088faa86ffc7",
+      "6f40c32797b66f8f",
+      "f57fac10996cdf5e"
+    ],
+    "device_capability": [
+      6,
+      1
+    ],
+    "different_batch_max_abs_difference": 1.0728836059570312e-06,
+    "different_batch_pass": true,
+    "elapsed_seconds": 7.76,
+    "feature_cache": "data/model/encoder_features.npz",
+    "features_sha256": "fcd5ca186cf99eaf83a3c5039ca03995a0f74698e6bcbb98335f3a4ab8ef8394",
+    "initialization_seed_checks": {
+      "results": [
+        {
+          "feature_map_aggregate_sha256": "39301ab424d7738f521c04bfce6cde6b8e9437ab9f564d7716f1e4c240fdc6ce",
+          "max_abs_difference_vs_seed17": 0.0,
+          "seed": 17
+        },
+        {
+          "feature_map_aggregate_sha256": "39301ab424d7738f521c04bfce6cde6b8e9437ab9f564d7716f1e4c240fdc6ce",
+          "max_abs_difference_vs_seed17": 0.0,
+          "seed": 29
+        },
+        {
+          "feature_map_aggregate_sha256": "39301ab424d7738f521c04bfce6cde6b8e9437ab9f564d7716f1e4c240fdc6ce",
+          "max_abs_difference_vs_seed17": 0.0,
+          "seed": 43
+        }
+      ],
+      "sample_count": 2,
+      "status": "PASS"
+    },
+    "loader": {
+      "asset_manifest_sha256": "33a5d6b04f24d22e58317df92c59aca82a2fb67b45b95f40f5780e9e5af46c7c",
+      "code_sha256": {
+        "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+        "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c"
+      },
+      "deterministic_eval": true,
+      "device": "cuda",
+      "encoder_blocks": 12,
+      "feature_dimension": 768,
+      "feature_map_buffers": {
+        "aggregate_sha256": "39301ab424d7738f521c04bfce6cde6b8e9437ab9f564d7716f1e4c240fdc6ce",
+        "buffers": [
+          {
+            "buffer_name": "encoder.layer.0.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.0.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "4d834374e58ad4435deeb8648bec631e70b84810846387fcc219340952c8e744"
+          },
+          {
+            "buffer_name": "encoder.layer.1.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.1.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "1ca8385040006ead8a378fc1ccdd70e7f3ca2f435f293a2613f8183a0838755a"
+          },
+          {
+            "buffer_name": "encoder.layer.10.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.10.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "dd4ee2b42ae0a6759b9590c2f692604ac876fe38410d894168ed74a0246fa6b1"
+          },
+          {
+            "buffer_name": "encoder.layer.11.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.11.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "e33fd51716792929bd81e0916f2b494e2c1d2518a1730064e3b819fcd1e77f3c"
+          },
+          {
+            "buffer_name": "encoder.layer.2.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.2.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "a8846d017b5f99dc14ab1cb4ab8a62d53f8b631be9b6b3b3adb5e90818b04c50"
+          },
+          {
+            "buffer_name": "encoder.layer.3.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.3.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "6e6bbffa9257ce6ed3f9417cca0238a4354b1444b2beaf98ce8077c3c8756922"
+          },
+          {
+            "buffer_name": "encoder.layer.4.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.4.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "700016a92b5591df778e8381318fcd6578d568bf2da7177d9bb00c07891a767e"
+          },
+          {
+            "buffer_name": "encoder.layer.5.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.5.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "2872f69df1fd4d65ed78ae0c60e498d8ee596a894afb639c2c01d192b726ef61"
+          },
+          {
+            "buffer_name": "encoder.layer.6.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.6.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "ae1a08c8d945dafdadf9f745f48357689a66cc8ac9b01ed93c0b8e632c2966e3"
+          },
+          {
+            "buffer_name": "encoder.layer.7.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.7.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "cfba3a02e5e8ec14ecead442bf9e23783769958a4c56b50677d0fcc108e6f906"
+          },
+          {
+            "buffer_name": "encoder.layer.8.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.8.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "7523215c53221fffcbd06cadeb4a2c43b96f90cd8487e42854fcc86ce7c53241"
+          },
+          {
+            "buffer_name": "encoder.layer.9.attention.self.feature_map.weight",
+            "checkpoint_key": "molformer.encoder.layer.9.attention.self.feature_map.weight",
+            "exactly_loaded": true,
+            "shape": [
+              64,
+              32
+            ],
+            "tensor_sha256": "e49ebb7e86dafeae1aece0e14e2fd18b52fc7806f2f888d50e86cee9d28443b0"
+          }
+        ],
+        "count": 12,
+        "status": "PASS"
+      },
+      "loaded_parameter_count": 44375040,
+      "loading_info": {
+        "error_msgs": [],
+        "mismatched_keys": [],
+        "missing_keys": [],
+        "unexpected_keys": [
+          "lm_head.decoder.weight",
+          "lm_head.transform.LayerNorm.bias",
+          "lm_head.transform.LayerNorm.weight",
+          "lm_head.transform.dense.bias",
+          "lm_head.transform.dense.weight"
+        ]
+      },
+      "manifest_sha256": "33a5d6b04f24d22e58317df92c59aca82a2fb67b45b95f40f5780e9e5af46c7c",
+      "model_id": "ibm-research/MoLFormer-XL-both-10pct",
+      "pooling": "model.pooler_output: attention-mask-weighted mean including BOS/EOS",
+      "revision": "361063d0ad524ef77cf39b08469f6be770dc550f",
+      "torch": "2.6.0+cu124",
+      "transformers": "5.12.1",
+      "weights_sha256": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+    },
+    "python": "3.10.16",
+    "repeat_max_abs_difference": 1.430511474609375e-06,
+    "repeat_pass": true,
+    "rtol": 1e-05,
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "weights_sha256": "0795977fe7192c4acdaf052f0e8464af57bc4bb59211271c5e61aaba2637b9c6"
+}

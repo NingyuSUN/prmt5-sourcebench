@@ -1,0 +1,43 @@
+{
+  "verified_at": "2026-10-16T16:57:53+09:00",
+  "status": "PUBLIC_RELEASE_LOCAL_VALIDATION_PASSED",
+  "tests_passed": 90,
+  "suites": [
+    {
+      "suite": "script",
+      "passed": 61,
+      "log_sha256": "ad92220b05ebffa8f3506012ab4edd4490340b8d9ad479afe211dea4a1ef75dc"
+    },
+    {
+      "suite": "biology",
+      "passed": 11,
+      "log_sha256": "745953f41b76eb801ebf7236685ae7e86f710683673faa15e7e8979891e24c91"
+    },
+    {
+      "suite": "public-replay",
+      "passed": 6,
+      "log_sha256": "1651d9514d4b248dea4c4a0ca3ec263ca6837ce6a8e2ac4ffa975ff3dde284b8"
+    },
+    {
+      "suite": "encoder",
+      "passed": 12,
+      "log_sha256": "aeda18ba61e60599b4241b623842fed5c6cded41a990f2501f9a18dc5f08858e"
+    }
+  ],
+  "baseline_python": "3.12.14",
+  "encoder_contract_torch": "2.6.0+cpu",
+  "public_scoring_replay": {
+    "models": 7,
+    "test_parents": 246,
+    "positive": 69,
+    "paired_scaffold_draws": 2000,
+    "final_metrics_exact_bytes": true,
+    "bootstrap_draws_exact_bytes": true,
+    "final_metrics_sha256": "c4c3fc96040ec145933425a21e60a519a4a8f063cf19b91b710bb79d8130fc59",
+    "bootstrap_draws_sha256": "06f35bfb5580309a2b0e998ec2d4ea6cb648a66e21196019d8971b0df41b7ef5"
+  },
+  "source_results_preserved": true,
+  "original_hash_bound_python_files_unchanged": true,
+  "editorial_protocol_binding": "manifests/protocol_publication.json",
+  "scientific_scope": "Saved-prediction replay, not retraining, new source reconstruction or experimental validation."
+}

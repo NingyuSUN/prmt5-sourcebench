@@ -1,0 +1,61 @@
+{
+  "verified_at_utc": "2026-10-16T06:05:02.676610+00:00",
+  "scope": "Five public patent HTML snapshots; original source bytes preserved during migration",
+  "sources": [
+    {
+      "patent": "US11479551B2",
+      "sha256": "2699ff5edf297a13a9c1cc377dcfafc8c2349a80253db53dcb7b0000fefb97e4",
+      "bytes": 2925946,
+      "retrieved_utc": "2026-10-16T05:49:38+00:00",
+      "publication_date": "2022-10-25",
+      "family_id": "72659905",
+      "structured_table_count": 2,
+      "path": "data/curation/mirati/US11479551B2.html",
+      "url": "https://patents.google.com/patent/US11479551B2/en"
+    },
+    {
+      "patent": "US11492351B2",
+      "sha256": "41426ecc515529848e3b0af2ce49c052435d323b0a676794a166494448b2a88b",
+      "bytes": 2905713,
+      "retrieved_utc": "2026-10-16T05:49:39+00:00",
+      "publication_date": "2022-11-08",
+      "family_id": "72659905",
+      "structured_table_count": 2,
+      "path": "data/curation/mirati/US11492351B2.html",
+      "url": "https://patents.google.com/patent/US11492351B2/en"
+    },
+    {
+      "patent": "US20210078994A1",
+      "sha256": "29fd982988f2e215090cacd2f6948ad82d49c602e04563302b70e93a2661dd68",
+      "bytes": 3025139,
+      "retrieved_utc": "2026-10-16T05:49:39+00:00",
+      "publication_date": "2021-03-18",
+      "family_id": "72659905",
+      "structured_table_count": 2,
+      "path": "data/curation/mirati/US20210078994A1.html",
+      "url": "https://patents.google.com/patent/US20210078994A1/en"
+    },
+    {
+      "patent": "US20210079003A1",
+      "sha256": "343e34747ca7b925d163b03942987f6cd5df2091776a2914f1465cf003263140",
+      "bytes": 3006442,
+      "retrieved_utc": "2026-10-16T05:49:40+00:00",
+      "publication_date": "2021-03-18",
+      "family_id": "72659905",
+      "structured_table_count": 2,
+      "path": "data/curation/mirati/US20210079003A1.html",
+      "url": "https://patents.google.com/patent/US20210079003A1/en"
+    },
+    {
+      "patent": "WO2021050915A1",
+      "sha256": "f9929c05a692bc30dadfaa8011b23e65b9a1ebfae7cd9ddb2d41803c260971ce",
+      "bytes": 1231094,
+      "retrieved_utc": "2026-10-16T05:49:41+00:00",
+      "publication_date": "2021-03-18",
+      "family_id": "72659905",
+      "structured_table_count": 0,
+      "path": "data/curation/mirati/WO2021050915A1.html",
+      "url": "https://patents.google.com/patent/WO2021050915A1/en"
+    }
+  ]
+}

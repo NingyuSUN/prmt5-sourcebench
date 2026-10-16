@@ -1,0 +1,79 @@
+{
+  "verified_at": "2026-10-16T15:06:00.810925+09:00",
+  "timezone": "Asia/Tokyo",
+  "scope": "Source-table and data feasibility; no model training or performance evaluation",
+  "continuous_pIC50_regression": "NO_GO",
+  "source_conditioned_binary_transfer": "CANDIDATE_FEASIBLE_PENDING_INTEGRATION_AND_REVIEW",
+  "threshold_nM": 100,
+  "threshold_meaning": "Each source assay condition; no assertion of exchangeable absolute potency",
+  "source_activity_rows": 329,
+  "assay_parent_rows": 323,
+  "included_parent_rows": 316,
+  "quarantined_threshold_conflicts": 4,
+  "excluded_old_controls": 3,
+  "cohorts": {
+    "CHEMBL5737316": {
+      "all_parents": 250,
+      "decision_counts": {
+        "candidate_include": 246,
+        "quarantine_threshold_conflict": 4
+      },
+      "included_parents": 246,
+      "positive_at_most_100nM": 69,
+      "negative_above_100nM": 177,
+      "scaffolds": 89,
+      "labels_are_source_conditioned": true
+    },
+    "CHEMBL5739093": {
+      "all_parents": 73,
+      "decision_counts": {
+        "reference_control_exclude_temporal_novel": 3,
+        "candidate_include": 70
+      },
+      "included_parents": 70,
+      "positive_at_most_100nM": 39,
+      "negative_above_100nM": 31,
+      "scaffolds": 44,
+      "labels_are_source_conditioned": true
+    }
+  },
+  "date_evidence": {
+    "CHEMBL5737316": {
+      "activity_table_publication": "2021-04-08",
+      "publication": "US20210101892A1",
+      "source_tables_match": "Table1 compound names andTable2 labels equalB2",
+      "earliest_structure_label_pair_exhaustive": false
+    },
+    "CHEMBL5739093": {
+      "activity_table_publication": "2019-09-12",
+      "publication": "WO2019173804A1",
+      "numeric_cells_visually_verified": 73,
+      "empty_cells_visually_verified": 2,
+      "all_cells_equal_B2": true,
+      "all_earlier_WO_structure_images_verified": false,
+      "earliest_structure_label_pair_exhaustive": false
+    }
+  },
+  "source_protocol_caveats": [
+    "SK primary protocol names BPS51045; manufacturer identifies humanPRMT5/MEP50; original lot unknown",
+    "Pharmablock WOmethod OCR units ambiguous; conditions cited fromB2; WOoriginalmethod image needs followup",
+    "Source/assay/time/chemical-series shifts are confounded",
+    "SK interval bin surrogates cannot support continuous regression or same-bin ranking"
+  ],
+  "artifacts": {
+    "sources": "manifests/later_patent_sources.json",
+    "review": "reports/curation/LATER_SOURCE_REVIEW.md",
+    "local_results": "data/curation/later/",
+    "reproduction": "scripts/curation_later/README.md",
+    "input_hash_manifest": "data/curation/later/reproduction_inputs.json"
+  },
+  "validation": {
+    "source_hashes": "passed",
+    "original_copy_hashes": "passed",
+    "table_alias_crosswalk_329of329": "passed",
+    "WO_numeric_table_75of75": "passed",
+    "reproduction_expected_counts": "passed",
+    "model_or_external_scientific_validation": "not_performed"
+  },
+  "git_sync": "Files prepared for parent round local commit; no push performed"
+}

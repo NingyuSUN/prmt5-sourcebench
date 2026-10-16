@@ -1,0 +1,170 @@
+[
+  {
+    "path": "data/raw/compound_records_CHEMBL5543090_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5543090",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 36,
+    "total_count": 36,
+    "sha256": "3f525166707f1ea966db8260a51928f85cb878e2910301952fdcbfa345baca17",
+    "bytes": 12227,
+    "retrieved_utc": "2026-10-16T05:53:31.194533+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5725999_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5725999",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 29,
+    "total_count": 29,
+    "sha256": "3bc19b8a8e42c1d7c3bfbd25928c92593ee042e976c75ebc7f647cd5e1bc552c",
+    "bytes": 7793,
+    "retrieved_utc": "2026-10-16T05:53:31.165764+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5726368_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5726368",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 274,
+    "total_count": 274,
+    "sha256": "74d1cd9789ed807cd9f4f8b2ef99151f189597b987ccbbc8941fd50d5020ce45",
+    "bytes": 69500,
+    "retrieved_utc": "2026-10-16T05:53:28.812947+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5726447_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5726447",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 306,
+    "total_count": 306,
+    "sha256": "5e9d535bf60368518943319930c991e03855c70a48fba92cc23f9b02055e54f0",
+    "bytes": 78338,
+    "retrieved_utc": "2026-10-16T05:53:31.389349+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5727045_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5727045",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 673,
+    "total_count": 673,
+    "sha256": "e67c56a7c9a5937774fbfe2418be835dd7d9636f15c0fd258fe0321bafad337a",
+    "bytes": 181544,
+    "retrieved_utc": "2026-10-16T05:53:34.553802+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5727264_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5727264",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 330,
+    "total_count": 330,
+    "sha256": "3980f9df77faf563dce5de08f4b164c2e95ab79cb3535c94fd0618692ff13956",
+    "bytes": 100176,
+    "retrieved_utc": "2026-10-16T05:53:41.054853+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5728403_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5728403",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 329,
+    "total_count": 329,
+    "sha256": "d513f7ca18265f85ef053f5cdf0db6f0b3ae7c11be3018584e2893a074f93425",
+    "bytes": 99897,
+    "retrieved_utc": "2026-10-16T05:53:41.332002+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5728719_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5728719",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 250,
+    "total_count": 250,
+    "sha256": "9732b7f510ad6c24098f96315ab7261a536eac056197340a9931ea8bbe4f0304",
+    "bytes": 93371,
+    "retrieved_utc": "2026-10-16T05:53:43.224119+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5729406_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5729406",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 321,
+    "total_count": 321,
+    "sha256": "0d0aea2820040992e557dc66f3c5163c9461f74b774dcb707931ab17fb7714c7",
+    "bytes": 110739,
+    "retrieved_utc": "2026-10-16T05:53:42.982481+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5729433_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5729433",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 320,
+    "total_count": 320,
+    "sha256": "d34f6525765bc0822612439d2f349e09a0da4d29edfa9a969111e7a261b5e016",
+    "bytes": 111281,
+    "retrieved_utc": "2026-10-16T05:53:46.471353+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL5729615_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL5729615",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 73,
+    "total_count": 73,
+    "sha256": "54083d1216efbe9f1bd27b32317712053418840a3465842b58c12cd11b0b7084",
+    "bytes": 17624,
+    "retrieved_utc": "2026-10-16T05:53:47.939185+00:00"
+  },
+  {
+    "path": "data/raw/compound_records_CHEMBL6087401_000000.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/compound_record.json",
+    "params": {
+      "document_chembl_id": "CHEMBL6087401",
+      "limit": 1000,
+      "offset": 0
+    },
+    "rows": 32,
+    "total_count": 32,
+    "sha256": "c4bd3f5ee58a3eba7bdade2399cc01276182dccf10a9914dcaa73d9b48130e60",
+    "bytes": 11098,
+    "retrieved_utc": "2026-10-16T05:53:48.041322+00:00"
+  }
+]

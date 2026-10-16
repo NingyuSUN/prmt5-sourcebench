@@ -1,0 +1,50 @@
+{
+  "files": {
+    "data/predictions/bootstrap_draws.json": {
+      "bytes": 360197,
+      "sha256": "06f35bfb5580309a2b0e998ec2d4ea6cb648a66e21196019d8971b0df41b7ef5"
+    },
+    "data/predictions/final_predictions.csv": {
+      "bytes": 102625,
+      "sha256": "c1c5dd8045dc25dda805e31c2547bab1f3e2535f9d83de7d81ce8a47c02eec9d"
+    },
+    "data/processed/cohort.csv": {
+      "bytes": 547992,
+      "sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96"
+    },
+    "manifests/final_selection_lock.json": {
+      "bytes": 11380,
+      "sha256": "721965b09f0a736e674be70be7338b131668f62a732905f8e6c7f02b5cf6f4ab"
+    },
+    "reports/results/final_metrics.json": {
+      "bytes": 19614,
+      "sha256": "c4c3fc96040ec145933425a21e60a519a4a8f063cf19b91b710bb79d8130fc59"
+    },
+    "scripts/benchmark_common.py": {
+      "bytes": 13443,
+      "sha256": "092266544dd05abb8d72ef4a3dfc06de03ba1246ddb6d9f980efb3f78396a1bd"
+    },
+    "scripts/evaluate_locked.py": {
+      "bytes": 7886,
+      "sha256": "800599954fa7443267d39580b754f406d1e41a1b5a578cc86fef46eccfb685ff"
+    },
+    "scripts/predict_locked.py": {
+      "bytes": 18785,
+      "sha256": "bcdc211d7366aaee5977ff5d56a6fc0e6d68aef5a6e113790f4fb545e5ddd75f"
+    },
+    "scripts/prepare_encoder.py": {
+      "bytes": 19000,
+      "sha256": "00791403337d086ec3e4d404f9f7f6c729d65fab3e353af4d06f3272e74447bf"
+    },
+    "scripts/selection_lock.py": {
+      "bytes": 14122,
+      "sha256": "f9d3aff69e053b4b6f5db3032b7abcffb113ea8572c88492f0faeb7cff5711e4"
+    },
+    "scripts/train_encoder.py": {
+      "bytes": 35454,
+      "sha256": "6b493a02a0d89554f7b17151fab776f9d7df9081152463177cdf041e8e8f6920"
+    }
+  },
+  "schema_version": 1,
+  "scope": "Public saved-prediction scoring replay; no training or private receipt verification"
+}

@@ -1,0 +1,198 @@
+{
+  "verified_at_utc": "2026-10-16T06:05:02.676610+00:00",
+  "scope": "Mirati original IC50 tables and activity provenance; no training or scientific validation",
+  "family_id": "72659905",
+  "earliest_verified_table_disclosure": "2021-03-18",
+  "earliest_date_limit": "Earliest among inspected documents, not exhaustive worldwide first disclosure",
+  "source_cells_by_version": [
+    {
+      "patent": "US11479551B2",
+      "table": "9a",
+      "status": "numeric",
+      "cells": 393
+    },
+    {
+      "patent": "US11479551B2",
+      "table": "9a",
+      "status": "not_determined",
+      "cells": 1
+    },
+    {
+      "patent": "US11479551B2",
+      "table": "9b",
+      "status": "numeric",
+      "cells": 170
+    },
+    {
+      "patent": "US11479551B2",
+      "table": "9b",
+      "status": "not_reported_dash",
+      "cells": 148
+    },
+    {
+      "patent": "US11492351B2",
+      "table": "9a",
+      "status": "numeric",
+      "cells": 393
+    },
+    {
+      "patent": "US11492351B2",
+      "table": "9a",
+      "status": "not_determined",
+      "cells": 1
+    },
+    {
+      "patent": "US11492351B2",
+      "table": "9b",
+      "status": "numeric",
+      "cells": 170
+    },
+    {
+      "patent": "US11492351B2",
+      "table": "9b",
+      "status": "not_reported_dash",
+      "cells": 148
+    },
+    {
+      "patent": "US20210078994A1",
+      "table": "9a",
+      "status": "numeric",
+      "cells": 393
+    },
+    {
+      "patent": "US20210078994A1",
+      "table": "9a",
+      "status": "not_determined",
+      "cells": 1
+    },
+    {
+      "patent": "US20210078994A1",
+      "table": "9b",
+      "status": "numeric",
+      "cells": 170
+    },
+    {
+      "patent": "US20210078994A1",
+      "table": "9b",
+      "status": "not_reported_dash",
+      "cells": 148
+    },
+    {
+      "patent": "US20210079003A1",
+      "table": "9a",
+      "status": "numeric",
+      "cells": 393
+    },
+    {
+      "patent": "US20210079003A1",
+      "table": "9a",
+      "status": "not_determined",
+      "cells": 1
+    },
+    {
+      "patent": "US20210079003A1",
+      "table": "9b",
+      "status": "numeric",
+      "cells": 170
+    },
+    {
+      "patent": "US20210079003A1",
+      "table": "9b",
+      "status": "not_reported_dash",
+      "cells": 148
+    }
+  ],
+  "disclosure_comparisons": [
+    {
+      "later": "US11479551B2",
+      "earlier": "US20210078994A1",
+      "status": "identical",
+      "cells": 712
+    },
+    {
+      "later": "US11492351B2",
+      "earlier": "US20210079003A1",
+      "status": "identical",
+      "cells": 712
+    },
+    {
+      "later": "US11479551B2",
+      "earlier": "US11492351B2",
+      "status": "identical",
+      "cells": 712
+    },
+    {
+      "later": "US20210078994A1",
+      "earlier": "US20210079003A1",
+      "status": "identical",
+      "cells": 712
+    }
+  ],
+  "mapping": {
+    "activity_count": 3378,
+    "mapping_status_counts": {
+      "unique": 1108,
+      "excluded_non_IC50": 2252,
+      "ambiguous_source_occurrences": 6,
+      "unmapped_value_or_condition": 12
+    },
+    "mapped_by_protocol_condition": [
+      {
+        "protocol": "FlashPlate_H4",
+        "mta_condition": "MTA_2uM",
+        "activities": 389
+      },
+      {
+        "protocol": "FlashPlate_H4",
+        "mta_condition": "MTA_absent",
+        "activities": 387
+      },
+      {
+        "protocol": "HotSpot_H2A",
+        "mta_condition": "MTA_2uM",
+        "activities": 310
+      },
+      {
+        "protocol": "HotSpot_H2A",
+        "mta_condition": "MTA_absent",
+        "activities": 22
+      }
+    ],
+    "uncovered_numeric_source_cells": 12,
+    "multiply_used_source_cells": 6,
+    "limitations": [
+      "Structure identity follows ChEMBL compound_record and molecule crosswalk; patent structure images not independently decoded.",
+      "Exact unique table assignment is not pharmacological reproducibility or target specificity validation.",
+      "2021-03-18 is earliest verified row disclosure in inspected US A1s, not proven worldwide earliest disclosure."
+    ]
+  },
+  "engineering_validation": {
+    "status": "PASS",
+    "scope": "Engineering extraction and metadata joins only; no scientific or external validation",
+    "source_cells": 2848,
+    "comparisons": 2848,
+    "activity_rows": 3378,
+    "direct_unique": 1108,
+    "direct_ambiguous": 6,
+    "direct_unmapped": 12,
+    "excluded_non_IC50": 2252,
+    "nonpositive_IC50_records": 8,
+    "indirect_unique_candidates": 10,
+    "indirect_ambiguous_activities": 2
+  },
+  "data_dir": "data/curation/mirati/",
+  "source_manifest": "manifests/mirati_patent_sources.json",
+  "scripts_dir": "scripts/curation_mirati/",
+  "report": "reports/curation/MIRATI_SOURCE_REVIEW.md",
+  "raw_and_row_level_outputs_git_status": "Ignored by data/ rule; not included in Git publication",
+  "same_family_alias_transfer": "INFERRED; 10 unique and 2 ambiguous indirect candidate activities kept separate from 1108 direct unique matches",
+  "nonpositive_values": "8 IC50 database records represent 4 original zero-valued cells repeated across two grants; unsuitable for log-potency labels",
+  "limitations": [
+    "US table9b titles say FlashPlate; preceding H2A protocol supports HotSpot. WO title says HotSpot.",
+    "WO tables are images and not transcribed; row comparisons use US A1 structured tables.",
+    "2021-03-18 is earliest verified table disclosure among inspected documents; priority date is not public disclosure; worldwide earlier absence is not proven.",
+    "Structure identity follows ChEMBL compound_record and molecule crosswalk; patent structure images not independently decoded.",
+    "Exact unique table assignment is not pharmacological reproducibility or target specificity validation.",
+    "2021-03-18 is earliest verified row disclosure in inspected US A1s, not proven worldwide earliest disclosure."
+  ]
+}

@@ -1,0 +1,2 @@
+# Optional figure rendering, in addition to baseline.txt.
+matplotlib==3.11.2

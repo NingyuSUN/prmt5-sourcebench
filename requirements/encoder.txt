@@ -1,0 +1,15 @@
+# Observed encoder runtime: CPython 3.10.16, Linux, CUDA 12.4 PyTorch wheel.
+# Version constraints, not a complete wheel-hashed lock or tested clean installer.
+# Install torch from https://download.pytorch.org/whl/cu124 separately first.
+# Keep separate from baseline.txt; do not load baseline sklearn1.9 estimators here.
+torch==2.6.0+cu124
+transformers==5.12.1
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface_hub==1.33.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+rdkit==2026.9.1
+joblib==1.6.0
+threadpoolctl==3.7.0

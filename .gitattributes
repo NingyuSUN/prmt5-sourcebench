@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve the original bytes of frozen scientific artifacts.
+data/**/*.csv -text
+data/**/*.json -text
+manifests/*.json -text
+reports/**/*.json -text
+reports/**/*.csv -text
+*.png binary

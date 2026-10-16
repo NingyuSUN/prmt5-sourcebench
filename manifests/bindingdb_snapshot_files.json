@@ -1,0 +1,37 @@
+[
+  {
+    "path": "data/raw/bindingdb/api-documentation.html",
+    "sha256": "413bbaa282329fc844320672bf0c4b5b0d991341e5966b5dd6ddb86a90cb79eb",
+    "bytes": 16945
+  },
+  {
+    "path": "data/raw/bindingdb/audit_manifest.json",
+    "sha256": "40c303c3c243d64664cbb20c54ead2ae129930206ee99090f5124a1aad3f8e3b",
+    "bytes": 7080
+  },
+  {
+    "path": "data/raw/bindingdb/database-info.html",
+    "sha256": "031de26f9fe6ab29127da8286a36b69a831e1de240897fc0f0d429ae77696297",
+    "bytes": 24369
+  },
+  {
+    "path": "data/raw/bindingdb/o14744-cutoff-10000nm.json",
+    "sha256": "118206fc93a674fe33b8ab6f12e1409c77440c044114440ca344d497c57b105e",
+    "bytes": 2309993
+  },
+  {
+    "path": "data/raw/bindingdb/o14744-cutoff-1nm.json",
+    "sha256": "19ca02d0c595c961089509b5f4f3411c2a3872b60cdaf09a720aee66b4013eb1",
+    "bytes": 92505
+  },
+  {
+    "path": "data/raw/bindingdb/o14744-cutoff-omitted.json",
+    "sha256": "7985a9104d652240730c37c4014024dab77aa85209d764295f2688f818e9d6c0",
+    "bytes": 2593985
+  },
+  {
+    "path": "data/raw/bindingdb/o14744-first-search-page.html",
+    "sha256": "2cbd1de4565333208cf87d140fffe8a4312cba0c9c88252efb83a6d2bffced20",
+    "bytes": 310326
+  }
+]

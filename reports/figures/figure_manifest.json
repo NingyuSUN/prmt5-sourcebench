@@ -1,0 +1,10 @@
+{
+  "input": "reports/results/final_metrics.json",
+  "input_sha256": "c4c3fc96040ec145933425a21e60a519a4a8f063cf19b91b710bb79d8130fc59",
+  "script_sha256": "dd2d11749d07b03bc2a03c87e7db4b77a8e854597e6db5b778de11dd9407048d",
+  "matplotlib": "3.11.2",
+  "outputs": {
+    "reports/figures/benchmark.svg": "54ec1daa585be196a233b7d3841bff70ed0e753622cde23999c5b5c963acce82",
+    "reports/figures/benchmark.png": "e76fdeee9c8c908e9b1d77255216903f5e370471671a0f72f182751e2ad82fb0"
+  }
+}

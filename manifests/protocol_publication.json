@@ -1,0 +1,10 @@
+{
+  "original_protocol_sha256": "283d38f275ef4c91d17dc87f1049213936543353d873198ba219b9a0b5890d1f",
+  "published_protocol_sha256": "2eb2509c676e124b3690099bf2ff4065b127b26c24987719b7adc7ff708d78bd",
+  "published_path": "docs/PROTOCOL.md",
+  "scope": "Editorial publication copy; scientific definitions, source assignments, model budgets and evaluation rules are unchanged.",
+  "edits": [
+    "Removed administrative instructions unrelated to the scientific protocol."
+  ],
+  "historical_bindings": "Historical experiment manifests retain the original protocol hash. Public saved-prediction replay verifies the frozen experiment lock; it does not reconstruct the complete historical training chain."
+}

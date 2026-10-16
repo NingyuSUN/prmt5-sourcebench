@@ -1,0 +1,19 @@
+[
+  {
+    "path": "data/raw/chembl_targets.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/target.json",
+    "params": {
+      "target_components__accession": "O14744",
+      "limit": 10
+    },
+    "sha256": "21a59b741b65f5aebcba25405f8ea6bb8e2f852eca0d4af177c1f38cd7e2a5cd",
+    "snapshot_file_mtime_utc": "2026-10-16T05:23:55.644673+00:00"
+  },
+  {
+    "path": "data/raw/chembl_status.json",
+    "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+    "params": {},
+    "sha256": "f4d07ed4cb29cf7042056fddb87fc8dc0da391afb75087727f57da95f424489e",
+    "snapshot_file_mtime_utc": "2026-10-16T05:26:48.409015+00:00"
+  }
+]

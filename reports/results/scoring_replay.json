@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_SAVED_PREDICTION_SCORING",
+  "comparisons": [
+    {
+      "original": "reports/results/final_metrics.json",
+      "replay": "data/replay/final-scoring/final_metrics.json",
+      "sha256": "c4c3fc96040ec145933425a21e60a519a4a8f063cf19b91b710bb79d8130fc59",
+      "exact_bytes_equal": true
+    },
+    {
+      "original": "data/predictions/bootstrap_draws.json",
+      "replay": "data/replay/final-scoring/bootstrap_draws.json",
+      "sha256": "06f35bfb5580309a2b0e998ec2d4ea6cb648a66e21196019d8971b0df41b7ef5",
+      "exact_bytes_equal": true
+    }
+  ],
+  "scope": "Same sealed predictions, preserved artifacts and recorded runtime; no retraining or new biological validation."
+}

@@ -1,0 +1,331 @@
+{
+  "archive_sha256": "31919dea615e57762bbb1c19f410ed6e207b7942a55b0635362c1949ba36acbe",
+  "auxiliary_semantic_comparison_count": 4,
+  "auxiliary_semantic_comparisons": [
+    {
+      "comparison": "Exact row multiset; row order ignored",
+      "equal": true,
+      "path": "data/curation/later/patent_crosswalk.csv"
+    },
+    {
+      "comparison": "Exact row multiset after sorting semicolon-delimited activity_ids",
+      "equal": true,
+      "path": "data/curation/later/binary_parent_candidates.csv"
+    },
+    {
+      "comparison": "Exact row multiset after sorting semicolon-delimited activity_id",
+      "equal": true,
+      "path": "data/processed/exclusions.csv"
+    },
+    {
+      "comparison": "All gate fields equal except byte hashes of regenerated files; all new hash targets independently verified",
+      "equal": true,
+      "path": "reports/curation/cohort_gate.json"
+    }
+  ],
+  "cohort_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "scripts/audit_inventory.py",
+        "--root",
+        ".",
+        "--reuse-src",
+        "data/upstream"
+      ],
+      "exit_code": 0,
+      "log_sha256": "1bde2ad024e27a45ba3bbdf7cf2e1c6bb16d1838e30f9f8ff7faa1d7b92329c3"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/review_candidates.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "log_sha256": "3cd01f07317300acaf0d4e64354fb3542a4c5fb666794f6a0e3c398c25fac614"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/curation_epizyme/reproduce.py",
+        "--project-root",
+        "."
+      ],
+      "exit_code": 0,
+      "log_sha256": "8b3e77190d5c677045a9d6c85c65e9dc216b58724945eaf041ac40fbb87194d2"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/curation_later/curate_later.py",
+        "--root",
+        ".",
+        "--work-dir",
+        "data/curation/later"
+      ],
+      "exit_code": 0,
+      "log_sha256": "33ada8d720eabc0673263e505b0fa08c92c25758a2e8e849b9d90c4a3a57e452"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/curation_later/crosswalk_patents.py",
+        "--root",
+        ".",
+        "--work-dir",
+        "data/curation/later"
+      ],
+      "exit_code": 0,
+      "log_sha256": "f999f8628111959c1d98e0d7634189e13a836f25bca99ac27497338fa3bb7027"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/curation_later/make_binary_candidates.py",
+        "--root",
+        ".",
+        "--work-dir",
+        "data/curation/later"
+      ],
+      "exit_code": 0,
+      "log_sha256": "f1f48c2e6be4261d052b9bfc4e5d5f3f1676dac07741b7751c18459bc7dccd91"
+    },
+    {
+      "argv": [
+        "python",
+        "scripts/build_cohort.py",
+        "--root",
+        ".",
+        "--chemistry",
+        "data/upstream/drugperturb/chemistry.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2f56e3ccecb37315f5e779a67d281f14111b91b77945105b6b085da36a044edc"
+    }
+  ],
+  "completed_utc": "2026-10-16T07:06:25.752291+00:00",
+  "counts": {
+    "test": {
+      "families": [
+        "75338422"
+      ],
+      "negative": 177,
+      "parents": 246,
+      "positive": 69,
+      "scaffolds": 89,
+      "source_date_bounds": [
+        "2021-04-08"
+      ]
+    },
+    "train": {
+      "families": [
+        "50001259",
+        "50001260",
+        "50029211"
+      ],
+      "negative": 440,
+      "parents": 604,
+      "positive": 164,
+      "scaffolds": 285,
+      "source_date_bounds": [
+        "2017-08-29",
+        "2017-10-03",
+        "2018-12-11"
+      ]
+    },
+    "validation": {
+      "families": [
+        "67846363"
+      ],
+      "negative": 31,
+      "parents": 70,
+      "positive": 39,
+      "scaffolds": 44,
+      "source_date_bounds": [
+        "2019-09-12"
+      ]
+    }
+  },
+  "delivery_verification": {
+    "archive_bytes": 38080957,
+    "archive_member_count": 226,
+    "checks": [
+      "Traversal member rejected",
+      "Wrong archive hash rejected",
+      "Allowed activity-ID ordering normalized",
+      "Changed exclusion reason rejected"
+    ],
+    "data_tests_passed": 14,
+    "fresh_install_tested": false,
+    "identical_archive_sha256": "31919dea615e57762bbb1c19f410ed6e207b7942a55b0635362c1949ba36acbe",
+    "independent_archive_builds": 2,
+    "initial_strict_comparison": "FAIL: four auxiliary byte differences; semantic cause documented, no source or frozen cohort changes",
+    "initial_strict_failure_receipt_sha256": "05823e23eef80f7c4ca71dd817827689612335d0a415e8085b1eb4300e709db9",
+    "original_project_member_files_unchanged": 223,
+    "pinned_external_files_verified": 2,
+    "scientific_validation": false,
+    "test_log_sha256": {
+      "data_tests_audit.log": "3f2b71e9c86db424e85e51492cf2f9057bd2be54bc4d800c4fe1a2de88853e29",
+      "data_tests_cohort.log": "4c0d382cba4a19503f3882002982ef795b90ced6365ca78e15a576dd844e17cb"
+    }
+  },
+  "exact_byte_matches": 11,
+  "exact_comparison_count": 15,
+  "exact_comparisons": [
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "0356b16977a228012ecb620562b777c2680f774f4f4ce8e1106e6c4282194721",
+      "observed_sha256": "0356b16977a228012ecb620562b777c2680f774f4f4ce8e1106e6c4282194721",
+      "path": "reports/activity_ledger.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "b1b9d66b81c05900795fd15fb4179c894bd8a2c1dc02687d77886a31340c3a81",
+      "observed_sha256": "b1b9d66b81c05900795fd15fb4179c894bd8a2c1dc02687d77886a31340c3a81",
+      "path": "reports/assay_inventory.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "8db26e2826ade7c39ae874d40bf00364df86dad3ee0e14d5ed1ed4df5d1898fd",
+      "observed_sha256": "8db26e2826ade7c39ae874d40bf00364df86dad3ee0e14d5ed1ed4df5d1898fd",
+      "path": "reports/review_candidates.json"
+    },
+    {
+      "exact_bytes_match": false,
+      "expected_sha256": "08fa20806f03f63b5292c03c0e44b274b4dd709ed214b888916b9b16c266b764",
+      "observed_sha256": "d1ca81d65d6b749df66507f711bd96a580637e784c14e797ce14dad7614c2b31",
+      "path": "reports/curation/cohort_gate.json"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+      "observed_sha256": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+      "path": "data/processed/cohort.csv"
+    },
+    {
+      "exact_bytes_match": false,
+      "expected_sha256": "30638fa16f690fe846d04fda6401cbca68eaa8bc23a3e547e6842f4770011bdd",
+      "observed_sha256": "de07441bb07de4612b188602c76cf6a3967149e44fcbdac555f985fa40e84342",
+      "path": "data/processed/exclusions.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "ea707e270ebccef451d0228c9cbbadf39c02d1304b9f0cab176b370394bef4c6",
+      "observed_sha256": "ea707e270ebccef451d0228c9cbbadf39c02d1304b9f0cab176b370394bef4c6",
+      "path": "data/processed/nearest_neighbors.csv"
+    },
+    {
+      "exact_bytes_match": false,
+      "expected_sha256": "6c5b31a86817036d82202b56db753a0ed18af232d3925dce734ce025f4a0e0e4",
+      "observed_sha256": "bad5cafc4b4b824f73b9c1e39df93cb28656fd2052482fd8ee5e1adb3ed8d344",
+      "path": "data/curation/later/patent_crosswalk.csv"
+    },
+    {
+      "exact_bytes_match": false,
+      "expected_sha256": "1079c642e8af718416ca7b9fff9d70a0fcafdd841eb28a2f0892b51c28378aec",
+      "observed_sha256": "d3e4879372219ff36bffa1b1055d96f15efaf5767086110cb656fcd85c5c6b78",
+      "path": "data/curation/later/binary_parent_candidates.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "f1f48c2e6be4261d052b9bfc4e5d5f3f1676dac07741b7751c18459bc7dccd91",
+      "observed_sha256": "f1f48c2e6be4261d052b9bfc4e5d5f3f1676dac07741b7751c18459bc7dccd91",
+      "path": "data/curation/later/binary_candidate_summary.json"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "f22c79b567a1167642144a308be75c1cde8386d655f98da55308cc658c530711",
+      "observed_sha256": "f22c79b567a1167642144a308be75c1cde8386d655f98da55308cc658c530711",
+      "path": "data/curation/epizyme/results/epizyme_activity_curation.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "a02c298ae8177a2e41df6e6486a4049607a65b7024578b24c0bac1e83723091d",
+      "observed_sha256": "a02c298ae8177a2e41df6e6486a4049607a65b7024578b24c0bac1e83723091d",
+      "path": "data/curation/epizyme/results/epizyme_conservative_rows.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "42b0d947de46892d3d1cf58c5d3e75f2ec2f61a9d850e94a1e142e0a7fcd6cf9",
+      "observed_sha256": "42b0d947de46892d3d1cf58c5d3e75f2ec2f61a9d850e94a1e142e0a7fcd6cf9",
+      "path": "data/curation/epizyme/results/epizyme_conservative_parents.csv"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "4bc9416609c3b12021a8a75a21f7109b733283a9bb640562ee8609d1915f45b9",
+      "observed_sha256": "4bc9416609c3b12021a8a75a21f7109b733283a9bb640562ee8609d1915f45b9",
+      "path": "data/curation/epizyme/results/epizyme_curation_summary.json"
+    },
+    {
+      "exact_bytes_match": true,
+      "expected_sha256": "86b0ce2bbc12fa42cb90dce4b586a76823f9c2452517f0cd9b18206a96cfd59d",
+      "observed_sha256": "86b0ce2bbc12fa42cb90dce4b586a76823f9c2452517f0cd9b18206a96cfd59d",
+      "path": "data/curation/epizyme/results/epizyme_protocols.json"
+    }
+  ],
+  "fresh_environment_install_verified": false,
+  "model_fitting": false,
+  "network_used": false,
+  "non_exact_targets": "Timestamped audit/capacity receipts and directory-content inventories are not byte-identical targets; original snapshots remain intact in archive.",
+  "observed_order_variance": "Filesystem/glob input order changes crosswalk row order and one semicolon-separated conflicting activity-ID pair; gate hashes follow changed auxiliary bytes. No labels, structures, exclusion reasons, counts or cohort bytes change.",
+  "overlap_and_similarity": {
+    "train_vs_test": {
+      "maximum_similarity_quantiles": {
+        "max": 0.6296296296296297,
+        "median": 0.48701079622132254,
+        "min": 0.4024390243902439,
+        "p25": 0.4657534246575342,
+        "p75": 0.5194432169686257
+      },
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 246,
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    },
+    "train_vs_validation": {
+      "maximum_similarity_quantiles": {
+        "max": 0.6,
+        "median": 0.5072463768115942,
+        "min": 0.4520547945205479,
+        "p25": 0.4794520547945205,
+        "p75": 0.5352112676056338
+      },
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 70,
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    },
+    "validation_vs_test": {
+      "maximum_similarity_quantiles": {
+        "max": 0.7575757575757576,
+        "median": 0.560064935064935,
+        "min": 0.43157894736842106,
+        "p25": 0.5280172413793104,
+        "p75": 0.5872916666666667
+      },
+      "overlap_counts": {
+        "canonical_smiles": 0,
+        "scaffold_group": 0,
+        "source_family": 0
+      },
+      "query_count": 246,
+      "query_ge_0_8": 0,
+      "query_ge_0_9": 0
+    }
+  },
+  "python": "3.12.14",
+  "started_utc": "2026-10-16T07:05:14.896866+00:00",
+  "status": "PASS_EXACT_COHORT_AND_AUXILIARY_SEMANTICS",
+  "verified_extracted_members": 226
+}

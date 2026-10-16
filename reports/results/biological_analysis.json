@@ -1,0 +1,2521 @@
+{
+  "status": "DESCRIPTIVE_POST_SCORE_ANALYSIS",
+  "n_test_parents": 246,
+  "positive": 69,
+  "negative": 177,
+  "n_model_parent_rows": 1722,
+  "models": [
+    "adapted_encoder",
+    "constant_prevalence",
+    "fingerprint_logistic",
+    "fingerprint_logistic_chiral",
+    "five_neighbor",
+    "frozen_encoder",
+    "random_forest"
+  ],
+  "overall": {
+    "adapted_encoder": {
+      "threshold": 0.3405372992086493,
+      "n": 246,
+      "tp": 2,
+      "fn": 67,
+      "fp": 18,
+      "tn": 159,
+      "sensitivity": 0.028985507246376812,
+      "specificity": 0.8983050847457628,
+      "balanced_accuracy": 0.4636452959960698,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.25531193981602485,
+      "average_precision_undefined_reason": null
+    },
+    "constant_prevalence": {
+      "threshold": 0.2715231788079471,
+      "n": 246,
+      "tp": 0,
+      "fn": 69,
+      "fp": 0,
+      "tn": 177,
+      "sensitivity": 0.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.5,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.2804878048780488,
+      "average_precision_undefined_reason": null
+    },
+    "fingerprint_logistic": {
+      "threshold": 0.21897391340860575,
+      "n": 246,
+      "tp": 18,
+      "fn": 51,
+      "fp": 63,
+      "tn": 114,
+      "sensitivity": 0.2608695652173913,
+      "specificity": 0.6440677966101694,
+      "balanced_accuracy": 0.45246868091378034,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.2703843435642561,
+      "average_precision_undefined_reason": null
+    },
+    "fingerprint_logistic_chiral": {
+      "threshold": 0.2067380674800397,
+      "n": 246,
+      "tp": 23,
+      "fn": 46,
+      "fp": 66,
+      "tn": 111,
+      "sensitivity": 0.3333333333333333,
+      "specificity": 0.6271186440677966,
+      "balanced_accuracy": 0.480225988700565,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.27491062805276156,
+      "average_precision_undefined_reason": null
+    },
+    "five_neighbor": {
+      "threshold": 0.2,
+      "n": 246,
+      "tp": 10,
+      "fn": 59,
+      "fp": 23,
+      "tn": 154,
+      "sensitivity": 0.14492753623188406,
+      "specificity": 0.8700564971751412,
+      "balanced_accuracy": 0.5074920167035126,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.28117468427648706,
+      "average_precision_undefined_reason": null
+    },
+    "frozen_encoder": {
+      "threshold": 0.7511197415572706,
+      "n": 246,
+      "tp": 2,
+      "fn": 67,
+      "fp": 6,
+      "tn": 171,
+      "sensitivity": 0.028985507246376812,
+      "specificity": 0.9661016949152542,
+      "balanced_accuracy": 0.4975436010808155,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.2550690024984793,
+      "average_precision_undefined_reason": null
+    },
+    "random_forest": {
+      "threshold": 0.34489538529441066,
+      "n": 246,
+      "tp": 10,
+      "fn": 59,
+      "fp": 39,
+      "tn": 138,
+      "sensitivity": 0.14492753623188406,
+      "specificity": 0.7796610169491526,
+      "balanced_accuracy": 0.4622942765905183,
+      "positive": 69,
+      "negative": 177,
+      "average_precision": 0.24326883062239185,
+      "average_precision_undefined_reason": null
+    }
+  },
+  "subgroups": {
+    "similarity_band": [
+      {
+        "category": "<0.5",
+        "n": 142,
+        "positive": 36,
+        "negative": 106,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 142,
+            "tp": 2,
+            "fn": 34,
+            "fp": 13,
+            "tn": 93,
+            "sensitivity": 0.05555555555555555,
+            "specificity": 0.8773584905660378,
+            "balanced_accuracy": 0.46645702306079667,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.23677943198610715,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 142,
+            "tp": 0,
+            "fn": 36,
+            "fp": 0,
+            "tn": 106,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.2535211267605634,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 142,
+            "tp": 9,
+            "fn": 27,
+            "fp": 33,
+            "tn": 73,
+            "sensitivity": 0.25,
+            "specificity": 0.6886792452830188,
+            "balanced_accuracy": 0.4693396226415094,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.291748314701332,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 142,
+            "tp": 13,
+            "fn": 23,
+            "fp": 35,
+            "tn": 71,
+            "sensitivity": 0.3611111111111111,
+            "specificity": 0.6698113207547169,
+            "balanced_accuracy": 0.515461215932914,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.29962581004120964,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 142,
+            "tp": 3,
+            "fn": 33,
+            "fp": 6,
+            "tn": 100,
+            "sensitivity": 0.08333333333333333,
+            "specificity": 0.9433962264150944,
+            "balanced_accuracy": 0.5133647798742138,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.26017214397496086,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 142,
+            "tp": 2,
+            "fn": 34,
+            "fp": 4,
+            "tn": 102,
+            "sensitivity": 0.05555555555555555,
+            "specificity": 0.9622641509433962,
+            "balanced_accuracy": 0.5089098532494759,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.23663638569834128,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 142,
+            "tp": 7,
+            "fn": 29,
+            "fp": 20,
+            "tn": 86,
+            "sensitivity": 0.19444444444444445,
+            "specificity": 0.8113207547169812,
+            "balanced_accuracy": 0.5028825995807128,
+            "positive": 36,
+            "negative": 106,
+            "average_precision": 0.24420678478546423,
+            "average_precision_undefined_reason": null
+          }
+        }
+      },
+      {
+        "category": "0.5\u2013<0.7",
+        "n": 104,
+        "positive": 33,
+        "negative": 71,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 104,
+            "tp": 0,
+            "fn": 33,
+            "fp": 5,
+            "tn": 66,
+            "sensitivity": 0.0,
+            "specificity": 0.9295774647887324,
+            "balanced_accuracy": 0.4647887323943662,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.3041792876572843,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 104,
+            "tp": 0,
+            "fn": 33,
+            "fp": 0,
+            "tn": 71,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.3173076923076923,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 104,
+            "tp": 9,
+            "fn": 24,
+            "fp": 30,
+            "tn": 41,
+            "sensitivity": 0.2727272727272727,
+            "specificity": 0.5774647887323944,
+            "balanced_accuracy": 0.42509603072983354,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.2645715917375216,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 104,
+            "tp": 10,
+            "fn": 23,
+            "fp": 31,
+            "tn": 40,
+            "sensitivity": 0.30303030303030304,
+            "specificity": 0.5633802816901409,
+            "balanced_accuracy": 0.433205292360222,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.26706927180615664,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 104,
+            "tp": 7,
+            "fn": 26,
+            "fp": 17,
+            "tn": 54,
+            "sensitivity": 0.21212121212121213,
+            "specificity": 0.7605633802816901,
+            "balanced_accuracy": 0.48634229620145114,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.30735930735930733,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 104,
+            "tp": 0,
+            "fn": 33,
+            "fp": 2,
+            "tn": 69,
+            "sensitivity": 0.0,
+            "specificity": 0.971830985915493,
+            "balanced_accuracy": 0.4859154929577465,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.30278866882681177,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 104,
+            "tp": 3,
+            "fn": 30,
+            "fp": 19,
+            "tn": 52,
+            "sensitivity": 0.09090909090909091,
+            "specificity": 0.7323943661971831,
+            "balanced_accuracy": 0.41165172855313703,
+            "positive": 33,
+            "negative": 71,
+            "average_precision": 0.26416764393916614,
+            "average_precision_undefined_reason": null
+          }
+        }
+      },
+      {
+        "category": ">=0.7",
+        "n": 0,
+        "positive": 0,
+        "negative": 0,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "tn": 0,
+            "fn": 0,
+            "sensitivity": null,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          }
+        }
+      }
+    ],
+    "original_activity_bins": [
+      {
+        "category": "+",
+        "n": 2,
+        "positive": 0,
+        "negative": 2,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 2,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 2,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 1,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 0.5,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 2,
+            "tn": 0,
+            "sensitivity": null,
+            "specificity": 0.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 1,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 0.5,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 2,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 2,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 2,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 2,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          }
+        }
+      },
+      {
+        "category": "++",
+        "n": 174,
+        "positive": 0,
+        "negative": 174,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 18,
+            "tn": 156,
+            "sensitivity": null,
+            "specificity": 0.896551724137931,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 174,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 62,
+            "tn": 112,
+            "sensitivity": null,
+            "specificity": 0.6436781609195402,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 64,
+            "tn": 110,
+            "sensitivity": null,
+            "specificity": 0.632183908045977,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 22,
+            "tn": 152,
+            "sensitivity": null,
+            "specificity": 0.8735632183908046,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 6,
+            "tn": 168,
+            "sensitivity": null,
+            "specificity": 0.9655172413793104,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 174,
+            "tp": 0,
+            "fn": 0,
+            "fp": 39,
+            "tn": 135,
+            "sensitivity": null,
+            "specificity": 0.7758620689655172,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 174,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          }
+        }
+      },
+      {
+        "category": "+++",
+        "n": 69,
+        "positive": 69,
+        "negative": 0,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 69,
+            "tp": 2,
+            "fn": 67,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.028985507246376812,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 69,
+            "tp": 0,
+            "fn": 69,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.0,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 69,
+            "tp": 18,
+            "fn": 51,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.2608695652173913,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 69,
+            "tp": 23,
+            "fn": 46,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.3333333333333333,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 69,
+            "tp": 10,
+            "fn": 59,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.14492753623188406,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 69,
+            "tp": 2,
+            "fn": 67,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.028985507246376812,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 69,
+            "tp": 10,
+            "fn": 59,
+            "fp": 0,
+            "tn": 0,
+            "sensitivity": 0.14492753623188406,
+            "specificity": null,
+            "balanced_accuracy": null,
+            "positive": 69,
+            "negative": 0,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          }
+        }
+      },
+      {
+        "category": "+|++",
+        "n": 1,
+        "positive": 0,
+        "negative": 1,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 1,
+            "tp": 0,
+            "fn": 0,
+            "fp": 0,
+            "tn": 1,
+            "sensitivity": null,
+            "specificity": 1.0,
+            "balanced_accuracy": null,
+            "positive": 0,
+            "negative": 1,
+            "average_precision": null,
+            "average_precision_undefined_reason": "Both label classes required"
+          }
+        }
+      }
+    ],
+    "nonisomeric_collision": [
+      {
+        "category": false,
+        "n": 220,
+        "positive": 65,
+        "negative": 155,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 220,
+            "tp": 2,
+            "fn": 63,
+            "fp": 16,
+            "tn": 139,
+            "sensitivity": 0.03076923076923077,
+            "specificity": 0.896774193548387,
+            "balanced_accuracy": 0.4637717121588089,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.2789338118136204,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 220,
+            "tp": 0,
+            "fn": 65,
+            "fp": 0,
+            "tn": 155,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.29545454545454547,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 220,
+            "tp": 17,
+            "fn": 48,
+            "fp": 56,
+            "tn": 99,
+            "sensitivity": 0.26153846153846155,
+            "specificity": 0.6387096774193548,
+            "balanced_accuracy": 0.45012406947890815,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.2867818187479026,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 220,
+            "tp": 21,
+            "fn": 44,
+            "fp": 58,
+            "tn": 97,
+            "sensitivity": 0.3230769230769231,
+            "specificity": 0.6258064516129033,
+            "balanced_accuracy": 0.4744416873449132,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.28573415612350894,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 220,
+            "tp": 10,
+            "fn": 55,
+            "fp": 23,
+            "tn": 132,
+            "sensitivity": 0.15384615384615385,
+            "specificity": 0.8516129032258064,
+            "balanced_accuracy": 0.5027295285359801,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.2938811188811189,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 220,
+            "tp": 2,
+            "fn": 63,
+            "fp": 6,
+            "tn": 149,
+            "sensitivity": 0.03076923076923077,
+            "specificity": 0.9612903225806452,
+            "balanced_accuracy": 0.49602977667493797,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.2786662341164386,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 220,
+            "tp": 9,
+            "fn": 56,
+            "fp": 32,
+            "tn": 123,
+            "sensitivity": 0.13846153846153847,
+            "specificity": 0.7935483870967742,
+            "balanced_accuracy": 0.4660049627791564,
+            "positive": 65,
+            "negative": 155,
+            "average_precision": 0.2590932709789124,
+            "average_precision_undefined_reason": null
+          }
+        }
+      },
+      {
+        "category": true,
+        "n": 26,
+        "positive": 4,
+        "negative": 22,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 26,
+            "tp": 0,
+            "fn": 4,
+            "fp": 2,
+            "tn": 20,
+            "sensitivity": 0.0,
+            "specificity": 0.9090909090909091,
+            "balanced_accuracy": 0.45454545454545453,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.1143543956043956,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 26,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 22,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.15384615384615385,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 26,
+            "tp": 1,
+            "fn": 3,
+            "fp": 7,
+            "tn": 15,
+            "sensitivity": 0.25,
+            "specificity": 0.6818181818181818,
+            "balanced_accuracy": 0.4659090909090909,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.16041666666666665,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 26,
+            "tp": 2,
+            "fn": 2,
+            "fp": 8,
+            "tn": 14,
+            "sensitivity": 0.5,
+            "specificity": 0.6363636363636364,
+            "balanced_accuracy": 0.5681818181818181,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.2650691699604743,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 26,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 22,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.15384615384615385,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 26,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 22,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.1143543956043956,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 26,
+            "tp": 1,
+            "fn": 3,
+            "fp": 7,
+            "tn": 15,
+            "sensitivity": 0.25,
+            "specificity": 0.6818181818181818,
+            "balanced_accuracy": 0.4659090909090909,
+            "positive": 4,
+            "negative": 22,
+            "average_precision": 0.16101398601398603,
+            "average_precision_undefined_reason": null
+          }
+        }
+      }
+    ],
+    "nonisomeric_mixed_label_collision": [
+      {
+        "category": false,
+        "n": 236,
+        "positive": 65,
+        "negative": 171,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 236,
+            "tp": 2,
+            "fn": 63,
+            "fp": 18,
+            "tn": 153,
+            "sensitivity": 0.03076923076923077,
+            "specificity": 0.8947368421052632,
+            "balanced_accuracy": 0.46275303643724697,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.2513766173988885,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 236,
+            "tp": 0,
+            "fn": 65,
+            "fp": 0,
+            "tn": 171,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.2754237288135593,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 236,
+            "tp": 17,
+            "fn": 48,
+            "fp": 61,
+            "tn": 110,
+            "sensitivity": 0.26153846153846155,
+            "specificity": 0.6432748538011696,
+            "balanced_accuracy": 0.4524066576698156,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.26708716253531595,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 236,
+            "tp": 21,
+            "fn": 44,
+            "fp": 63,
+            "tn": 108,
+            "sensitivity": 0.3230769230769231,
+            "specificity": 0.631578947368421,
+            "balanced_accuracy": 0.47732793522267203,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.26995466270328555,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 236,
+            "tp": 10,
+            "fn": 55,
+            "fp": 23,
+            "tn": 148,
+            "sensitivity": 0.15384615384615385,
+            "specificity": 0.8654970760233918,
+            "balanced_accuracy": 0.5096716149347729,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.276931966338746,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 236,
+            "tp": 2,
+            "fn": 63,
+            "fp": 6,
+            "tn": 165,
+            "sensitivity": 0.03076923076923077,
+            "specificity": 0.9649122807017544,
+            "balanced_accuracy": 0.4978407557354926,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.2512200176748366,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 236,
+            "tp": 9,
+            "fn": 56,
+            "fp": 37,
+            "tn": 134,
+            "sensitivity": 0.13846153846153847,
+            "specificity": 0.783625730994152,
+            "balanced_accuracy": 0.46104363472784526,
+            "positive": 65,
+            "negative": 171,
+            "average_precision": 0.23845618106622224,
+            "average_precision_undefined_reason": null
+          }
+        }
+      },
+      {
+        "category": true,
+        "n": 10,
+        "positive": 4,
+        "negative": 6,
+        "models": {
+          "adapted_encoder": {
+            "threshold": 0.3405372992086493,
+            "n": 10,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 6,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.41875,
+            "average_precision_undefined_reason": null
+          },
+          "constant_prevalence": {
+            "threshold": 0.2715231788079471,
+            "n": 10,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 6,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.4,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic": {
+            "threshold": 0.21897391340860575,
+            "n": 10,
+            "tp": 1,
+            "fn": 3,
+            "fp": 2,
+            "tn": 4,
+            "sensitivity": 0.25,
+            "specificity": 0.6666666666666666,
+            "balanced_accuracy": 0.4583333333333333,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.3770833333333333,
+            "average_precision_undefined_reason": null
+          },
+          "fingerprint_logistic_chiral": {
+            "threshold": 0.2067380674800397,
+            "n": 10,
+            "tp": 2,
+            "fn": 2,
+            "fp": 3,
+            "tn": 3,
+            "sensitivity": 0.5,
+            "specificity": 0.5,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.5798611111111112,
+            "average_precision_undefined_reason": null
+          },
+          "five_neighbor": {
+            "threshold": 0.2,
+            "n": 10,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 6,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.4,
+            "average_precision_undefined_reason": null
+          },
+          "frozen_encoder": {
+            "threshold": 0.7511197415572706,
+            "n": 10,
+            "tp": 0,
+            "fn": 4,
+            "fp": 0,
+            "tn": 6,
+            "sensitivity": 0.0,
+            "specificity": 1.0,
+            "balanced_accuracy": 0.5,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.41875,
+            "average_precision_undefined_reason": null
+          },
+          "random_forest": {
+            "threshold": 0.34489538529441066,
+            "n": 10,
+            "tp": 1,
+            "fn": 3,
+            "fp": 2,
+            "tn": 4,
+            "sensitivity": 0.25,
+            "specificity": 0.6666666666666666,
+            "balanced_accuracy": 0.4583333333333333,
+            "positive": 4,
+            "negative": 6,
+            "average_precision": 0.36041666666666666,
+            "average_precision_undefined_reason": null
+          }
+        }
+      }
+    ]
+  },
+  "nonisomeric_collision_audit": {
+    "rows": 246,
+    "distinct_inputs": 231,
+    "collision_groups": 11,
+    "collision_members": 26,
+    "mixed_label_groups": 4,
+    "mixed_label_members": 10,
+    "empirical_minimum_errors": 4,
+    "empirical_minimum_error_fraction": 0.016260162601626018
+  },
+  "descriptors": {
+    "mw": {
+      "by_frozen_label": {
+        "0": {
+          "n": 177,
+          "median": 479.6210000000003,
+          "q25": 464.6100000000003,
+          "q75": 498.59900000000033
+        },
+        "1": {
+          "n": 69,
+          "median": 477.5360000000004,
+          "q25": 453.54200000000026,
+          "q75": 501.53000000000037
+        }
+      },
+      "by_model_error": {
+        "adapted_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 508.64850000000035,
+            "q25": 494.1347500000004,
+            "q75": 523.1622500000004
+          },
+          "FN": {
+            "n": 67,
+            "median": 477.5360000000004,
+            "q25": 453.54200000000026,
+            "q75": 497.5890000000004
+          },
+          "FP": {
+            "n": 18,
+            "median": 487.1160000000003,
+            "q25": 465.5940000000003,
+            "q75": 521.6370000000002
+          },
+          "TN": {
+            "n": 159,
+            "median": 479.6210000000003,
+            "q25": 464.6080000000003,
+            "q75": 495.62000000000035
+          }
+        },
+        "constant_prevalence": {
+          "TP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "FN": {
+            "n": 69,
+            "median": 477.5360000000004,
+            "q25": 453.54200000000026,
+            "q75": 501.53000000000037
+          },
+          "FP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "TN": {
+            "n": 177,
+            "median": 479.6210000000003,
+            "q25": 464.6100000000003,
+            "q75": 498.59900000000033
+          }
+        },
+        "fingerprint_logistic": {
+          "TP": {
+            "n": 18,
+            "median": 466.58950000000027,
+            "q25": 454.82775000000026,
+            "q75": 488.62925000000035
+          },
+          "FN": {
+            "n": 51,
+            "median": 479.5770000000003,
+            "q25": 456.54400000000027,
+            "q75": 503.5725000000004
+          },
+          "FP": {
+            "n": 63,
+            "median": 479.6210000000003,
+            "q25": 465.5940000000003,
+            "q75": 494.1420000000004
+          },
+          "TN": {
+            "n": 114,
+            "median": 479.6210000000003,
+            "q25": 463.5890000000004,
+            "q75": 504.59375000000034
+          }
+        },
+        "fingerprint_logistic_chiral": {
+          "TP": {
+            "n": 23,
+            "median": 479.6210000000003,
+            "q25": 464.1160000000003,
+            "q75": 499.1615000000004
+          },
+          "FN": {
+            "n": 46,
+            "median": 477.5360000000004,
+            "q25": 453.54200000000026,
+            "q75": 499.5595000000004
+          },
+          "FP": {
+            "n": 66,
+            "median": 479.59900000000033,
+            "q25": 465.5940000000003,
+            "q75": 491.6210000000003
+          },
+          "TN": {
+            "n": 111,
+            "median": 481.5680000000003,
+            "q25": 463.60000000000036,
+            "q75": 506.1530000000004
+          }
+        },
+        "five_neighbor": {
+          "TP": {
+            "n": 10,
+            "median": 453.54200000000026,
+            "q25": 447.80500000000023,
+            "q75": 464.3520000000003
+          },
+          "FN": {
+            "n": 59,
+            "median": 479.57700000000034,
+            "q25": 465.1020000000003,
+            "q75": 507.65300000000036
+          },
+          "FP": {
+            "n": 23,
+            "median": 478.63700000000034,
+            "q25": 443.0535000000002,
+            "q75": 486.08600000000024
+          },
+          "TN": {
+            "n": 154,
+            "median": 479.6210000000003,
+            "q25": 465.56100000000026,
+            "q75": 505.64800000000037
+          }
+        },
+        "frozen_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 508.64850000000035,
+            "q25": 494.1347500000004,
+            "q75": 523.1622500000004
+          },
+          "FN": {
+            "n": 67,
+            "median": 477.5360000000004,
+            "q25": 453.54200000000026,
+            "q75": 497.5890000000004
+          },
+          "FP": {
+            "n": 6,
+            "median": 525.6430000000003,
+            "q25": 480.84575000000024,
+            "q75": 532.9350000000004
+          },
+          "TN": {
+            "n": 171,
+            "median": 479.6210000000003,
+            "q25": 464.55150000000026,
+            "q75": 495.62000000000035
+          }
+        },
+        "random_forest": {
+          "TP": {
+            "n": 10,
+            "median": 512.1805000000004,
+            "q25": 469.10075000000035,
+            "q75": 523.1720000000004
+          },
+          "FN": {
+            "n": 59,
+            "median": 477.5360000000004,
+            "q25": 453.54200000000026,
+            "q75": 493.13400000000036
+          },
+          "FP": {
+            "n": 39,
+            "median": 479.6210000000003,
+            "q25": 465.5940000000003,
+            "q75": 506.1310000000004
+          },
+          "TN": {
+            "n": 138,
+            "median": 479.6210000000003,
+            "q25": 463.5890000000004,
+            "q75": 497.11325000000033
+          }
+        }
+      }
+    },
+    "logp": {
+      "by_frozen_label": {
+        "0": {
+          "n": 177,
+          "median": 2.4597000000000007,
+          "q25": 2.0766,
+          "q75": 2.8089000000000013
+        },
+        "1": {
+          "n": 69,
+          "median": 2.8019000000000007,
+          "q25": 2.3301,
+          "q75": 3.1389000000000014
+        }
+      },
+      "by_model_error": {
+        "adapted_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 3.2380500000000016,
+            "q25": 3.0207750000000013,
+            "q75": 3.455325000000002
+          },
+          "FN": {
+            "n": 67,
+            "median": 2.760300000000001,
+            "q25": 2.3293,
+            "q75": 3.124900000000001
+          },
+          "FP": {
+            "n": 18,
+            "median": 2.4558000000000004,
+            "q25": 2.036625,
+            "q75": 2.699675000000001
+          },
+          "TN": {
+            "n": 159,
+            "median": 2.4597000000000007,
+            "q25": 2.0801,
+            "q75": 2.810300000000001
+          }
+        },
+        "constant_prevalence": {
+          "TP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "FN": {
+            "n": 69,
+            "median": 2.8019000000000007,
+            "q25": 2.3301,
+            "q75": 3.1389000000000014
+          },
+          "FP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "TN": {
+            "n": 177,
+            "median": 2.4597000000000007,
+            "q25": 2.0766,
+            "q75": 2.8089000000000013
+          }
+        },
+        "fingerprint_logistic": {
+          "TP": {
+            "n": 18,
+            "median": 2.7314500000000006,
+            "q25": 2.341175,
+            "q75": 2.9410750000000014
+          },
+          "FN": {
+            "n": 51,
+            "median": 2.8035000000000005,
+            "q25": 2.3301,
+            "q75": 3.1446000000000014
+          },
+          "FP": {
+            "n": 63,
+            "median": 2.4134,
+            "q25": 2.1217,
+            "q75": 2.639610000000001
+          },
+          "TN": {
+            "n": 114,
+            "median": 2.5158,
+            "q25": 2.02745,
+            "q75": 2.891750000000001
+          }
+        },
+        "fingerprint_logistic_chiral": {
+          "TP": {
+            "n": 23,
+            "median": 2.8019000000000007,
+            "q25": 2.4748,
+            "q75": 2.953500000000001
+          },
+          "FN": {
+            "n": 46,
+            "median": 2.7819000000000007,
+            "q25": 2.3289,
+            "q75": 3.140925000000001
+          },
+          "FP": {
+            "n": 66,
+            "median": 2.4118000000000004,
+            "q25": 2.120475,
+            "q75": 2.6191750000000007
+          },
+          "TN": {
+            "n": 111,
+            "median": 2.5145,
+            "q25": 2.0315999999999996,
+            "q75": 2.903650000000001
+          }
+        },
+        "five_neighbor": {
+          "TP": {
+            "n": 10,
+            "median": 2.6897000000000006,
+            "q25": 2.0348300000000004,
+            "q75": 2.7352000000000007
+          },
+          "FN": {
+            "n": 59,
+            "median": 2.8201,
+            "q25": 2.3301,
+            "q75": 3.1565500000000015
+          },
+          "FP": {
+            "n": 23,
+            "median": 2.1824000000000012,
+            "q25": 1.9449999999999994,
+            "q75": 2.552000000000001
+          },
+          "TN": {
+            "n": 154,
+            "median": 2.4912,
+            "q25": 2.120475,
+            "q75": 2.830425000000001
+          }
+        },
+        "frozen_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 3.2380500000000016,
+            "q25": 3.0207750000000013,
+            "q75": 3.455325000000002
+          },
+          "FN": {
+            "n": 67,
+            "median": 2.760300000000001,
+            "q25": 2.3293,
+            "q75": 3.124900000000001
+          },
+          "FP": {
+            "n": 6,
+            "median": 2.662650000000001,
+            "q25": 2.3606500000000006,
+            "q75": 2.840075000000001
+          },
+          "TN": {
+            "n": 171,
+            "median": 2.428400000000001,
+            "q25": 2.0398999999999994,
+            "q75": 2.806200000000001
+          }
+        },
+        "random_forest": {
+          "TP": {
+            "n": 10,
+            "median": 2.902150000000001,
+            "q25": 2.4723800000000002,
+            "q75": 3.377550000000002
+          },
+          "FN": {
+            "n": 59,
+            "median": 2.760300000000001,
+            "q25": 2.3228,
+            "q75": 3.1098000000000012
+          },
+          "FP": {
+            "n": 39,
+            "median": 2.4134,
+            "q25": 2.25535,
+            "q75": 2.639610000000001
+          },
+          "TN": {
+            "n": 138,
+            "median": 2.5005000000000006,
+            "q25": 2.0028999999999995,
+            "q75": 2.876350000000001
+          }
+        }
+      }
+    },
+    "hbd": {
+      "by_frozen_label": {
+        "0": {
+          "n": 177,
+          "median": 1.0,
+          "q25": 1.0,
+          "q75": 1.0
+        },
+        "1": {
+          "n": 69,
+          "median": 1.0,
+          "q25": 1.0,
+          "q75": 1.0
+        }
+      },
+      "by_model_error": {
+        "adapted_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 67,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 18,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.75
+          },
+          "TN": {
+            "n": 159,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "constant_prevalence": {
+          "TP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "FN": {
+            "n": 69,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "TN": {
+            "n": 177,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "fingerprint_logistic": {
+          "TP": {
+            "n": 18,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 51,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 63,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "TN": {
+            "n": 114,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "fingerprint_logistic_chiral": {
+          "TP": {
+            "n": 23,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 46,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 66,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "TN": {
+            "n": 111,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "five_neighbor": {
+          "TP": {
+            "n": 10,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 59,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 23,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "TN": {
+            "n": 154,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "frozen_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 67,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 6,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.75
+          },
+          "TN": {
+            "n": 171,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        },
+        "random_forest": {
+          "TP": {
+            "n": 10,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FN": {
+            "n": 59,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "FP": {
+            "n": 39,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          },
+          "TN": {
+            "n": 138,
+            "median": 1.0,
+            "q25": 1.0,
+            "q75": 1.0
+          }
+        }
+      }
+    },
+    "hba": {
+      "by_frozen_label": {
+        "0": {
+          "n": 177,
+          "median": 6.0,
+          "q25": 5.0,
+          "q75": 6.0
+        },
+        "1": {
+          "n": 69,
+          "median": 6.0,
+          "q25": 5.0,
+          "q75": 6.0
+        }
+      },
+      "by_model_error": {
+        "adapted_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 67,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 18,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 7.0
+          },
+          "TN": {
+            "n": 159,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "constant_prevalence": {
+          "TP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "FN": {
+            "n": 69,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "TN": {
+            "n": 177,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "fingerprint_logistic": {
+          "TP": {
+            "n": 18,
+            "median": 6.0,
+            "q25": 5.25,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 51,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 63,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 6.5
+          },
+          "TN": {
+            "n": 114,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "fingerprint_logistic_chiral": {
+          "TP": {
+            "n": 23,
+            "median": 6.0,
+            "q25": 5.5,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 46,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 66,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 6.0
+          },
+          "TN": {
+            "n": 111,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "five_neighbor": {
+          "TP": {
+            "n": 10,
+            "median": 5.5,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 59,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 23,
+            "median": 6.0,
+            "q25": 5.5,
+            "q75": 7.0
+          },
+          "TN": {
+            "n": 154,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "frozen_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 67,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 6,
+            "median": 6.5,
+            "q25": 6.0,
+            "q75": 7.0
+          },
+          "TN": {
+            "n": 171,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        },
+        "random_forest": {
+          "TP": {
+            "n": 10,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 6.0
+          },
+          "FN": {
+            "n": 59,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          },
+          "FP": {
+            "n": 39,
+            "median": 6.0,
+            "q25": 6.0,
+            "q75": 7.0
+          },
+          "TN": {
+            "n": 138,
+            "median": 6.0,
+            "q25": 5.0,
+            "q75": 6.0
+          }
+        }
+      }
+    },
+    "tpsa": {
+      "by_frozen_label": {
+        "0": {
+          "n": 177,
+          "median": 70.08,
+          "q25": 65.48,
+          "q75": 76.56000000000002
+        },
+        "1": {
+          "n": 69,
+          "median": 65.48,
+          "q25": 59.49000000000001,
+          "q75": 76.48
+        }
+      },
+      "by_model_error": {
+        "adapted_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 65.48,
+            "q25": 65.48,
+            "q75": 65.48
+          },
+          "FN": {
+            "n": 67,
+            "median": 65.89999999999999,
+            "q25": 59.49000000000001,
+            "q75": 76.48
+          },
+          "FP": {
+            "n": 18,
+            "median": 70.095,
+            "q25": 65.48,
+            "q75": 75.025
+          },
+          "TN": {
+            "n": 159,
+            "median": 70.08,
+            "q25": 65.48,
+            "q75": 77.40500000000002
+          }
+        },
+        "constant_prevalence": {
+          "TP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "FN": {
+            "n": 69,
+            "median": 65.48,
+            "q25": 59.49000000000001,
+            "q75": 76.48
+          },
+          "FP": {
+            "n": 0,
+            "median": null,
+            "q25": null,
+            "q75": null
+          },
+          "TN": {
+            "n": 177,
+            "median": 70.08,
+            "q25": 65.48,
+            "q75": 76.56000000000002
+          }
+        },
+        "fingerprint_logistic": {
+          "TP": {
+            "n": 18,
+            "median": 65.48,
+            "q25": 59.49000000000001,
+            "q75": 65.48
+          },
+          "FN": {
+            "n": 51,
+            "median": 71.47,
+            "q25": 62.48500000000001,
+            "q75": 82.55
+          },
+          "FP": {
+            "n": 63,
+            "median": 65.48,
+            "q25": 65.48,
+            "q75": 74.71000000000001
+          },
+          "TN": {
+            "n": 114,
+            "median": 73.32,
+            "q25": 65.47999999999999,
+            "q75": 82.55
+          }
+        },
+        "fingerprint_logistic_chiral": {
+          "TP": {
+            "n": 23,
+            "median": 65.48,
+            "q25": 59.49000000000001,
+            "q75": 65.48
+          },
+          "FN": {
+            "n": 46,
+            "median": 73.28,
+            "q25": 65.48,
+            "q75": 82.55
+          },
+          "FP": {
+            "n": 66,
+            "median": 65.48,
+            "q25": 65.48,
+            "q75": 74.71
+          },
+          "TN": {
+            "n": 111,
+            "median": 73.32,
+            "q25": 65.48,
+            "q75": 82.54999999999998
+          }
+        },
+        "five_neighbor": {
+          "TP": {
+            "n": 10,
+            "median": 65.48,
+            "q25": 60.98750000000001,
+            "q75": 65.89999999999999
+          },
+          "FN": {
+            "n": 59,
+            "median": 69.14,
+            "q25": 59.49000000000001,
+            "q75": 76.52000000000001
+          },
+          "FP": {
+            "n": 23,
+            "median": 65.89999999999999,
+            "q25": 65.48,
+            "q75": 76.53999999999999
+          },
+          "TN": {
+            "n": 154,
+            "median": 71.15,
+            "q25": 65.48,
+            "q75": 76.56000000000002
+          }
+        },
+        "frozen_encoder": {
+          "TP": {
+            "n": 2,
+            "median": 65.48,
+            "q25": 65.48,
+            "q75": 65.48
+          },
+          "FN": {
+            "n": 67,
+            "median": 65.89999999999999,
+            "q25": 59.49000000000001,
+            "q75": 76.48
+          },
+          "FP": {
+            "n": 6,
+            "median": 70.095,
+            "q25": 66.29,
+            "q75": 82.15
+          },
+          "TN": {
+            "n": 171,
+            "median": 70.08,
+            "q25": 65.48,
+            "q75": 76.56
+          }
+        },
+        "random_forest": {
+          "TP": {
+            "n": 10,
+            "median": 65.48,
+            "q25": 65.48,
+            "q75": 69.5975
+          },
+          "FN": {
+            "n": 59,
+            "median": 65.89999999999999,
+            "q25": 59.49000000000001,
+            "q75": 76.48
+          },
+          "FP": {
+            "n": 39,
+            "median": 68.72,
+            "q25": 65.48,
+            "q75": 74.71000000000001
+          },
+          "TN": {
+            "n": 138,
+            "median": 72.35499999999999,
+            "q25": 65.48,
+            "q75": 77.82750000000001
+          }
+        }
+      }
+    }
+  },
+  "descriptor_units": {
+    "mw": "Da",
+    "logp": "RDKit Crippen estimate",
+    "hbd": "count",
+    "hba": "count",
+    "tpsa": "angstrom^2"
+  },
+  "source_activity_bin_intervals_nm": {
+    "+++": "[1,100]",
+    "++": "(100,1000]",
+    "+": "(1000,10000]"
+  },
+  "source_bin_policy": "Preserve every original bin; joint weak bins remain joint, without averaging or within-bin potency ranking.",
+  "similarity_policy": {
+    "reference_split": "train",
+    "fingerprint": {
+      "radius": 2,
+      "bits": 2048,
+      "include_chirality": true
+    },
+    "interpretation": "Pinned structural audit uses chirality; primary model inputs are nonisomeric/achiral. Bands do not use recomputed alternative similarities."
+  },
+  "validation_optimization_seed_variation": {
+    "metric": "Best-epoch validation average precision per optimization seed",
+    "n": 70,
+    "positive": 39,
+    "negative": 31,
+    "learning_rates": [
+      {
+        "learning_rate": 1e-05,
+        "selected_learning_rate": true,
+        "seeds": [
+          {
+            "seed": 17,
+            "selected_epoch": 3,
+            "validation_average_precision": 0.7400250573935768
+          },
+          {
+            "seed": 29,
+            "selected_epoch": 3,
+            "validation_average_precision": 0.7344766271682949
+          },
+          {
+            "seed": 43,
+            "selected_epoch": 3,
+            "validation_average_precision": 0.7373997628517152
+          }
+        ],
+        "mean": 0.7373004824711956,
+        "sample_standard_deviation": 0.002775547141857379,
+        "minimum": 0.7344766271682949,
+        "maximum": 0.7400250573935768
+      },
+      {
+        "learning_rate": 3e-05,
+        "selected_learning_rate": false,
+        "seeds": [
+          {
+            "seed": 17,
+            "selected_epoch": 1,
+            "validation_average_precision": 0.7385034937190835
+          },
+          {
+            "seed": 29,
+            "selected_epoch": 3,
+            "validation_average_precision": 0.6986512804284534
+          },
+          {
+            "seed": 43,
+            "selected_epoch": 2,
+            "validation_average_precision": 0.7404368236837701
+          }
+        ],
+        "mean": 0.725863865943769,
+        "sample_standard_deviation": 0.02358660740779315,
+        "minimum": 0.6986512804284534,
+        "maximum": 0.7404368236837701
+      }
+    ],
+    "interpretation": "Optimization variability on reused validation data; not test performance or a confidence interval. Distinct from scaffold bootstrap uncertainty."
+  },
+  "test_optimization_seed_variation": {
+    "metric": "Final-test average precision per selected optimization seed",
+    "learning_rate": 1e-05,
+    "n": 246,
+    "positive": 69,
+    "negative": 177,
+    "seeds": [
+      {
+        "seed": 17,
+        "test_average_precision": 0.2556471172213815
+      },
+      {
+        "seed": 29,
+        "test_average_precision": 0.25568735040764234
+      },
+      {
+        "seed": 43,
+        "test_average_precision": 0.2535907149094377
+      }
+    ],
+    "mean_seed_ap": 0.25497506084615384,
+    "sample_standard_deviation": 0.001199047510191351,
+    "minimum": 0.2535907149094377,
+    "maximum": 0.25568735040764234,
+    "ensemble_average_precision": 0.25531193981602485,
+    "interpretation": "Descriptive variation across all three preselected seeds, without seed selection. Mean seed AP differs from AP of mean probabilities. This is not scaffold-bootstrap uncertainty."
+  },
+  "input_sha256": {
+    "selection_lock": "721965b09f0a736e674be70be7338b131668f62a732905f8e6c7f02b5cf6f4ab",
+    "final_metrics": "c4c3fc96040ec145933425a21e60a519a4a8f063cf19b91b710bb79d8130fc59",
+    "predictions": "c1c5dd8045dc25dda805e31c2547bab1f3e2535f9d83de7d81ce8a47c02eec9d",
+    "cohort": "17772cc5f360464abb2d5b913f1055ca60921d71315dfc03aa93baa1d8d89c96",
+    "neighbors": "ea707e270ebccef451d0228c9cbbadf39c02d1304b9f0cab176b370394bef4c6",
+    "cohort_gate": "08fa20806f03f63b5292c03c0e44b274b4dd709ed214b888916b9b16c266b764",
+    "encoder_development": "b2dbc685c70877c10343e9309e8100c3874ca3e10ec68689d5249c2444dee3db",
+    "encoder_preflight": "fdca809c1cfccb43e6166c67402caf1b5116a8e46c0d35cb8cd40b27905beca0",
+    "analysis_code": "0c7fd97b37495bbda06a5bb931df046274b4cacc841a8b4ec288c58cd1fafd15",
+    "encoder_prediction_receipt": "aca9289de3cf882a35b57c9fd7f770a664aaf99fbf292aecc52ac306087cf049"
+  },
+  "runtime_versions": {
+    "rdkit": "2026.09.1",
+    "numpy": "2.5.4"
+  },
+  "limitations": [
+    "Descriptive post-score summaries only; no tuning, significance tests or causal/mechanistic attribution.",
+    "One held-out patent family; source, chemistry, time and assay protocol remain confounded.",
+    "Small or single-class strata do not support ranking comparisons; AP is null unless both classes occur.",
+    "Nonisomeric collisions describe representation ambiguity; they do not establish stereochemical biology or exclude assay noise.",
+    "Descriptor summaries repeat the same parents across models; model-parent rows are not independent compounds."
+  ],
+  "input_hashes_unchanged_after_analysis": true,
+  "rows_csv_sha256": "65f7d3cd7e06331fdb36eff2409e0738732d88dd7dae2f9279a22eb636f5d8ae"
+}
