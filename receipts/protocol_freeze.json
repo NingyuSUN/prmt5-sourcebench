@@ -1,0 +1,32 @@
+{
+  "stage": "STAGE_1_M0_PROTOCOL_FREEZE",
+  "status": "FROZEN_BEFORE_FEATURIZATION_AND_MODEL_FITTING",
+  "frozen_at_utc": "2026-11-20T05:04:57.356492+00:00",
+  "models_fitted": false,
+  "molecular_features_computed": false,
+  "test_labels_accessed_by_models": false,
+  "v1_sk_test_overlap": 0,
+  "cross_split_leakage": 0,
+  "protocol_sha256": "4b864aac07d7363ded45dd3c7957a130f12c47856874983cceab957a1a5b421a",
+  "pdb_receptors_manifest_sha256": "5132e63135464453131f39a41cde7ae62acf695e4dcbe7a71a559ee34e7b3d10",
+  "cohort_split_manifest_sha256": "85d413460cd876a0eb36823d3dbb457ab7c1721caf8d412aed7a0d9580d13678",
+  "bound_sha256": {
+    "configs/protocol_v2.yaml": "4b864aac07d7363ded45dd3c7957a130f12c47856874983cceab957a1a5b421a",
+    "manifests/pdb_receptors.json": "5132e63135464453131f39a41cde7ae62acf695e4dcbe7a71a559ee34e7b3d10",
+    "manifests/v1_sk_quarantine.json": "7d7d1561beb838269f51aef047d698a0d7dd12f11dd2834e7b46a985092eed08",
+    "manifests/m0_source_audit.json": "228292c87868aa72816f76c6cdec8b5abe5de6de5e69cc2255a203b68d11f91c",
+    "data/raw_curated/chembl_selected_activities.csv": "adb86163dc4009cce6a495f7654f9a91baabad68efbc86ed4003520befa136a3",
+    "data/raw_curated/mirati_table9a_unique.csv": "44571d6d311c59d262d37d72ced97f836ce5322ce0f56010cb495e1dcdb7b724",
+    "data/raw_curated/v1_pre2020_cohorts.csv": "ea23b0c6459c5ff489e4684c75d18b8d58798118073ed3504135958f11aa2929",
+    "data/processed/track_a_structures.csv": "b608abe51f33f087a5800ea633a7d01470ace1e72a710ce0127a73c5567e7825",
+    "data/processed/track_a_dev_labels.csv": "35bc1dc8e161ebb1d6f8a403b0b2d6c76a5e0ff8b0593b1af4cdf6b3bc3518ba",
+    "data/processed/sealed_test_labels/track_a_test_labels.csv": "748d8f9c47274bd488106201265b26d16bf6eb2cdd3f11eccb9780aac23f75c2",
+    "data/processed/track_b_structures.csv": "751065e28fdc37adc4e22fdc80fdee355ac5a40ff4c749b0b13519672361282c",
+    "data/processed/track_b_dev_labels.csv": "a677905d7b94529fa845cd154bbf7a27132beb95fc823cd5507ac63daf056b0e",
+    "data/processed/sealed_test_labels/track_b_test_labels.csv": "16dbff5867e2fbb3698db575bfd601f464bedc3ff49365a0a6983814b6263076",
+    "data/processed/exclusions_v2.csv": "65a5afcfedc96898648f7eaf2cdf93f5b5fea279fc5ae9d8a6dbe44b9bc7f733",
+    "scripts/chemistry_v2.py": "6f12dd36431b26ccdf2fcf1e30f77b21e29b313f5fec3198c4011d37a50c4906",
+    "scripts/prepare_receptors.py": "72138f7e80f3dcf04f341cedf82dd78cf08095036331adadc923f74c8814e16b",
+    "scripts/build_cohorts_m0.py": "d9932e1e68ba322627ddcb5dae5775e5add8887a4d15f97effefbcf0b790538c"
+  }
+}

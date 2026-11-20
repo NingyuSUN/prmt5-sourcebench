@@ -1,0 +1,5 @@
+RCSB Protein Data Bank Usage Policy Notice
+Timestamp: 2026-11-20T04:38:00Z
+Please review RCSB PDB usage terms and data licensing policies at:
+https://www.rcsb.org/pages/usage-policy
+PDB archive data files are available under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.

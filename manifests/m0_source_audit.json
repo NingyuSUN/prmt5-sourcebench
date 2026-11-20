@@ -1,0 +1,211 @@
+{
+  "protocol_id": "PRMT5-V2-3D-COOPERATIVITY-2026",
+  "chembl_release": "ChEMBL_37 (2026-05-01)",
+  "track_a": {
+    "splits": {
+      "train": {
+        "rows": 430,
+        "unique_isomeric_parents": 430,
+        "unique_nonisomeric_parents": 415,
+        "unique_murcko_scaffolds": 159,
+        "unique_source_families": 5,
+        "v1_sk_overlap": 0
+      },
+      "validation": {
+        "rows": 88,
+        "unique_isomeric_parents": 88,
+        "unique_nonisomeric_parents": 76,
+        "unique_murcko_scaffolds": 55,
+        "unique_source_families": 4,
+        "v1_sk_overlap": 0
+      },
+      "test": {
+        "rows": 98,
+        "unique_isomeric_parents": 98,
+        "unique_nonisomeric_parents": 91,
+        "unique_murcko_scaffolds": 49,
+        "unique_source_families": 4,
+        "v1_sk_overlap": 0
+      }
+    },
+    "pairwise_overlaps": {
+      "train_vs_validation": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      },
+      "train_vs_test": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      },
+      "validation_vs_test": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      }
+    },
+    "class_counts": {
+      "train": {
+        "n": 430,
+        "direct_paired": 190,
+        "y_coop_3x_pos": 172,
+        "y_coop_10x_pos": 147,
+        "chiral_parents": 131
+      },
+      "validation": {
+        "n": 88,
+        "direct_paired": 8,
+        "y_coop_3x_pos": 18,
+        "y_coop_10x_pos": 16,
+        "chiral_parents": 29
+      },
+      "test": {
+        "n": 98,
+        "direct_paired": 98,
+        "y_coop_3x_pos": 44,
+        "y_coop_10x_pos": 21,
+        "chiral_parents": 69
+      }
+    },
+    "test_by_source": {
+      "AM9747_JMC2025": {
+        "n": 7,
+        "scaffolds": 4,
+        "y_coop_3x_pos": 5,
+        "y_coop_10x_pos": 1
+      },
+      "AZ_JMC2024": {
+        "n": 14,
+        "scaffolds": 6,
+        "y_coop_3x_pos": 11,
+        "y_coop_10x_pos": 4
+      },
+      "MECHSWITCH_JMC2025": {
+        "n": 55,
+        "scaffolds": 29,
+        "y_coop_3x_pos": 20,
+        "y_coop_10x_pos": 14
+      },
+      "TNG908_JMC2024": {
+        "n": 22,
+        "scaffolds": 10,
+        "y_coop_3x_pos": 8,
+        "y_coop_10x_pos": 2
+      }
+    }
+  },
+  "track_b": {
+    "splits": {
+      "train": {
+        "rows": 818,
+        "unique_isomeric_parents": 818,
+        "unique_nonisomeric_parents": 765,
+        "unique_murcko_scaffolds": 361,
+        "unique_source_families": 5,
+        "v1_sk_overlap": 0
+      },
+      "validation": {
+        "rows": 261,
+        "unique_isomeric_parents": 261,
+        "unique_nonisomeric_parents": 220,
+        "unique_murcko_scaffolds": 119,
+        "unique_source_families": 4,
+        "v1_sk_overlap": 0
+      },
+      "test": {
+        "rows": 182,
+        "unique_isomeric_parents": 182,
+        "unique_nonisomeric_parents": 180,
+        "unique_murcko_scaffolds": 75,
+        "unique_source_families": 5,
+        "v1_sk_overlap": 0
+      }
+    },
+    "pairwise_overlaps": {
+      "train_vs_validation": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      },
+      "train_vs_test": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      },
+      "validation_vs_test": {
+        "iso": 0,
+        "noniso": 0,
+        "scaffold": 0,
+        "family": 0
+      }
+    },
+    "class_counts": {
+      "train": {
+        "n": 818,
+        "pos_le100nM": 240,
+        "weak_gt1000nM": 276,
+        "exact_numeric": 219,
+        "chiral_parents": 257
+      },
+      "validation": {
+        "n": 261,
+        "pos_le100nM": 129,
+        "weak_gt1000nM": 20,
+        "exact_numeric": 259,
+        "chiral_parents": 126
+      },
+      "test": {
+        "n": 182,
+        "pos_le100nM": 57,
+        "weak_gt1000nM": 87,
+        "exact_numeric": 136,
+        "chiral_parents": 140
+      }
+    },
+    "test_by_assay": {
+      "CHEMBL5509028": {
+        "source_family": "EJMC2024_5506008",
+        "n": 42,
+        "scaffolds": 4,
+        "pos_le100nM": 0,
+        "weak_gt1000nM": 42
+      },
+      "CHEMBL5544428": {
+        "source_family": "EJMC2024_5543090",
+        "n": 35,
+        "scaffolds": 12,
+        "pos_le100nM": 11,
+        "weak_gt1000nM": 2
+      },
+      "CHEMBL6088129": {
+        "source_family": "EJMC2025_6087401",
+        "n": 29,
+        "scaffolds": 10,
+        "pos_le100nM": 21,
+        "weak_gt1000nM": 0
+      },
+      "CHEMBL6090539": {
+        "source_family": "JMC2025_6087464",
+        "n": 21,
+        "scaffolds": 20,
+        "pos_le100nM": 14,
+        "weak_gt1000nM": 4
+      },
+      "CHEMBL6157149": {
+        "source_family": "JMC2025_6153116",
+        "n": 55,
+        "scaffolds": 29,
+        "pos_le100nM": 11,
+        "weak_gt1000nM": 39
+      }
+    }
+  },
+  "unique_molecules_across_both_tracks": 1514,
+  "exclusions_logged": 1183
+}
