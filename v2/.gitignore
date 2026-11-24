@@ -1,0 +1,14 @@
+# Virtual environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Large scratch / Vina temporary map files
+data/cache/
+data/structures/vina_maps/*.map
+data/structures/vina_maps/*.fld
+data/structures/vina_maps/*.xyz
+outputs/replay*/
+tmp/

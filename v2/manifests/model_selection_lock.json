@@ -1,0 +1,197 @@
+{
+  "protocol_id": "PRMT5-V2-3D-COOPERATIVITY-2026",
+  "protocol_freeze_sha256": "c0364ca66ab40301c8fdd61532f45e31b870137524ffd0b88f5f13e7794d4024",
+  "feature_manifest_sha256": "4cafa1f1985324eae9d036bf66b4f977ada7bd0b5f651509b8cb0fe4b4e8af7c",
+  "test_labels_accessed": false,
+  "test_metrics_computed": false,
+  "track_a": {
+    "B0": {
+      "selected_config": {
+        "prevalence": 0.4
+      },
+      "validation_ap": 0.20454545454545456,
+      "validation_threshold": 0.4000000000000001
+    },
+    "P0": {
+      "selected_config": {
+        "type": "zero_shot_3d_physics_composite",
+        "labels_used_in_ranking": false
+      },
+      "validation_ap": 0.6547765734464182,
+      "validation_threshold": 0.3900132477283478
+    },
+    "B1": {
+      "candidates": [
+        {
+          "C": 1.0,
+          "validation_ap": 0.696577
+        },
+        {
+          "C": 0.1,
+          "validation_ap": 0.69233
+        },
+        {
+          "C": 10.0,
+          "validation_ap": 0.692309
+        }
+      ],
+      "selected_config": {
+        "C": 1.0
+      },
+      "validation_ap": 0.6965768247404465,
+      "validation_threshold": 0.5976406335830688
+    },
+    "M1": {
+      "candidates": [
+        {
+          "name": "chiral_2d_ensemble",
+          "validation_ap": 0.727744
+        },
+        {
+          "name": "chiral_logreg_C0.1",
+          "validation_ap": 0.713277
+        },
+        {
+          "name": "chiral_xgb_d4",
+          "validation_ap": 0.65277
+        }
+      ],
+      "selected_config": {
+        "name": "chiral_2d_ensemble"
+      },
+      "validation_ap": 0.727743794945376,
+      "validation_threshold": 0.0933625509733123
+    },
+    "M2": {
+      "candidates": [
+        {
+          "name": "m2_physics_heavy_hybrid",
+          "validation_ap": 0.809798
+        },
+        {
+          "name": "m2_balanced_2d_3d_physics",
+          "validation_ap": 0.80704
+        },
+        {
+          "name": "m2_scaffold_oof_stack",
+          "validation_ap": 0.802202
+        }
+      ],
+      "selected_config": {
+        "name": "m2_physics_heavy_hybrid",
+        "oof_meta_weights": [
+          1.291,
+          0.6985,
+          -0.0856
+        ]
+      },
+      "validation_ap": 0.8097978437058897,
+      "validation_threshold": 0.21724586713268965
+    }
+  },
+  "track_b": {
+    "B0": {
+      "selected_config": {
+        "prevalence": 0.293399
+      },
+      "validation_weighted_c_index": 0.5,
+      "validation_pooled_ap": 0.4942528735632184,
+      "validation_threshold": 0.29339853300733504
+    },
+    "B1": {
+      "candidates": [
+        {
+          "C": 1.0,
+          "validation_ap": 0.491666,
+          "validation_c_index": 0.461321
+        },
+        {
+          "C": 0.1,
+          "validation_ap": 0.488275,
+          "validation_c_index": 0.455385
+        },
+        {
+          "C": 10.0,
+          "validation_ap": 0.483862,
+          "validation_c_index": 0.472816
+        }
+      ],
+      "selected_config": {
+        "C": 1.0,
+        "threshold_policy": "v1_uncalibrated_validation_balanced_accuracy"
+      },
+      "validation_weighted_c_index": 0.4613210213888627,
+      "validation_pooled_ap": 0.49166631611168093,
+      "validation_threshold": 0.8059744834899902
+    },
+    "M1": {
+      "candidates": [
+        {
+          "name": "m1_pairwise_xgbranker",
+          "val_composite": 0.658403,
+          "val_c_index": 0.639923,
+          "val_ap": 0.676884
+        },
+        {
+          "name": "m1_chiral_pairwise_ensemble",
+          "val_composite": 0.547143,
+          "val_c_index": 0.516348,
+          "val_ap": 0.577937
+        },
+        {
+          "name": "m1_demeaned_ridge_plus_cls",
+          "val_composite": 0.483643,
+          "val_c_index": 0.451993,
+          "val_ap": 0.515293
+        }
+      ],
+      "selected_config": {
+        "name": "m1_pairwise_xgbranker",
+        "calibration": "assay_covariate_oof_logistic_base_rate"
+      },
+      "validation_weighted_c_index": 0.6399227362668426,
+      "validation_pooled_ap": 0.6768835154711169,
+      "validation_threshold": 0.293398533007335
+    },
+    "M2": {
+      "candidates": [
+        {
+          "name": "m2_joint_plus_3d_branch_ensemble",
+          "val_composite": 0.636508,
+          "val_c_index": 0.616602,
+          "val_ap": 0.656415
+        },
+        {
+          "name": "m2_joint_2d_3d_xgbranker",
+          "val_composite": 0.634404,
+          "val_c_index": 0.614435,
+          "val_ap": 0.654373
+        },
+        {
+          "name": "m2_scaffold_oof_positive_ridge",
+          "val_composite": 0.598723,
+          "val_c_index": 0.598229,
+          "val_ap": 0.599217
+        }
+      ],
+      "selected_config": {
+        "name": "m2_joint_plus_3d_branch_ensemble",
+        "oof_positive_weights": [
+          0.2983,
+          0.0,
+          0.694,
+          0.0077
+        ],
+        "calibration": "assay_covariate_oof_logistic_base_rate"
+      },
+      "validation_weighted_c_index": 0.6166022802223688,
+      "validation_pooled_ap": 0.6564146658429091,
+      "validation_threshold": 0.293398533007335
+    }
+  },
+  "sealed_predictions_path": "data/predictions/sealed_predictions.csv",
+  "sealed_predictions_sha256": "74200244d711112eea128971da771672a4f3d1d3599d7b78b0430307b9c89267",
+  "sealed_prediction_rows": 1218,
+  "validation_predictions_path": "data/predictions/validation_predictions.csv",
+  "validation_predictions_sha256": "fbc3a4728f2dd8d4a8c56ee68671c5cacbb2b758e966bdcac35e68dd9230ce49"
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "STAGE_2_PREDICTION_SEAL",
+  "status": "SEALED_BEFORE_TEST_EVALUATION",
+  "sealed_at_utc": "2026-11-20T05:26:28.949299+00:00",
+  "protocol_freeze_sha256": "c0364ca66ab40301c8fdd61532f45e31b870137524ffd0b88f5f13e7794d4024",
+  "feature_manifest_sha256": "4cafa1f1985324eae9d036bf66b4f977ada7bd0b5f651509b8cb0fe4b4e8af7c",
+  "model_selection_lock_sha256": "27e0882ef37df2dd7e35f7629a7013ddfccd6bb6384f949fda3d29cc454de525",
+  "sealed_predictions_sha256": "74200244d711112eea128971da771672a4f3d1d3599d7b78b0430307b9c89267",
+  "validation_predictions_sha256": "fbc3a4728f2dd8d4a8c56ee68671c5cacbb2b758e966bdcac35e68dd9230ce49",
+  "code_sha256": {
+    "scripts/featurize_3d.py": "af01b577536f75d416718e7436f132b313ff8cb8b8ed38fff284652df0ea821e",
+    "scripts/metrics_v2.py": "5d06e796ee89548a13db810f181e3695725e3f173d693e4247972f7bca2a97e2",
+    "scripts/train_and_seal.py": "0c81564361adf17f0b988cd03cac516a9c74bf6a435d055ff4ed7e30bbc4f1ed"
+  },
+  "test_labels_accessed": false,
+  "test_metrics_computed": false,
+  "track_a_test_rows": 490,
+  "track_b_test_rows": 728
+}

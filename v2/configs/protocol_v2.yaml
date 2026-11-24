@@ -1,0 +1,175 @@
+protocol_id: PRMT5-V2-3D-COOPERATIVITY-2026
+version: "2.0.0"
+frozen_date: "2026-11-20"
+repository: "/home/seedna2/projects/prmt5-v2"
+
+sacred_invariants:
+  v1_sk_test_quarantine:
+    description: >
+      v1's frozen 246-compound SK test cohort (CHEMBL5737316, patent family 75338422,
+      US20210101892A1) is strictly sealed as historical v1 context. Zero compounds,
+      nonisomeric identities, Murcko scaffolds, or family records from SK are permitted
+      in any PRMT5 v2 split, tuning step, or evaluation.
+    quarantine_manifest: "manifests/v1_sk_quarantine.json"
+    allowed_overlap: 0
+  split_leakage_axes:
+    - canonical_smiles
+    - nonisomeric_smiles
+    - scaffold_group
+    - source_family
+  allowed_cross_split_overlap: 0
+  structural_template_cutoff_date: "2023-01-01"
+  test_label_isolation: >
+    Test target labels are stored exclusively in data/processed/sealed_test_labels/
+    and bound by SHA-256 in receipts/protocol_freeze.json. Stage 2 featurization,
+    training, validation selection, and prediction sealing scripts never read
+    sealed_test_labels/.
+
+hardware_budget:
+  max_cpu_threads: 8
+  env_vars:
+    OMP_NUM_THREADS: "8"
+    MKL_NUM_THREADS: "8"
+    OPENBLAS_NUM_THREADS: "8"
+    NUMEXPR_NUM_THREADS: "8"
+  random_seed: 20261120
+  bootstrap_resamples: 2000
+
+receptors_pre2023_ensemble:
+  reference_frame: "PDB 4X61 chain A catalytic domain C-alpha residues 300-630"
+  manifest: "manifests/pdb_receptors.json"
+  states:
+    State1_SAM_Substrate:
+      vina_receptor: "4X61"
+      template_ligands: ["4X61:3XV", "5EML:5QK"]
+      cofactor: "SAM"
+      description: "PRMT5•MEP50•SAM substrate-channel THIQ inhibitor state (Phe327 open, SAM sulfonium/homocysteine tail present)"
+    State2_MTA_Cooperative:
+      vina_receptor: "7S1S"
+      template_ligands: ["7S1S:85K", "8CSG:PWL"]
+      cofactor: "MTA"
+      description: "PRMT5•MEP50•MTA induced cooperative state (Phe327 swung closed into substrate channel, SAM tail absent)"
+    State3_SAM_Nucleoside:
+      vina_receptor: "6CKC"
+      template_ligands: ["6CKC:F5J", "7MX7:ZR1", "6RLL:K8H"]
+      cofactor: null
+      description: "PRMT5•MEP50 SAM-pocket competitive nucleoside-mimetic state"
+  quarantined_post2023_diagnostics: ["8VEO", "8VEY", "9C10", "9N3R", "9T43"]
+
+featurization:
+  morgan_2d:
+    radius: 2
+    n_bits: 2048
+    variants:
+      achiral: { include_chirality: false }
+      chiral: { include_chirality: true }
+  physicochemical_2d:
+    descriptors:
+      - MolWt
+      - MolLogP
+      - TPSA
+      - NumHDonors
+      - NumHAcceptors
+      - NumRotatableBonds
+      - FractionCSP3
+      - NumAromaticRings
+      - NumAliphaticRings
+      - RingCount
+      - HeavyAtomCount
+      - FormalCharge
+      - QED
+      - NumChiralCenters
+      - HasSConfig
+      - HasRConfig
+  pocket_physics_3d:
+    conformer_generation: "RDKit ETKDGv3 (numConfs=8, randomSeed=20261120) + MMFF94s optimization"
+    template_alignment: "RDKit CrippenO3A shape + pharmacophore alignment across pre-2023 crystal templates"
+    vina_scoring: "AutoDock Vina 1.2.7 BFGS local pose/torsion optimization (v.optimize) in 4X61(PRMT5•SAM), 7S1S(PRMT5•MTA), and 6CKC(PRMT5•apo-SAM-pocket)"
+    explicit_steric_terms:
+      - delta_vina_mta_minus_sam
+      - delta_vina_mta_minus_nuc
+      - sam_ce_lj_clash_in_mta_pose
+      - sam_tail_overlap_vol_in_mta_pose
+      - glu435_sam_clash_in_mta_pose
+      - phe327_mta_clash_in_sam_pose
+      - delta_o3a_mta_minus_sam
+      - conformer_strain_kcal
+
+tracks:
+  track_a_cofactor_cooperativity:
+    scientific_question: >
+      Does explicit 3D cofactor-state pocket physics (PRMT5•MTA vs PRMT5•SAM differential
+      docking, Open3DAlign pharmacophore superposition, and SAM sulfonium/homocysteine +
+      Glu435/Phe327 steric-clash physics) outperform v1-style 2D non-chiral Morgan
+      representations when predicting MTA-cooperative selectivity across unseen 2024-2025
+      medicinal chemistry series (including rational SAM-to-MTA mechanism-switching scaffolds)?
+    splits:
+      train:
+        cutoff_year: 2021
+        sources: ["MIRATI_72659905", "50029211", "50001259", "50001260", "NUCPAT_FAM"]
+      validation:
+        years: "2019-2022"
+        sources: ["TNG_BMC2022", "CALU6_JMC2022", "PHARMABLOCK_2019", "JMC2022_5154928"]
+      test:
+        years: "2024-2025"
+        require_100pct_direct_experimental_pairs: true
+        sources: ["TNG908_JMC2024", "AZ_JMC2024", "MECHSWITCH_JMC2025", "AM9747_JMC2025"]
+    endpoints:
+      primary_binary:
+        name: "y_coop_3x"
+        definition: "delta_pActivity = log10(Activity_SAM / Activity_MTA) >= 0.5 (>=3.16x MTA cooperativity) AND Activity_MTA < 10000 nM"
+        primary_metric: "average_precision"
+        secondary_metrics: ["roc_auc", "top_20_hits", "balanced_accuracy_at_val_threshold"]
+      co_primary_stringent_binary:
+        name: "y_coop_10x"
+        definition: "delta_pActivity >= 1.0 (>=10x clinical MTA selectivity) AND Activity_MTA <= 1000 nM"
+        metrics: ["average_precision", "roc_auc", "top_20_hits"]
+      continuous_selectivity_ranking:
+        name: "delta_p_activity"
+        metrics: ["spearman_rho_pooled", "within_study_c_index"]
+    methods:
+      B0: "Constant training prevalence reference"
+      P0: "Zero-shot 3D cofactor-state pocket physics score (no bioactivity labels fitted)"
+      B1: "v1-style non-chiral 2D Morgan (2048-bit) regularized logistic classifier (C in {0.1, 1.0, 10.0})"
+      M1: "Chiral 2D Morgan + physicochemical ensemble (Logistic / HistGBDT / XGBoost selected on validation AP)"
+      M2: "Chiral 2D + 3D multi-state cofactor-pocket physics hybrid (selected solely on validation AP)"
+
+  track_b_cross_document_potency:
+    scientific_question: >
+      Can chiral representation + within-assay pairwise potency ranking + assay-covariate
+      quantile calibration + 3D multi-state crystal pocket physics overcome v1's non-chiral
+      threshold collapse on untouched 2023-2025 peer-reviewed PRMT5 biochemical cohorts?
+    splits:
+      train:
+        cutoff_year: 2021
+        sources: ["50029211", "50001259", "50001260", "US9856252_2018", "NUCPAT_FAM"]
+      validation:
+        years: "2019-2022"
+        sources: ["PHARMABLOCK_2019", "JMC2022_5154928", "US11524962_2022", "US11365205_2022"]
+      test:
+        years: "2024-2025"
+        min_novel_parents_per_assay: 20
+        sources:
+          - "EJMC2024_5543090"
+          - "EJMC2024_5506008"
+          - "EJMC2025_6087401"
+          - "JMC2025_6087464"
+          - "JMC2025_6153116"
+    endpoints:
+      primary_ranking:
+        name: "pooled_and_within_assay_potency_ranking"
+        binary_target: "binary_y_le100nM (Activity <= 100 nM)"
+        primary_metrics:
+          - "within_assay_weighted_c_index"
+          - "pooled_average_precision"
+          - "pooled_roc_auc"
+        secondary_metrics:
+          - "within_assay_weighted_spearman_rho"
+          - "top_25_screening_hits"
+          - "strict_vs_enrichment_le100nM_vs_gt1000nM_ap"
+          - "threshold_balanced_accuracy_and_sensitivity"
+    methods:
+      B0: "Constant training prevalence reference"
+      B1: "v1-style uncalibrated non-chiral 2D Morgan binary classifier with validation-locked probability threshold"
+      M1: "Chiral 2D + physicochemical + assay covariates within-source pairwise ranker (XGBRanker / Pairwise Ridge-Logistic + assay-prevalence calibrated threshold)"
+      M2: "Chiral 2D + 3D multi-state pocket physics + assay-conditioned within-source pairwise ranker"
